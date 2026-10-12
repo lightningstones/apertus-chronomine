@@ -2,8 +2,12 @@
 
 - **Track:** Track 2B — Own Project
 - **Event:** Hack Apertus Online (October 2026)
-- **Team:** ChronoMine AI Team
-- **Demo:** [Link to 2-minute video demo]
+- **Author:** Romain Janz ([@winterstones](https://github.com/lightningstones) / GitLab: [@winterstones](https://gitlab.com/winterstones))
+- **AI Co-Author & Assistant:** Antigravity (Google DeepMind)
+- **GitHub Repository:** [lightningstones/apertus-chronomine](https://github.com/lightningstones/apertus-chronomine)
+- **GitLab Mirror:** [winterstones/apertus-chronomine](https://gitlab.com/winterstones/apertus-chronomine)
+- **Evaluation Dataset:** [winterstones/chronomine-subterranean-benchmark](https://huggingface.co/datasets/winterstones/chronomine-subterranean-benchmark)
+- **Demo Video:** [2-minute prototype walkthrough](https://hackapertus.ch)
 
 ---
 

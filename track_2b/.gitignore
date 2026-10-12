@@ -1,9 +1,15 @@
+# Secrets
+.env
+*.env
+.env.*
+!.env.example
+!*.env.example
+
+# Python & Venv
 __pycache__/
 *.py[cod]
 .venv/
 venv/
-.env
-*.env
-!*.env.example
-*.log
 .pytest_cache/
+.coverage
+*.log

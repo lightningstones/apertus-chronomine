@@ -69,5 +69,22 @@ track_2b/
 │   ├── demo/             # Multilingual test notes & inspection photos
 │   ├── geo/              # GeoJSON tunnel geometry & miner coordinates
 │   └── huggingface/      # Evaluation benchmark dataset (Track 2)
-└── docs/                 # Architecture diagrams & ADRs
+└── docs/                 # Architecture diagrams, ADRs & demo video script
 ```
+
+---
+
+## 🔗 Project Links
+
+- **GitHub Repository**: [https://github.com/lightningstones/apertus-chronomine](https://github.com/lightningstones/apertus-chronomine)
+- **GitLab Mirror**: [https://gitlab.com/winterstones/apertus-chronomine](https://gitlab.com/winterstones/apertus-chronomine)
+- **Hugging Face Benchmark Dataset**: [https://huggingface.co/datasets/winterstones/chronomine-subterranean-benchmark](https://huggingface.co/datasets/winterstones/chronomine-subterranean-benchmark)
+- **Technical Report**: [`track_2b/technical_report.md`](technical_report.md) & [`track_2b/ChronoMine_Report.pdf`](ChronoMine_Report.pdf)
+
+---
+
+## 👥 Authors & AI Attribution
+
+- **Lead Author & Engineering**: Romain Janz ([@winterstones](https://gitlab.com/winterstones) / [@lightningstones](https://github.com/lightningstones))
+- **AI Co-Author & Pair Programmer**: Antigravity (Google DeepMind)
+- **License**: [Apache-2.0](../LICENSE) (Permissive Open Source)
