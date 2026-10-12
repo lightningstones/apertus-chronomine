@@ -1,8 +1,27 @@
 {
   "source": "Fedlex - La plateforme de publication du droit fédéral suisse",
   "statute": "Ordonnance sur la sécurité et la protection de la santé des travailleurs dans les travaux de construction (Bauarbeitenverordnung, BauAV 2022)",
+  "abbreviation_fr": "OTConst",
+  "abbreviation_de": "BauAV",
+  "abbreviation_it": "OLConst",
   "systematic_compilation_id": "SR 832.311.141",
+  "eli_id": "eli/cc/2021/415",
   "entry_into_force": "2022-01-01",
+  "official_urls": {
+    "fr": "https://www.fedlex.admin.ch/eli/cc/2021/415/fr",
+    "de": "https://www.fedlex.admin.ch/eli/cc/2021/415/de",
+    "it": "https://www.fedlex.admin.ch/eli/cc/2021/415/it"
+  },
+  "search_disambiguation": "Sur fedlex.admin.ch, la recherche plein-texte 'Ordonnance sur les travaux de construction' renvoie plus de 500 résultats car le moteur balaye tout l'historique du Recueil officiel (RO), de la Feuille fédérale (FF), des textes abrogés et des lois connexes. Le texte légal unique consolidé en vigueur est le RS 832.311.141 (ELI eli/cc/2021/415).",
+  "structure": {
+    "total_articles": 101,
+    "chapters": [
+      { "id": 1, "title_fr": "Dispositions générales (Art. 1 à 12)", "scope": "Champ d'application, concept de sécurité, planification, amiante, intempéries" },
+      { "id": 2, "title_fr": "Dispositions applicables à tous les travaux de construction (Art. 13 à 37)", "scope": "Protection contre les chutes de hauteur (Art. 15), échafaudages, engins, levage" },
+      { "id": 3, "title_fr": "Dispositions particulières pour certains types de travaux (Art. 38 à 96)", "scope": "Fouilles et puits (Art. 54-60), travaux souterrains (Art. 79-87), toits, démolition" },
+      { "id": 4, "title_fr": "Dispositions finales et pénales (Art. 97 à 101)", "scope": "Abrogation des anciens actes et entrée en vigueur au 01.01.2022" }
+    ]
+  },
   "articles": [
     {
       "article": "Art. 15",
