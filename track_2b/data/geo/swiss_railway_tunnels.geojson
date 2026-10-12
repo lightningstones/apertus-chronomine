@@ -1,0 +1,6074 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.692309401521145,
+          46.503704950785526
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Bertholod ( 027 )",
+        "lange_bahntunnel": 141.0,
+        "1_inbetr_jahr_bahntunnel": "2020",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "100",
+        "km_go": 5.195,
+        "kanton": "Vaud",
+        "uuid": "969328e9-d4d9-4327-8513-4d0287d116bd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.883145056293349,
+          46.44642626498294
+        ]
+      },
+      "properties": {
+        "name": "Tunnel des Crêtes (025)",
+        "lange_bahntunnel": 302.0,
+        "1_inbetr_jahr_bahntunnel": "1880",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "100",
+        "km_go": 22.013,
+        "kanton": "Vaud",
+        "uuid": "d48b3673-8548-4f6b-a534-130983b89eb4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.541401723217989,
+          46.29532679268977
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Sierre (Gobet)",
+        "lange_bahntunnel": 370.0,
+        "1_inbetr_jahr_bahntunnel": "2015",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "100",
+        "km_go": 108.896,
+        "kanton": "Valais",
+        "uuid": "93a593ef-dac2-4c23-9500-4bf586b3dc89"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.12417565596845,
+          46.19212327359893
+        ]
+      },
+      "properties": {
+        "name": "Tunnel Bois de la Bâtie (088)",
+        "lange_bahntunnel": 1078.0,
+        "1_inbetr_jahr_bahntunnel": "1949",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 63.516,
+        "kanton": "Genève",
+        "uuid": "4472b19a-77f0-4b01-b226-afac8af55e1b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.131562194566357,
+          46.17298018380927
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Pinchat",
+        "lange_bahntunnel": 2026.0,
+        "1_inbetr_jahr_bahntunnel": "2019",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 65.868,
+        "kanton": "Genève",
+        "uuid": "c2848a64-a070-4240-b96c-4c4b50d0f90e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.151445683313218,
+          46.18212842780167
+        ]
+      },
+      "properties": {
+        "name": "TC Voirie de Carouge",
+        "lange_bahntunnel": 99.0,
+        "1_inbetr_jahr_bahntunnel": "2019",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 67.853,
+        "kanton": "Genève",
+        "uuid": "7170f68e-1634-4486-8085-da57af0a7929"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.452689799189263,
+          46.72628106376821
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Combes (035)",
+        "lange_bahntunnel": 100.0,
+        "1_inbetr_jahr_bahntunnel": "1870",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "200",
+        "km_go": 38.43,
+        "kanton": "Vaud",
+        "uuid": "7ec0ab7c-2974-4cfb-ba55-1edc327b2711"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.444204696796991,
+          46.72891017562161
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Nanchau (036)",
+        "lange_bahntunnel": 132.0,
+        "1_inbetr_jahr_bahntunnel": "1870",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "200",
+        "km_go": 39.131,
+        "kanton": "Vaud",
+        "uuid": "c341f5cb-29a2-4a37-8d2f-3b461738bd6f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.337012837924741,
+          46.680123352561665
+        ]
+      },
+      "properties": {
+        "name": "Tunnel des Epoisats",
+        "lange_bahntunnel": 431.0,
+        "1_inbetr_jahr_bahntunnel": "1886",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "201",
+        "km_go": 9.838,
+        "kanton": "Vaud",
+        "uuid": "9101abbc-363e-307c-e053-1f58680a0815"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7587718473284815,
+          46.9544749074129
+        ]
+      },
+      "properties": {
+        "name": "Tunnel des Moyats (019)",
+        "lange_bahntunnel": 338.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "219",
+        "km_go": 15.085,
+        "kanton": "Neuchâtel",
+        "uuid": "d5931258-b14a-4db0-a669-5cde5a753940"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7538567170900565,
+          46.95307233150394
+        ]
+      },
+      "properties": {
+        "name": "Tunnel Places-Bourgeoises",
+        "lange_bahntunnel": 70.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "219",
+        "km_go": 15.478,
+        "kanton": "Neuchâtel",
+        "uuid": "98f3bd4e-7c6d-4a43-982c-9b31397ec3fc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.717785003506507,
+          47.04983233099825
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du col des Roches (073)",
+        "lange_bahntunnel": 433.0,
+        "1_inbetr_jahr_bahntunnel": "1884",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": "107m gehört Frankreich",
+        "linie": "224",
+        "km_go": 39.507,
+        "kanton": "Neuchâtel",
+        "uuid": "59e795b6-eda4-464a-be68-7c851c7ca4fc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.262244872646674,
+          47.160008381033286
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Taubenloch 1 ( 039 )",
+        "lange_bahntunnel": 239.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "225",
+        "km_go": 37.973,
+        "kanton": "Bern",
+        "uuid": "0734618a-2e19-4ed3-8da8-d26f4a31a6aa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.179064653557108,
+          47.19124510985583
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Tournedos (044)",
+        "lange_bahntunnel": 104.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "225",
+        "km_go": 47.287,
+        "kanton": "Bern",
+        "uuid": "ce6e7e33-a592-406c-a1c8-e1b52b60cc59"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.382490458608286,
+          47.29103920848886
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Moutier 5 (052)",
+        "lange_bahntunnel": 60.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 74.576,
+        "kanton": "Bern",
+        "uuid": "0d0bc362-61c7-4c9a-8e37-8dc9569c309b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.389512588795823,
+          47.31421376307357
+        ]
+      },
+      "properties": {
+        "name": "Tunnel Verrerie de Roches",
+        "lange_bahntunnel": 108.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 77.585,
+        "kanton": "Jura",
+        "uuid": "7c133ebc-f3cc-4b45-9c01-300abfa8097a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6046760127377,
+          47.46345333640305
+        ]
+      },
+      "properties": {
+        "name": "Angensteintunnel",
+        "lange_bahntunnel": 65.0,
+        "1_inbetr_jahr_bahntunnel": "1875",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "230",
+        "km_go": 112.475,
+        "kanton": "Basel-Landschaft",
+        "uuid": "c7af80d8-1507-4f6b-aaab-dc0f17737fbe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.607888006772947,
+          47.53913637177014
+        ]
+      },
+      "properties": {
+        "name": "Wolftunnel",
+        "lange_bahntunnel": 212.0,
+        "1_inbetr_jahr_bahntunnel": "1913",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "230",
+        "km_go": 121.339,
+        "kanton": "Basel-Stadt",
+        "uuid": "fb6fdde1-f8ba-433d-a488-b8669f8d8a7f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.865613606106281,
+          46.63651840079443
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Vauderens (101)",
+        "lange_bahntunnel": 1980.0,
+        "1_inbetr_jahr_bahntunnel": "2001",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "250",
+        "km_go": 32.56,
+        "kanton": "Fribourg",
+        "uuid": "9051514c-b4e8-4427-bbe3-a3387a34dd70"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.572490173741818,
+          47.086395110061545
+        ]
+      },
+      "properties": {
+        "name": "Emmetunnel",
+        "lange_bahntunnel": 1633.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "400",
+        "km_go": 20.054,
+        "kanton": "Bern",
+        "uuid": "9878eee5-7e19-4947-b454-b0ec7f9fa4aa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.847980381159366,
+          47.270291819790245
+        ]
+      },
+      "properties": {
+        "name": "Murgenthaltunnel",
+        "lange_bahntunnel": 4744.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "400",
+        "km_go": 51.29,
+        "kanton": "Aargau",
+        "uuid": "66e8ac2b-b4fb-426d-8835-52af4996b059"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.686096596803858,
+          47.19682333994741
+        ]
+      },
+      "properties": {
+        "name": "Wolfachertunnel Nord",
+        "lange_bahntunnel": 577.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "415",
+        "km_go": 68.966,
+        "kanton": "Bern",
+        "uuid": "e809e4e7-f520-4055-87c5-88efeeb258cd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.746537586309581,
+          47.208640762259925
+        ]
+      },
+      "properties": {
+        "name": "Thunstettentunnel II Süd STL",
+        "lange_bahntunnel": 891.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "450",
+        "km_go": 62.3,
+        "kanton": "Bern",
+        "uuid": "3c066dd1-f456-4180-8d9e-c235be58281f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.635197927653789,
+          47.06672779212263
+        ]
+      },
+      "properties": {
+        "name": "Burgdorfertunnel",
+        "lange_bahntunnel": 510.0,
+        "1_inbetr_jahr_bahntunnel": "1857",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "450",
+        "km_go": 82.009,
+        "kanton": "Bern",
+        "uuid": "279827cc-ead8-40b2-abba-da60b9731ceb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9055255376042055,
+          46.89719781500225
+        ]
+      },
+      "properties": {
+        "name": "Wiggentunnel",
+        "lange_bahntunnel": 40.0,
+        "1_inbetr_jahr_bahntunnel": "1875",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "460",
+        "km_go": 48.727,
+        "kanton": "Luzern",
+        "uuid": "ee7220cb-a466-41c6-96b2-66049d57bced"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.071590518953254,
+          47.05636501552707
+        ]
+      },
+      "properties": {
+        "name": "Wolhusentunnel",
+        "lange_bahntunnel": 150.0,
+        "1_inbetr_jahr_bahntunnel": "1875",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "460",
+        "km_go": 73.699,
+        "kanton": "Luzern",
+        "uuid": "1d2fce69-f266-4971-9f2e-c324a4d35842"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.300770514619908,
+          47.04478169256794
+        ]
+      },
+      "properties": {
+        "name": "Schönheimtunnel",
+        "lange_bahntunnel": 199.0,
+        "1_inbetr_jahr_bahntunnel": "1896",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "500",
+        "km_go": 93.654,
+        "kanton": "Luzern",
+        "uuid": "976d6672-2a8e-4d06-b923-d631104c802c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.849577880260784,
+          47.40611281196957
+        ]
+      },
+      "properties": {
+        "name": "Bucktentunnel",
+        "lange_bahntunnel": 263.0,
+        "1_inbetr_jahr_bahntunnel": "1857",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "503",
+        "km_go": 29.161,
+        "kanton": "Basel-Landschaft",
+        "uuid": "0aec3385-aa63-4002-9dd0-2f9e94da9437"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.852243998412581,
+          47.399856428953655
+        ]
+      },
+      "properties": {
+        "name": "Mühlefluhtunnel BL",
+        "lange_bahntunnel": 60.0,
+        "1_inbetr_jahr_bahntunnel": "1857",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "503",
+        "km_go": 29.915,
+        "kanton": "Basel-Landschaft",
+        "uuid": "649aeb6b-241c-4ca0-b7a3-149b7c48b3af"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.568409947826148,
+          47.54965247424782
+        ]
+      },
+      "properties": {
+        "name": "Schützenmatttunnel",
+        "lange_bahntunnel": 286.0,
+        "1_inbetr_jahr_bahntunnel": "1901",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "510",
+        "km_go": 140.298,
+        "kanton": "Basel-Stadt",
+        "uuid": "ecc83f56-ad8d-4c63-be59-e56514ad4868"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.979438921206452,
+          46.32668691738968
+        ]
+      },
+      "properties": {
+        "name": "Galleria artificiale Giustizia",
+        "lange_bahntunnel": 106.0,
+        "1_inbetr_jahr_bahntunnel": "2016",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "595",
+        "km_go": 163.608,
+        "kanton": "Ticino",
+        "uuid": "6b1f1347-59c5-4302-a82f-7c684742e1cb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.61599861221638,
+          46.962950538359024
+        ]
+      },
+      "properties": {
+        "name": "Oelbergtunnel",
+        "lange_bahntunnel": 1987.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 24.755,
+        "kanton": "Schwyz",
+        "uuid": "ffafa3c7-32f2-474a-916c-272ce49f5137"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75489991389755,
+          46.495289181128136
+        ]
+      },
+      "properties": {
+        "name": "Galleria Freggio",
+        "lange_bahntunnel": 1568.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 99.841,
+        "kanton": "Ticino",
+        "uuid": "abcb1f0a-95a2-4315-96b9-393c2dac2884"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.981718923445472,
+          46.33195428343816
+        ]
+      },
+      "properties": {
+        "name": "Galleria Crocetto",
+        "lange_bahntunnel": 275.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 134.095,
+        "kanton": "Ticino",
+        "uuid": "89c204db-6f85-410b-8462-dd4cea304a88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.924780921325004,
+          46.07833889176746
+        ]
+      },
+      "properties": {
+        "name": "Galleria Molincero",
+        "lange_bahntunnel": 75.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 170.793,
+        "kanton": "Ticino",
+        "uuid": "54de5c53-3185-4733-bf48-f7cf5782a50c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.955993966590851,
+          45.980201852255085
+        ]
+      },
+      "properties": {
+        "name": "Galleria San Martino",
+        "lange_bahntunnel": 53.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 184.336,
+        "kanton": "Ticino",
+        "uuid": "e569717f-feab-447c-9534-fe62d1e17ef4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.624374738053382,
+          46.91529813517901
+        ]
+      },
+      "properties": {
+        "name": "Alte Gruonbachgalerie li. G100",
+        "lange_bahntunnel": 100.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "605",
+        "km_go": 30.173,
+        "kanton": "Uri",
+        "uuid": "b7d9a241-a5c3-4e6b-94d9-b8e9fae8bd3d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.299925009428526,
+          47.09700108611359
+        ]
+      },
+      "properties": {
+        "name": "Hüslentunnel",
+        "lange_bahntunnel": 606.0,
+        "1_inbetr_jahr_bahntunnel": "1998",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "651",
+        "km_go": 3.933,
+        "kanton": "Luzern",
+        "uuid": "52d05cf0-0226-437c-95fe-82449de2ff72"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.510228887419636,
+          47.105254497480374
+        ]
+      },
+      "properties": {
+        "name": "Bühltunnel ZG",
+        "lange_bahntunnel": 94.0,
+        "1_inbetr_jahr_bahntunnel": "2021",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "665",
+        "km_go": 8.523,
+        "kanton": "Zug",
+        "uuid": "cb146053-0940-4ed8-8d81-954ea40f95e6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.523940753237586,
+          47.09169194946473
+        ]
+      },
+      "properties": {
+        "name": "St. Adriantunnel",
+        "lange_bahntunnel": 65.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "665",
+        "km_go": 10.405,
+        "kanton": "Zug",
+        "uuid": "1b5700af-1db1-4f5f-8556-d7c5cd7c0623"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.529720867115511,
+          47.07567410796799
+        ]
+      },
+      "properties": {
+        "name": "Kalkofentunnel",
+        "lange_bahntunnel": 69.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "665",
+        "km_go": 12.266,
+        "kanton": "Schwyz",
+        "uuid": "7faa4d8c-b169-4452-a28b-35b297cea9fd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.152665236995274,
+          47.46890473008441
+        ]
+      },
+      "properties": {
+        "name": "Villnacherntunnel",
+        "lange_bahntunnel": 185.0,
+        "1_inbetr_jahr_bahntunnel": "1875",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "700",
+        "km_go": 36.737,
+        "kanton": "Aargau",
+        "uuid": "5daa2273-5128-4806-a89a-0a18f9f6040c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.524294353569255,
+          47.380611108936364
+        ]
+      },
+      "properties": {
+        "name": "Seebahntunnel",
+        "lange_bahntunnel": 97.0,
+        "1_inbetr_jahr_bahntunnel": "2001",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "722",
+        "km_go": 1.523,
+        "kanton": "Zürich",
+        "uuid": "ad7adb37-5e03-4928-830d-e608cf3f5ef7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.557544703461074,
+          47.36235511197061
+        ]
+      },
+      "properties": {
+        "name": "Riesbachtunnel",
+        "lange_bahntunnel": 1355.0,
+        "1_inbetr_jahr_bahntunnel": "1894",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "730",
+        "km_go": 6.544,
+        "kanton": "Zürich",
+        "uuid": "a9e385ed-c741-4c13-bd73-7624b5fdade2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.547107648356176,
+          47.373664772646805
+        ]
+      },
+      "properties": {
+        "name": "Hirschengrabentunnel",
+        "lange_bahntunnel": 1334.0,
+        "1_inbetr_jahr_bahntunnel": "1894",
+        "tunnelsystem": "Y / 2-Spur + 2x 1-Spur",
+        "bemerkung": "Inkl: Tunnel Hischengraben Axe 161 und Tunnel Hischengraben Axe 261",
+        "linie": "745",
+        "km_go": 100.772,
+        "kanton": "Zürich",
+        "uuid": "878ade90-8c89-44ed-b0c1-4b22cf4ef3f4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.552498168203128,
+          47.37730501558653
+        ]
+      },
+      "properties": {
+        "name": "Zürich Weinbergtunnel",
+        "lange_bahntunnel": 4977.0,
+        "1_inbetr_jahr_bahntunnel": "2014",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "748",
+        "km_go": 201.974,
+        "kanton": "Zürich",
+        "uuid": "2b809282-818f-4726-906a-bf27579a3b59"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55981651602127,
+          47.445579089714975
+        ]
+      },
+      "properties": {
+        "name": "Flughafentunnel",
+        "lange_bahntunnel": 1510.0,
+        "1_inbetr_jahr_bahntunnel": "1980",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "750",
+        "km_go": 8.997,
+        "kanton": "Zürich",
+        "uuid": "def0b07f-2f11-4291-902f-5576268a5822"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.533977750910863,
+          47.39976246355475
+        ]
+      },
+      "properties": {
+        "name": "Wipkingertunnel",
+        "lange_bahntunnel": 1222.0,
+        "1_inbetr_jahr_bahntunnel": "1856",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "751",
+        "km_go": 3.128,
+        "kanton": "Zürich",
+        "uuid": "1922b0e4-6a70-453e-8280-122a694bb120"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.561237048378215,
+          47.43068038330197
+        ]
+      },
+      "properties": {
+        "name": "Opfikontunnel I",
+        "lange_bahntunnel": 263.0,
+        "1_inbetr_jahr_bahntunnel": "1978",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "752",
+        "km_go": 7.259,
+        "kanton": "Zürich",
+        "uuid": "a5e155c2-e799-4c08-a85f-3183500a2818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.916836055268991,
+          47.28337837984229
+        ]
+      },
+      "properties": {
+        "name": "Jonaschluchttunnel",
+        "lange_bahntunnel": 31.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "754",
+        "km_go": 38.256,
+        "kanton": "Zürich",
+        "uuid": "07612c20-a2da-4ef1-bb47-fe411248836e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.525212455943722,
+          47.40053660378062
+        ]
+      },
+      "properties": {
+        "name": "Käferbergtunnel",
+        "lange_bahntunnel": 2118.0,
+        "1_inbetr_jahr_bahntunnel": "1969",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "760",
+        "km_go": 2.76,
+        "kanton": "Zürich",
+        "uuid": "675e4ab4-ffea-4fae-97db-c96b92b774e4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.607363774546755,
+          47.67740197531582
+        ]
+      },
+      "properties": {
+        "name": "Fischerhölzlitunnel",
+        "lange_bahntunnel": 112.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "770",
+        "km_go": 38.159,
+        "kanton": "Schaffhausen",
+        "uuid": "8154b160-1e71-4e4b-9258-58f4047d332e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.033276881682902,
+          47.22008478491344
+        ]
+      },
+      "properties": {
+        "name": "Rickentunnel",
+        "lange_bahntunnel": 8604.0,
+        "1_inbetr_jahr_bahntunnel": "1910",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "853",
+        "km_go": 30.046,
+        "kanton": "St.AuslandGallen",
+        "uuid": "24adca31-32c2-4d9b-95f8-f6ebb55d5650"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.002469650839381,
+          46.221411668253076
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de St-Maurice (003)",
+        "lange_bahntunnel": 490.0,
+        "1_inbetr_jahr_bahntunnel": "1859",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "100",
+        "km_go": 50.999,
+        "kanton": "Valais",
+        "uuid": "1daef47f-917b-43e9-befe-ab2f955d91dc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.020539583532202,
+          46.31841126355348
+        ]
+      },
+      "properties": {
+        "name": "Simplontunnel",
+        "lange_bahntunnel": 19820.0,
+        "1_inbetr_jahr_bahntunnel": "1900",
+        "tunnelsystem": "2-Röhren / 2 x 1-Spur",
+        "bemerkung": null,
+        "linie": "100",
+        "km_go": 165.714,
+        "kanton": "Valais",
+        "uuid": "1eaceaa4-bdf2-4587-9704-7dd2bb05dfe8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.776449113989162,
+          46.48146650165603
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Carroz (079)",
+        "lange_bahntunnel": 83.0,
+        "1_inbetr_jahr_bahntunnel": "1904",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "111",
+        "km_go": 5.782,
+        "kanton": "Vaud",
+        "uuid": "ecabae4e-2c44-4271-ad16-644b55add89e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.154392510049296,
+          46.18958736168545
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Champel 1",
+        "lange_bahntunnel": 494.0,
+        "1_inbetr_jahr_bahntunnel": "2019",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 68.674,
+        "kanton": "Genève",
+        "uuid": "8b076576-9fa5-b20d-e053-1f58680a4889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.158048373041885,
+          46.19450615438806
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Champel 2",
+        "lange_bahntunnel": 928.0,
+        "1_inbetr_jahr_bahntunnel": "2019",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 69.44,
+        "kanton": "Genève",
+        "uuid": "8b076576-9fa6-b20d-e053-1f58680a4889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.552141276312994,
+          46.660493542972375
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Mormont sud 3",
+        "lange_bahntunnel": 328.0,
+        "1_inbetr_jahr_bahntunnel": "2010",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "210",
+        "km_go": 21.738,
+        "kanton": "Vaud",
+        "uuid": "184e9c6f-652b-48a4-9fd6-b571aa13120e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.551542367969583,
+          46.66318141312952
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Mormont nord 4",
+        "lange_bahntunnel": 188.0,
+        "1_inbetr_jahr_bahntunnel": "2010",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "210",
+        "km_go": 22.061,
+        "kanton": "Vaud",
+        "uuid": "e5c72480-37a6-4d57-9116-05f2adf3f0fe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.549719874483108,
+          46.66318148109724
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Mormont nord 2",
+        "lange_bahntunnel": 182.0,
+        "1_inbetr_jahr_bahntunnel": "1856",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "210",
+        "km_go": 22.068,
+        "kanton": "Vaud",
+        "uuid": "fccc80f2-6c24-47f2-87d6-827deff6fc04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.225089941119465,
+          47.135019821779316
+        ]
+      },
+      "properties": {
+        "name": "Tunnel Vingelz (092)",
+        "lange_bahntunnel": 2432.0,
+        "1_inbetr_jahr_bahntunnel": "1968",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "210",
+        "km_go": 103.11,
+        "kanton": "Bern",
+        "uuid": "054b1cba-c358-47bd-a1b1-a6c5be69c36a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7999218618959105,
+          46.963649999646655
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de la Loge (014)",
+        "lange_bahntunnel": 54.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "219",
+        "km_go": 11.503,
+        "kanton": "Neuchâtel",
+        "uuid": "7dcbf93c-5b0b-4a8b-879a-3a8f4753f379"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.884600587520393,
+          47.060048414388
+        ]
+      },
+      "properties": {
+        "name": "Tunnel des Loges (013)",
+        "lange_bahntunnel": 3260.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "224",
+        "km_go": 22.703,
+        "kanton": "Neuchâtel",
+        "uuid": "7b233f99-2913-42dd-ad25-cee5d6d0715c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.860387287634401,
+          47.086003182288636
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Mont Sagne(007)",
+        "lange_bahntunnel": 1880.0,
+        "1_inbetr_jahr_bahntunnel": "1859",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "224",
+        "km_go": 26.239,
+        "kanton": "Neuchâtel",
+        "uuid": "fdbe3b7a-4893-459f-a791-a6758f88684e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.834154890694894,
+          47.0988942818555
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Combe (Convers, 006)",
+        "lange_bahntunnel": 254.0,
+        "1_inbetr_jahr_bahntunnel": "1858",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "224",
+        "km_go": 28.752,
+        "kanton": "Neuchâtel",
+        "uuid": "2002cfe8-cd63-4dcd-8d11-f68cab48539a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.194829039742437,
+          47.211843986195625
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Pierre-Pertuis (045)",
+        "lange_bahntunnel": 1294.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 54.085,
+        "kanton": "Bern",
+        "uuid": "9abb8676-78d7-40a7-9cfa-14531f7dd58b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.346156049639626,
+          47.24655997331839
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Court 2 (067)",
+        "lange_bahntunnel": 184.0,
+        "1_inbetr_jahr_bahntunnel": "1900",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 68.061,
+        "kanton": "Bern",
+        "uuid": "581e8190-8bba-40ec-a9a9-e3147ef724ea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.381013956199331,
+          47.28632470868349
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Moutier 4 (051)",
+        "lange_bahntunnel": 8.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 74.073,
+        "kanton": "Bern",
+        "uuid": "ddb37726-a9f5-429b-aae8-db7e6cd81e8f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.381044641029427,
+          47.292825272194
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Moutier 7 (054)",
+        "lange_bahntunnel": 54.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 74.786,
+        "kanton": "Bern",
+        "uuid": "ad38c74d-d816-48e7-b111-2086893e1a1b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.19493881107355,
+          47.3417126194854
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Glovelier (063)",
+        "lange_bahntunnel": 2012.0,
+        "1_inbetr_jahr_bahntunnel": "1877",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "240",
+        "km_go": 97.7,
+        "kanton": "Jura",
+        "uuid": "0f769e79-9e62-4606-9c2f-856965e04390"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.174949804945825,
+          47.35705685462577
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Montmelon (064)",
+        "lange_bahntunnel": 223.0,
+        "1_inbetr_jahr_bahntunnel": "1877",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "240",
+        "km_go": 100.209,
+        "kanton": "Jura",
+        "uuid": "b39b8024-d0dd-4d1f-adc2-6301e092c0c8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.06308851720979,
+          47.43474392947253
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Courchavon (037)",
+        "lange_bahntunnel": 194.0,
+        "1_inbetr_jahr_bahntunnel": "1877",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "240",
+        "km_go": 115.403,
+        "kanton": "Jura",
+        "uuid": "2c3c0ea1-027e-48aa-8d0c-94e6da9c2cd3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.80840330481175,
+          46.638089034712145
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Villangeaux (047)",
+        "lange_bahntunnel": 424.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "251",
+        "km_go": 33.809,
+        "kanton": "Fribourg",
+        "uuid": "ddd7bd36-edcf-483e-82ea-5dd0f882a1a3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.630904026530572,
+          47.166030837164065
+        ]
+      },
+      "properties": {
+        "name": "Hersiwiltunnel",
+        "lange_bahntunnel": 1000.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "400",
+        "km_go": 30.55,
+        "kanton": "Solothurn",
+        "uuid": "e9f92b57-9bfa-4b7e-bb10-5d99b5966a20"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.70114042667852,
+          47.19907776914092
+        ]
+      },
+      "properties": {
+        "name": "Gishübeltunnel",
+        "lange_bahntunnel": 845.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "400",
+        "km_go": 37.149,
+        "kanton": "Bern",
+        "uuid": "6f98e329-d322-461b-9939-7939b08e74ad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.77348532022334,
+          47.222932552973646
+        ]
+      },
+      "properties": {
+        "name": "Langenthaltunnel",
+        "lange_bahntunnel": 1105.0,
+        "1_inbetr_jahr_bahntunnel": "2003",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "400",
+        "km_go": 43.352,
+        "kanton": "Bern",
+        "uuid": "1128b6bd-38c7-430b-9676-88e83ff14385"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.457375164197686,
+          46.966170909013584
+        ]
+      },
+      "properties": {
+        "name": "Wylerfeldtunnel",
+        "lange_bahntunnel": 300.0,
+        "1_inbetr_jahr_bahntunnel": "2022",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "450",
+        "km_go": 103.593,
+        "kanton": "Bern",
+        "uuid": "813cae23-8416-417d-b0b7-f0bb1830b27b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.09931055928165,
+          47.05618693485603
+        ]
+      },
+      "properties": {
+        "name": "Werthensteintunnel",
+        "lange_bahntunnel": 30.0,
+        "1_inbetr_jahr_bahntunnel": "1875",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "460",
+        "km_go": 75.916,
+        "kanton": "Luzern",
+        "uuid": "abd1c3bf-5f98-4088-9d11-00fc951eb83e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.275564296761988,
+          47.05864103479896
+        ]
+      },
+      "properties": {
+        "name": "Zimmereggtunnel",
+        "lange_bahntunnel": 1134.0,
+        "1_inbetr_jahr_bahntunnel": "1875",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "460",
+        "km_go": 90.855,
+        "kanton": "Luzern",
+        "uuid": "14e178ea-70c2-46fc-b506-8867378e1dbf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.297452760143338,
+          47.04988505431642
+        ]
+      },
+      "properties": {
+        "name": "Gütschtunnel Luzern",
+        "lange_bahntunnel": 326.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "500",
+        "km_go": 93.035,
+        "kanton": "Luzern",
+        "uuid": "919058b8-d3a6-46b3-a8ef-ccdb669000da"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.021087389557664,
+          47.383844513987334
+        ]
+      },
+      "properties": {
+        "name": "Tunnel Wöschnau",
+        "lange_bahntunnel": 488.0,
+        "1_inbetr_jahr_bahntunnel": "2019",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "540",
+        "km_go": 50.279,
+        "kanton": "Solothurn",
+        "uuid": "8169d336-89cc-464b-952e-f99697e02c39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.921690970505031,
+          46.374890000509865
+        ]
+      },
+      "properties": {
+        "name": "Gotthard-Basistunnel",
+        "lange_bahntunnel": 57104.0,
+        "1_inbetr_jahr_bahntunnel": "2016",
+        "tunnelsystem": "2-Röhren / 2 x 1-Spur",
+        "bemerkung": "Länge der Oströhre, da länger als Weströhre",
+        "linie": "594",
+        "km_go": 256.455,
+        "kanton": "Ticino",
+        "uuid": "91d84858-547b-415b-8571-56e669f8b0e9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.958112041832976,
+          46.35649236924626
+        ]
+      },
+      "properties": {
+        "name": "Galleria Svincolo A2 Biasca",
+        "lange_bahntunnel": 260.0,
+        "1_inbetr_jahr_bahntunnel": "2016",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "595",
+        "km_go": 159.916,
+        "kanton": "Ticino",
+        "uuid": "49d2129c-7565-49e4-a072-ecd02132acb4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.61296501441918,
+          46.93264249389485
+        ]
+      },
+      "properties": {
+        "name": "Tellsplattentunnel",
+        "lange_bahntunnel": 172.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 28.453,
+        "kanton": "Uri",
+        "uuid": "7c7a3755-6c08-4ea4-83be-f4a41ef6de66"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.603298608199736,
+          46.709858176909776
+        ]
+      },
+      "properties": {
+        "name": "Mühletunnel",
+        "lange_bahntunnel": 88.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 59.226,
+        "kanton": "Uri",
+        "uuid": "9b5c0eae-b82b-4e55-b184-00910705d8c8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59796721808941,
+          46.703490641990584
+        ]
+      },
+      "properties": {
+        "name": "Untere Entschigtalgalerie",
+        "lange_bahntunnel": 185.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 62.982,
+        "kanton": "Uri",
+        "uuid": "53901b93-5480-48ad-93f1-bc8988dc09bd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.598252219035073,
+          46.712592685497064
+        ]
+      },
+      "properties": {
+        "name": "Leggisteintunnel",
+        "lange_bahntunnel": 1092.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 64.96,
+        "kanton": "Uri",
+        "uuid": "74d9a63e-4b05-4440-a208-a917fbe628c5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.587797112626742,
+          46.68980416923391
+        ]
+      },
+      "properties": {
+        "name": "Naxbergtunnel",
+        "lange_bahntunnel": 1570.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 67.699,
+        "kanton": "Uri",
+        "uuid": "9f16f0b9-1637-41c3-a0d0-4f0ce89a7e04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.626120170652626,
+          46.52433187142861
+        ]
+      },
+      "properties": {
+        "name": "Galleria Stalvedro",
+        "lange_bahntunnel": 194.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 87.685,
+        "kanton": "Ticino",
+        "uuid": "780ef0fd-254f-42e7-8978-944eb32ee25e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.85534592236937,
+          46.427357408915675
+        ]
+      },
+      "properties": {
+        "name": "Galleria la Lume",
+        "lange_bahntunnel": 466.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 114.555,
+        "kanton": "Ticino",
+        "uuid": "3d56ca8c-f704-411b-b1f8-2a4a584cdc6c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.864839658988778,
+          46.42177426818104
+        ]
+      },
+      "properties": {
+        "name": "Galleria Travi",
+        "lange_bahntunnel": 1547.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 118.661,
+        "kanton": "Ticino",
+        "uuid": "a77acda1-83eb-4352-82e0-9f2139023873"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.02474943763409,
+          46.19146877244783
+        ]
+      },
+      "properties": {
+        "name": "Galleria Svitto",
+        "lange_bahntunnel": 291.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 151.463,
+        "kanton": "Ticino",
+        "uuid": "16f380b7-6b5a-4782-a0ea-a1d0dfd95fb0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.958240630084143,
+          46.1466020274681
+        ]
+      },
+      "properties": {
+        "name": "Galleria Costa",
+        "lange_bahntunnel": 68.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 160.008,
+        "kanton": "Ticino",
+        "uuid": "a9240520-6dba-4dd9-91d3-3a80a3b4af9f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.95385340798286,
+          46.14453835856347
+        ]
+      },
+      "properties": {
+        "name": "Galleria Precassino Gl. 200",
+        "lange_bahntunnel": 402.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 160.451,
+        "kanton": "Ticino",
+        "uuid": "51be73b1-b20c-4df1-a542-5355de114bb9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.623965210538486,
+          46.93277972444839
+        ]
+      },
+      "properties": {
+        "name": "Stutzeck-Axenbergtunnel",
+        "lange_bahntunnel": 3375.0,
+        "1_inbetr_jahr_bahntunnel": "1941",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "605",
+        "km_go": 28.238,
+        "kanton": "Uri",
+        "uuid": "1e3da12a-6f9c-4205-ace6-33e07306605a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.920747988415407,
+          46.13669580746812
+        ]
+      },
+      "properties": {
+        "name": "Galleria Monte Ceneri II destra",
+        "lange_bahntunnel": 1693.0,
+        "1_inbetr_jahr_bahntunnel": "1941",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "607",
+        "km_go": 163.794,
+        "kanton": "Ticino",
+        "uuid": "d4b65da0-9fe5-49c8-9c6e-3588a38c2c57"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.575978500530356,
+          47.245165785659566
+        ]
+      },
+      "properties": {
+        "name": "Zimmerbergtunnel",
+        "lange_bahntunnel": 1984.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "660",
+        "km_go": 19.115,
+        "kanton": "Zürich",
+        "uuid": "ea54f33c-23f5-41ef-8cdf-d18096c71790"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.520897775211141,
+          47.09414046276803
+        ]
+      },
+      "properties": {
+        "name": "Rossplattentunnel",
+        "lange_bahntunnel": 48.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "665",
+        "km_go": 10.049,
+        "kanton": "Zug",
+        "uuid": "6a624657-48ef-4095-92b1-320774c2e273"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.527058608670217,
+          47.36913049688373
+        ]
+      },
+      "properties": {
+        "name": "Ulmbergtunnel",
+        "lange_bahntunnel": 848.0,
+        "1_inbetr_jahr_bahntunnel": "1927",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "720",
+        "km_go": 3.307,
+        "kanton": "Zürich",
+        "uuid": "a896016f-7754-4fb8-a61f-96888f59cbde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.518057242294047,
+          47.37440589826607
+        ]
+      },
+      "properties": {
+        "name": "Zimmerberg Basistunnel",
+        "lange_bahntunnel": 9421.0,
+        "1_inbetr_jahr_bahntunnel": "2003",
+        "tunnelsystem": "Y / 2-Spur + 2x 1-Spur",
+        "bemerkung": "Inkl: ZBT Einspur Berg (DfA 725) und ZBT Einspur See (DfA 723)",
+        "linie": "722",
+        "km_go": 2.471,
+        "kanton": "Zürich",
+        "uuid": "2dda8417-05da-4fd4-9508-bba772748ac4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.595189173930837,
+          47.30243657406775
+        ]
+      },
+      "properties": {
+        "name": "Erlenbachtunnel",
+        "lange_bahntunnel": 72.0,
+        "1_inbetr_jahr_bahntunnel": "1894",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "730",
+        "km_go": 13.927,
+        "kanton": "Zürich",
+        "uuid": "c76abb10-03fd-4984-9778-010dfec53982"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.715312349461259,
+          47.24131866018022
+        ]
+      },
+      "properties": {
+        "name": "Lattenbergtunnel",
+        "lange_bahntunnel": 93.0,
+        "1_inbetr_jahr_bahntunnel": "1894",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "730",
+        "km_go": 25.999,
+        "kanton": "Zürich",
+        "uuid": "db917c22-9549-46f2-bcb0-5dbaeef0621d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.537246124876543,
+          47.37770614199249
+        ]
+      },
+      "properties": {
+        "name": "Tunnel Bahnhof Löwenstrasse",
+        "lange_bahntunnel": 584.0,
+        "1_inbetr_jahr_bahntunnel": "2012",
+        "tunnelsystem": "Andere",
+        "bemerkung": null,
+        "linie": "748",
+        "km_go": 200.733,
+        "kanton": "Zürich",
+        "uuid": "1611896e-baad-4b4c-9552-a670eff95889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.917498093815226,
+          47.28031308858057
+        ]
+      },
+      "properties": {
+        "name": "Kühweidtunnel",
+        "lange_bahntunnel": 132.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "754",
+        "km_go": 38.585,
+        "kanton": "Zürich",
+        "uuid": "1c955436-567d-4f99-9612-64dfe6bf7f1a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.615020182322795,
+          47.676414535144765
+        ]
+      },
+      "properties": {
+        "name": "Schloss Laufentunnel",
+        "lange_bahntunnel": 66.0,
+        "1_inbetr_jahr_bahntunnel": "1857",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "762",
+        "km_go": 52.545,
+        "kanton": "Zürich",
+        "uuid": "69564538-5e45-45f7-a320-40db8f068528"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.620371395301884,
+          47.67672096678963
+        ]
+      },
+      "properties": {
+        "name": "Rötitunnel",
+        "lange_bahntunnel": 153.0,
+        "1_inbetr_jahr_bahntunnel": "1964",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "762",
+        "km_go": 52.949,
+        "kanton": "Schaffhausen",
+        "uuid": "097bcf41-0ae0-49ef-88a3-540bfe66dfe9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6404878817593,
+          47.70059471806784
+        ]
+      },
+      "properties": {
+        "name": "Emmersbergtunnel",
+        "lange_bahntunnel": 760.0,
+        "1_inbetr_jahr_bahntunnel": "1895",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "820",
+        "km_go": 47.987,
+        "kanton": "Schaffhausen",
+        "uuid": "5c14a4f6-efd0-4b4a-8c63-4fc9de8c75a5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.182733642015366,
+          47.11576472603692
+        ]
+      },
+      "properties": {
+        "name": "Stutztunnel",
+        "lange_bahntunnel": 133.0,
+        "1_inbetr_jahr_bahntunnel": "1859",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "890",
+        "km_go": 23.758,
+        "kanton": "Glarus",
+        "uuid": "15374b66-4f4c-4718-ac3e-a7ecec664407"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.121634754261596,
+          47.12501380472169
+        ]
+      },
+      "properties": {
+        "name": "Kerenzerbergtunnel",
+        "lange_bahntunnel": 3955.0,
+        "1_inbetr_jahr_bahntunnel": "1961",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "890",
+        "km_go": 28.6,
+        "kanton": "Glarus",
+        "uuid": "34909a99-b6e5-47b1-a56a-277c6d3fca6d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.674078510634111,
+          46.50770131572602
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Paudex ( 026 )",
+        "lange_bahntunnel": 72.0,
+        "1_inbetr_jahr_bahntunnel": "1999",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "100",
+        "km_go": 3.689,
+        "kanton": "Vaud",
+        "uuid": "a5e117d4-f9a6-412f-a19d-4d4dbcbfe35d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.562189616455376,
+          46.3065874239625
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de la Raspille (072)",
+        "lange_bahntunnel": 80.0,
+        "1_inbetr_jahr_bahntunnel": "2018",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "100",
+        "km_go": 110.95,
+        "kanton": "Valais",
+        "uuid": "4c593d8c-8036-4ddd-8a44-8ac64951a658"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.61302674361035,
+          46.31674411412804
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Varen (102)",
+        "lange_bahntunnel": 2799.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "100",
+        "km_go": 115.109,
+        "kanton": "Valais",
+        "uuid": "3945ee62-8dc3-47ed-9223-6a005cd2cd43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.782171000033992,
+          46.48127599832803
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Crêt (078)",
+        "lange_bahntunnel": 118.0,
+        "1_inbetr_jahr_bahntunnel": "1904",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "111",
+        "km_go": 5.336,
+        "kanton": "Vaud",
+        "uuid": "ffb64712-3ffc-4bbf-8531-d81adde9fe74"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.178916592478578,
+          46.20202554825162
+        ]
+      },
+      "properties": {
+        "name": "TC Franck Thomas Gradelle",
+        "lange_bahntunnel": 1460.0,
+        "1_inbetr_jahr_bahntunnel": "2019",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 70.8,
+        "kanton": "Genève",
+        "uuid": "8b076576-9fa8-b20d-e053-1f58680a4889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.205464078419124,
+          46.19568294712774
+        ]
+      },
+      "properties": {
+        "name": "TC du Foron",
+        "lange_bahntunnel": 1136.0,
+        "1_inbetr_jahr_bahntunnel": "2019",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 73.24,
+        "kanton": "Genève",
+        "uuid": "8b076576-a0b2-b20d-e053-1f58680a4889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.513930891804042,
+          46.66330105471983
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Moulin Bornu (034)",
+        "lange_bahntunnel": 72.0,
+        "1_inbetr_jahr_bahntunnel": "1870",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "200",
+        "km_go": 23.359,
+        "kanton": "Vaud",
+        "uuid": "8ff0f6b2-ed95-402f-9e4d-fb849e2afdf1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.314514919998683,
+          46.74471750360289
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Mont d'Or (083)",
+        "lange_bahntunnel": 5936.0,
+        "1_inbetr_jahr_bahntunnel": "1915",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": "4947m gehört Frankreich",
+        "linie": "203",
+        "km_go": 455.32,
+        "kanton": "Bourgogne-Franche-Comté",
+        "uuid": "7646479c-4271-4a07-955e-35bc5781493e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.749390169773685,
+          46.865978184671
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de la Raisse (098)",
+        "lange_bahntunnel": 1256.0,
+        "1_inbetr_jahr_bahntunnel": "2000",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "210",
+        "km_go": 53.401,
+        "kanton": "Vaud",
+        "uuid": "a7196e5a-4325-4215-a2b8-3363cef96ffc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.778465095935063,
+          46.961859832949806
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de la Verrière (017)",
+        "lange_bahntunnel": 156.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "219",
+        "km_go": 13.269,
+        "kanton": "Neuchâtel",
+        "uuid": "8e7913b8-a7e2-41a2-afef-9b3902812b05"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.750181566762359,
+          46.95188391253205
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Brot (021)",
+        "lange_bahntunnel": 455.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "219",
+        "km_go": 15.832,
+        "kanton": "Neuchâtel",
+        "uuid": "a98a0604-c5b1-461d-9ae1-65ca3fec3039"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.255198912980754,
+          47.17045259392612
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Taubenloch 3 ( 041 )",
+        "lange_bahntunnel": 220.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "225",
+        "km_go": 39.316,
+        "kanton": "Bern",
+        "uuid": "090b0b52-f899-4999-8d64-c51e7dd6c25d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.83475571630556,
+          47.09946660921964
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Combe (Creux, 076)",
+        "lange_bahntunnel": 230.0,
+        "1_inbetr_jahr_bahntunnel": "1888",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "225",
+        "km_go": 77.08,
+        "kanton": "Neuchâtel",
+        "uuid": "62d37741-547f-4b05-8208-05839674a6da"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.356326274312649,
+          47.26518748108251
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de la Verrerie (068)",
+        "lange_bahntunnel": 604.0,
+        "1_inbetr_jahr_bahntunnel": "1877",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 70.564,
+        "kanton": "Bern",
+        "uuid": "7f0ce9d3-1f11-4f72-9d58-540f18cc4ac4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.380824245782439,
+          47.2852291366658
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Moutier 3 (050)",
+        "lange_bahntunnel": 7.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 73.962,
+        "kanton": "Bern",
+        "uuid": "196fc4d0-5a24-4f07-b0b3-ee4fb6c2799d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.44600971499917,
+          47.40264245131332
+        ]
+      },
+      "properties": {
+        "name": "Liesbergtunnel",
+        "lange_bahntunnel": 184.0,
+        "1_inbetr_jahr_bahntunnel": "1875",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "230",
+        "km_go": 94.916,
+        "kanton": "Basel-Landschaft",
+        "uuid": "53cb3516-74ff-4e8e-9917-8e40f6190316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4648833150155784,
+          47.40202889384901
+        ]
+      },
+      "properties": {
+        "name": "Bärschwiltunnel",
+        "lange_bahntunnel": 116.0,
+        "1_inbetr_jahr_bahntunnel": "1875",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "230",
+        "km_go": 96.568,
+        "kanton": "Solothurn",
+        "uuid": "cd7ab99c-ec6e-47af-b37d-dbbf102a0cc5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.729431163425823,
+          46.49852704977577
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Grandvaux (030)",
+        "lange_bahntunnel": 392.0,
+        "1_inbetr_jahr_bahntunnel": "1862",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "250",
+        "km_go": 8.858,
+        "kanton": "Vaud",
+        "uuid": "c64e19b7-d992-4efd-87fb-b8968cfdedc8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.264683930880814,
+          46.863786020349046
+        ]
+      },
+      "properties": {
+        "name": "Mühletaltunnel (012)",
+        "lange_bahntunnel": 400.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "250",
+        "km_go": 78.827,
+        "kanton": "Fribourg",
+        "uuid": "d063dbba-e834-4bfc-8e76-f09cc9130514"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.746199023974072,
+          47.2092099079499
+        ]
+      },
+      "properties": {
+        "name": "Thunstettentunnel I Nord NBS",
+        "lange_bahntunnel": 889.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "400",
+        "km_go": 40.749,
+        "kanton": "Bern",
+        "uuid": "e833dfd2-661a-4e9e-8434-92ecd9caa0ac"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.821024491269122,
+          47.254472961672555
+        ]
+      },
+      "properties": {
+        "name": "Aegertentunnel",
+        "lange_bahntunnel": 632.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "400",
+        "km_go": 48.45,
+        "kanton": "Bern",
+        "uuid": "23fa6ecc-6576-46a9-8515-434ef2784731"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.893129324342792,
+          47.321305971444666
+        ]
+      },
+      "properties": {
+        "name": "Borntunnel",
+        "lange_bahntunnel": 798.0,
+        "1_inbetr_jahr_bahntunnel": "1981",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "450",
+        "km_go": 42.98,
+        "kanton": "Solothurn",
+        "uuid": "57fbe380-ac15-4ba3-aaed-549c9d23c956"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.691196947631298,
+          47.50903426989463
+        ]
+      },
+      "properties": {
+        "name": "Adlertunnel",
+        "lange_bahntunnel": 5303.0,
+        "1_inbetr_jahr_bahntunnel": "2000",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "501",
+        "km_go": 10.287,
+        "kanton": "Basel-Landschaft",
+        "uuid": "ce613f98-8f96-4c85-8f26-1005cccb5808"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.864881328896256,
+          47.38077462998969
+        ]
+      },
+      "properties": {
+        "name": "Ob. Hauensteintunnel",
+        "lange_bahntunnel": 2495.0,
+        "1_inbetr_jahr_bahntunnel": "1857",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "503",
+        "km_go": 32.245,
+        "kanton": "Solothurn",
+        "uuid": "a092ab3c-3c71-4982-ade3-615f28cd943f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.342877180397076,
+          47.050678094988704
+        ]
+      },
+      "properties": {
+        "name": "Schiltenneunetunnel",
+        "lange_bahntunnel": 166.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "570",
+        "km_go": 6.544,
+        "kanton": "Luzern",
+        "uuid": "36362d9f-94fc-424d-8bef-e369f678faab"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.362152940019389,
+          47.03893262950301
+        ]
+      },
+      "properties": {
+        "name": "Lerchenbühltunnel",
+        "lange_bahntunnel": 560.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "570",
+        "km_go": 8.698,
+        "kanton": "Luzern",
+        "uuid": "7fc5181a-d847-4e21-a715-0528da88fef7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.395892139788506,
+          47.056797261400376
+        ]
+      },
+      "properties": {
+        "name": "Lettentunnel LU",
+        "lange_bahntunnel": 37.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "570",
+        "km_go": 11.956,
+        "kanton": "Luzern",
+        "uuid": "a51e0a71-7cc7-4194-ac78-29e1cbf180af"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.612187941786255,
+          46.985592327910446
+        ]
+      },
+      "properties": {
+        "name": "Hochfluhtunnel",
+        "lange_bahntunnel": 584.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 22.146,
+        "kanton": "Schwyz",
+        "uuid": "edeb9cb2-7778-4693-a3c3-a094804bcffd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.622514383677727,
+          46.91880904495967
+        ]
+      },
+      "properties": {
+        "name": "Sulzeggtunnel",
+        "lange_bahntunnel": 128.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 30.255,
+        "kanton": "Uri",
+        "uuid": "b74cbf08-825b-4d48-9c14-8c4b943e8132"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.67323209209307,
+          46.77110507305797
+        ]
+      },
+      "properties": {
+        "name": "Windgällentunnel",
+        "lange_bahntunnel": 182.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 47.763,
+        "kanton": "Uri",
+        "uuid": "d91e66c8-1b61-43bd-8169-0fa8ece5ae00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.655321654422405,
+          46.76131522039685
+        ]
+      },
+      "properties": {
+        "name": "Intschitunnel",
+        "lange_bahntunnel": 88.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 49.724,
+        "kanton": "Uri",
+        "uuid": "ff28fae8-93f1-4e0e-86a9-73d91f408400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.642518796343245,
+          46.75074658817393
+        ]
+      },
+      "properties": {
+        "name": "Breitentunnel",
+        "lange_bahntunnel": 54.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 51.383,
+        "kanton": "Uri",
+        "uuid": "406b1885-bfef-411d-9e29-950304c16cce"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.641541702744988,
+          46.745837424345005
+        ]
+      },
+      "properties": {
+        "name": "Meitschlingertunnel",
+        "lange_bahntunnel": 87.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 51.951,
+        "kanton": "Uri",
+        "uuid": "2a784853-a469-4a81-b9b8-9b8822f34b75"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.598591814053348,
+          46.69483772087098
+        ]
+      },
+      "properties": {
+        "name": "Wattingentunnel",
+        "lange_bahntunnel": 1084.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 61.39,
+        "kanton": "Uri",
+        "uuid": "f340e34a-6bc3-4e4b-958a-05238999adc0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59469783125509,
+          46.69592125868234
+        ]
+      },
+      "properties": {
+        "name": "Rorbachtunnel",
+        "lange_bahntunnel": 230.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 62.097,
+        "kanton": "Uri",
+        "uuid": "6edfbd5a-45f5-48da-99bd-4f697a32da5b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.595366342850514,
+          46.70851450142299
+        ]
+      },
+      "properties": {
+        "name": "Maienkreuztunnel",
+        "lange_bahntunnel": 78.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 65.503,
+        "kanton": "Uri",
+        "uuid": "df7c342b-de79-4e0d-97ce-e7015b9d8e80"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.758685020174802,
+          46.48997257762841
+        ]
+      },
+      "properties": {
+        "name": "Galleria Monte Piottino",
+        "lange_bahntunnel": 147.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 101.41,
+        "kanton": "Ticino",
+        "uuid": "788ceb23-3dc8-4f3c-8fce-fcbc9c4ae94f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.768711243268795,
+          46.489177949173374
+        ]
+      },
+      "properties": {
+        "name": "Galleria Pardorea",
+        "lange_bahntunnel": 286.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 102.23,
+        "kanton": "Ticino",
+        "uuid": "d78b415d-fa6c-49f8-b64a-7a7179af1b40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.77070881242271,
+          46.486044809692444
+        ]
+      },
+      "properties": {
+        "name": "Galleria Prato",
+        "lange_bahntunnel": 1567.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 102.438,
+        "kanton": "Ticino",
+        "uuid": "a5da787a-935c-4cf6-9492-ab74d735c90a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.950557372212955,
+          46.14406070837719
+        ]
+      },
+      "properties": {
+        "name": "Galleria Meggiagra Gl. 200",
+        "lange_bahntunnel": 102.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 160.718,
+        "kanton": "Ticino",
+        "uuid": "5b495a3a-b2b1-4f3e-8d62-2c65676a5fa4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.938274923337506,
+          46.012835044345366
+        ]
+      },
+      "properties": {
+        "name": "Galleria Massagno I sinistra",
+        "lange_bahntunnel": 924.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 179.327,
+        "kanton": "Ticino",
+        "uuid": "6a1c30b2-1194-4303-9b85-9441f4299d5a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.836931825700896,
+          46.18041747696842
+        ]
+      },
+      "properties": {
+        "name": "Galleria Roca Bella",
+        "lange_bahntunnel": 754.0,
+        "1_inbetr_jahr_bahntunnel": "1980",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "630",
+        "km_go": 168.868,
+        "kanton": "Ticino",
+        "uuid": "b7641267-b673-4546-9af2-4c9148eb32d9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.044929464180973,
+          47.389858710345536
+        ]
+      },
+      "properties": {
+        "name": "Aarauer Stadttunnel I Nord",
+        "lange_bahntunnel": 578.0,
+        "1_inbetr_jahr_bahntunnel": "1996",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "649",
+        "km_go": 42.013,
+        "kanton": "Aargau",
+        "uuid": "341e373c-f2e6-4016-b3aa-92c469dc943d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.519175987751339,
+          47.16512435866827
+        ]
+      },
+      "properties": {
+        "name": "Zuger Stadttunnel",
+        "lange_bahntunnel": 585.0,
+        "1_inbetr_jahr_bahntunnel": "1896",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "665",
+        "km_go": 0.98,
+        "kanton": "Zug",
+        "uuid": "ca91e08e-e0e2-4b35-bdd1-98c7de327f43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544694812839797,
+          47.05979233125266
+        ]
+      },
+      "properties": {
+        "name": "Mühlefluhtunnel SZ",
+        "lange_bahntunnel": 191.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "665",
+        "km_go": 14.416,
+        "kanton": "Schwyz",
+        "uuid": "b281b4ed-8b70-47d1-88a6-58a9069d735a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.497773440178154,
+          47.390094215336596
+        ]
+      },
+      "properties": {
+        "name": "UQB-Altstettertunnel",
+        "lange_bahntunnel": 291.0,
+        "1_inbetr_jahr_bahntunnel": "2002",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "714",
+        "km_go": 3.511,
+        "kanton": "Zürich",
+        "uuid": "47644de8-54d0-406f-a2bb-5642dc4220dd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.594467120143968,
+          47.30222992746372
+        ]
+      },
+      "properties": {
+        "name": "Hitzbergtunnel",
+        "lange_bahntunnel": 71.0,
+        "1_inbetr_jahr_bahntunnel": "1967",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "730",
+        "km_go": 13.933,
+        "kanton": "Zürich",
+        "uuid": "3a6d0418-fdae-41f8-8482-3f7fc359cc63"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.769093864688108,
+          47.3336680887402
+        ]
+      },
+      "properties": {
+        "name": "Aathaltunnel",
+        "lange_bahntunnel": 303.0,
+        "1_inbetr_jahr_bahntunnel": "1990",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "740",
+        "km_go": 77.023,
+        "kanton": "Zürich",
+        "uuid": "b42d80c7-1c44-48bd-8950-cc775575be72"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.593281125427616,
+          47.39139356042563
+        ]
+      },
+      "properties": {
+        "name": "Zürichbergtunnel",
+        "lange_bahntunnel": 5295.0,
+        "1_inbetr_jahr_bahntunnel": "1990",
+        "tunnelsystem": "Y / 2-Spur + 2x 1-Spur",
+        "bemerkung": "Inkl: Tunnel Zürichbergtunnel Axe 33 (DfA 745) und Tunnel Zürichbergtunnel Axe 42 (DfA 730)",
+        "linie": "745",
+        "km_go": 106.255,
+        "kanton": "Zürich",
+        "uuid": "e3887374-200c-404e-8088-4029390e3bf6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56712592636306,
+          47.51961665097554
+        ]
+      },
+      "properties": {
+        "name": "Dettenbergtunnel",
+        "lange_bahntunnel": 1801.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "769",
+        "km_go": 13.824,
+        "kanton": "Zürich",
+        "uuid": "56c41fb5-7734-4bf5-bff3-89bcc8761846"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.291432811474278,
+          47.11440315074922
+        ]
+      },
+      "properties": {
+        "name": "Bommersteintunnel",
+        "lange_bahntunnel": 453.0,
+        "1_inbetr_jahr_bahntunnel": "1941",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "890",
+        "km_go": 15.24,
+        "kanton": "St.AuslandGallen",
+        "uuid": "07987c33-713c-47d5-9c02-64182b4bf2f8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.219927033295232,
+          47.112812715546355
+        ]
+      },
+      "properties": {
+        "name": "Bühltunnel SG",
+        "lange_bahntunnel": 114.0,
+        "1_inbetr_jahr_bahntunnel": "1859",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "890",
+        "km_go": 20.843,
+        "kanton": "St.AuslandGallen",
+        "uuid": "0eac2da6-6fc3-45f4-95a1-3dba480f21cf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.631602588522599,
+          46.3151660061961
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Leuk (103)",
+        "lange_bahntunnel": 1376.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "100",
+        "km_go": 116.588,
+        "kanton": "Valais",
+        "uuid": "11c6af3e-2c83-4836-910f-d417dc51998e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.79958772007544,
+          46.4748458927406
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Salanche (077)",
+        "lange_bahntunnel": 20.0,
+        "1_inbetr_jahr_bahntunnel": "1904",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "111",
+        "km_go": 3.803,
+        "kanton": "Vaud",
+        "uuid": "12e8eca1-2d1c-474c-ae41-cfb5a4bea6bf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.154546381060391,
+          46.191959950940436
+        ]
+      },
+      "properties": {
+        "name": "Halte Genève-Champel",
+        "lange_bahntunnel": 222.0,
+        "1_inbetr_jahr_bahntunnel": "2018",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 68.994,
+        "kanton": "Genève",
+        "uuid": "d0730d55-19f8-49e7-92b4-887263bcb031"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.16725728268733,
+          46.2009507692309
+        ]
+      },
+      "properties": {
+        "name": "Halte Genève-Eaux-Vives",
+        "lange_bahntunnel": 657.0,
+        "1_inbetr_jahr_bahntunnel": "2019",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 70.457,
+        "kanton": "Genève",
+        "uuid": "8b076576-9fa7-b20d-e053-1f58680a4889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.189362494511954,
+          46.19805709446498
+        ]
+      },
+      "properties": {
+        "name": "TC Gradelle - Seymaz",
+        "lange_bahntunnel": 435.0,
+        "1_inbetr_jahr_bahntunnel": "2019",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 72.26,
+        "kanton": "Genève",
+        "uuid": "8b076576-a07d-b20d-e053-1f58680a4889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.119329394675827,
+          46.206331167486425
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Châtelaine (089)",
+        "lange_bahntunnel": 1090.0,
+        "1_inbetr_jahr_bahntunnel": "1959",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "154",
+        "km_go": 0.413,
+        "kanton": "Genève",
+        "uuid": "5e392959-04ef-462d-8d44-100c1b873961"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.515592218155984,
+          46.66043851689748
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de la Sarraz (033)",
+        "lange_bahntunnel": 148.0,
+        "1_inbetr_jahr_bahntunnel": "1870",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "200",
+        "km_go": 22.972,
+        "kanton": "Vaud",
+        "uuid": "07001486-05df-4b22-a05b-f63aaf75d4e3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5507107338149915,
+          46.65993083470938
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Mormont sud 1",
+        "lange_bahntunnel": 303.0,
+        "1_inbetr_jahr_bahntunnel": "1856",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "210",
+        "km_go": 21.709,
+        "kanton": "Vaud",
+        "uuid": "c0d0cdba-be1b-4f50-8c5b-88a0d68cc07d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.728680196539784,
+          46.85388873769534
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Fin de Lance (099)",
+        "lange_bahntunnel": 287.0,
+        "1_inbetr_jahr_bahntunnel": "2000",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "210",
+        "km_go": 51.286,
+        "kanton": "Vaud",
+        "uuid": "78c906a5-497c-4c6e-adb3-de8c53fcce4c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.769490606159163,
+          46.893352295727524
+        ]
+      },
+      "properties": {
+        "name": "Tunnel St-Aubin-Sauges (097)",
+        "lange_bahntunnel": 2253.0,
+        "1_inbetr_jahr_bahntunnel": "1999",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "210",
+        "km_go": 56.813,
+        "kanton": "Neuchâtel",
+        "uuid": "272f9f47-a169-42aa-841d-edf60446d975"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.99096183815203,
+          47.0178144924019
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de St-Blaise (004)",
+        "lange_bahntunnel": 155.0,
+        "1_inbetr_jahr_bahntunnel": "1927",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "210",
+        "km_go": 80.141,
+        "kanton": "Neuchâtel",
+        "uuid": "580b1654-fa49-46a6-9331-2c9777d7c726"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.797368302877761,
+          46.96406532202273
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Rochefort (015)",
+        "lange_bahntunnel": 72.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "219",
+        "km_go": 11.708,
+        "kanton": "Neuchâtel",
+        "uuid": "9c7e4261-4960-4ea9-8682-dce3e6d18c15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.577274921915503,
+          46.90934535187223
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Fleurier (022)",
+        "lange_bahntunnel": 546.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "219",
+        "km_go": 31.294,
+        "kanton": "Neuchâtel",
+        "uuid": "d564fea9-b25b-4341-b01e-3d225de11425"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.550827168842349,
+          46.91370973165043
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de St-Sulpice (023)",
+        "lange_bahntunnel": 277.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "219",
+        "km_go": 33.753,
+        "kanton": "Neuchâtel",
+        "uuid": "4108338f-7201-425e-b34e-1aae7e074345"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.430431950089183,
+          46.94875934358796
+        ]
+      },
+      "properties": {
+        "name": "Donnerbühltunnel",
+        "lange_bahntunnel": 400.0,
+        "1_inbetr_jahr_bahntunnel": "1959",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "220",
+        "km_go": 0.732,
+        "kanton": "Bern",
+        "uuid": "2f97318c-8ed7-4da9-ba51-577388dc0c3d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.239017979105248,
+          47.138036050458204
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Pasquart (038)",
+        "lange_bahntunnel": 52.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "225",
+        "km_go": 34.716,
+        "kanton": "Bern",
+        "uuid": "d4fc6338-df02-44a9-88f3-0e057ec8dac0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.251611540605857,
+          47.171610259966556
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Taubenloch 4 ( 042 )",
+        "lange_bahntunnel": 163.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "225",
+        "km_go": 39.627,
+        "kanton": "Bern",
+        "uuid": "12338730-9847-4d53-8016-8b43c5534eee"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.856415974445894,
+          47.09915100369043
+        ]
+      },
+      "properties": {
+        "name": "Tunnel des Crosettes (075)",
+        "lange_bahntunnel": 1618.0,
+        "1_inbetr_jahr_bahntunnel": "1888",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "225",
+        "km_go": 75.255,
+        "kanton": "Neuchâtel",
+        "uuid": "e59b1791-d7f5-4c1e-814e-a1f311fffb97"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.381420679527176,
+          47.28384117465265
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Moutier 1 (048)",
+        "lange_bahntunnel": 31.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 73.806,
+        "kanton": "Bern",
+        "uuid": "ccaeda17-8f83-4701-bcaa-b2f025cc96f4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.383217489203187,
+          47.285254383690656
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Moutier 2 (049)",
+        "lange_bahntunnel": 14.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 73.94,
+        "kanton": "Bern",
+        "uuid": "702a4bfe-b161-4933-a934-5fb6520d872f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3866556191749675,
+          47.31580497567556
+        ]
+      },
+      "properties": {
+        "name": "Tunnel Verrerie de Moutier",
+        "lange_bahntunnel": 32.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 77.896,
+        "kanton": "Jura",
+        "uuid": "549fada5-5aff-4d29-84b4-07093d1896e2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.375018868258435,
+          47.325202733507005
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Choindez 1 (059)",
+        "lange_bahntunnel": 29.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 79.343,
+        "kanton": "Jura",
+        "uuid": "aa72d727-7f46-46e3-b35b-017e76284245"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.377380083175242,
+          47.32903300604794
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Choindez 3 (086)",
+        "lange_bahntunnel": 254.0,
+        "1_inbetr_jahr_bahntunnel": "1932",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 79.825,
+        "kanton": "Jura",
+        "uuid": "15faf94f-bbc4-454c-906e-c2ecb38d6991"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.362106632004664,
+          47.37637896517888
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Vorbourg (046)",
+        "lange_bahntunnel": 37.0,
+        "1_inbetr_jahr_bahntunnel": "1875",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "230",
+        "km_go": 86.665,
+        "kanton": "Jura",
+        "uuid": "9fb14fc5-f7ad-4f02-8452-3454a81a9115"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.173127267552551,
+          47.36017024705976
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Malvie ( 065 )",
+        "lange_bahntunnel": 213.0,
+        "1_inbetr_jahr_bahntunnel": "1877",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "240",
+        "km_go": 100.582,
+        "kanton": "Jura",
+        "uuid": "0f49c5c6-e88c-4798-9b5b-be910c9da684"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.15779179099118,
+          47.368468467682284
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Château (061)",
+        "lange_bahntunnel": 230.0,
+        "1_inbetr_jahr_bahntunnel": "1877",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "240",
+        "km_go": 102.299,
+        "kanton": "Jura",
+        "uuid": "7a41f67c-2a5e-4962-ba11-3d25a98d5979"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.756674609098685,
+          46.49078370616303
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de la Cornallaz(031)",
+        "lange_bahntunnel": 494.0,
+        "1_inbetr_jahr_bahntunnel": "1862",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "250",
+        "km_go": 11.238,
+        "kanton": "Vaud",
+        "uuid": "5c111f53-a8de-44a0-a451-70a20b1e23a5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.568321751956733,
+          47.07541182887334
+        ]
+      },
+      "properties": {
+        "name": "Rüdtligentunnel",
+        "lange_bahntunnel": 400.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "400",
+        "km_go": 18.769,
+        "kanton": "Bern",
+        "uuid": "a94b81d1-811c-4fa9-8688-9967347a9877"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.686121303474734,
+          47.196349074922715
+        ]
+      },
+      "properties": {
+        "name": "Wolfachertunnel Süd",
+        "lange_bahntunnel": 418.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "415",
+        "km_go": 68.97,
+        "kanton": "Bern",
+        "uuid": "df3146c9-1b1d-4f1a-a8cf-9d92ff8c4bf3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.060990592985277,
+          47.00254618464136
+        ]
+      },
+      "properties": {
+        "name": "Wilzigentunnel",
+        "lange_bahntunnel": 250.0,
+        "1_inbetr_jahr_bahntunnel": "1875",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "460",
+        "km_go": 67.466,
+        "kanton": "Luzern",
+        "uuid": "aa666afc-999b-4331-aed8-fcf5a1093610"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.065121400110923,
+          47.01229438826771
+        ]
+      },
+      "properties": {
+        "name": "Entlenstaldentunnel",
+        "lange_bahntunnel": 58.0,
+        "1_inbetr_jahr_bahntunnel": "1875",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "460",
+        "km_go": 68.599,
+        "kanton": "Luzern",
+        "uuid": "c8b5c2a6-f075-4050-bae4-e05fa938cc88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.068342618699987,
+          47.02035684884467
+        ]
+      },
+      "properties": {
+        "name": "Unterer Schächlitunnel",
+        "lange_bahntunnel": 95.0,
+        "1_inbetr_jahr_bahntunnel": "1875",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "460",
+        "km_go": 69.551,
+        "kanton": "Luzern",
+        "uuid": "4139a79f-da53-468e-8d75-71d03161398d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.317756375683768,
+          47.058364592280746
+        ]
+      },
+      "properties": {
+        "name": "Luzerner Stadttunnel",
+        "lange_bahntunnel": 2092.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "570",
+        "km_go": 4.354,
+        "kanton": "Luzern",
+        "uuid": "18e55db3-9756-48a3-a8a5-2a02b67edd2c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.345386468075382,
+          47.0464922447247
+        ]
+      },
+      "properties": {
+        "name": "Seeburgtunnel",
+        "lange_bahntunnel": 113.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "570",
+        "km_go": 7.043,
+        "kanton": "Luzern",
+        "uuid": "87d767bd-5649-46b8-a7a7-640e1d240268"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.988125975793796,
+          46.15197105150212
+        ]
+      },
+      "properties": {
+        "name": "Galleria di base del Ceneri",
+        "lange_bahntunnel": 15196.0,
+        "1_inbetr_jahr_bahntunnel": "2020",
+        "tunnelsystem": "2-Röhren / 2 x 1-Spur",
+        "bemerkung": "CBT Ovest, da länger als CBT Est (ohne Sarè, da Saré eine Abzweigung ist und den Tunnel nicht verlängert)",
+        "linie": "580",
+        "km_go": 228.14,
+        "kanton": "Ticino",
+        "uuid": "7510fa18-7dc5-4084-860a-8c8cf049b9d7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.619016207405371,
+          46.941310022930175
+        ]
+      },
+      "properties": {
+        "name": "Stutzecktunnel",
+        "lange_bahntunnel": 988.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 27.33,
+        "kanton": "Uri",
+        "uuid": "36a450b5-09e9-4549-ab79-ec6b71e9735a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.665552751845388,
+          46.76486607677123
+        ]
+      },
+      "properties": {
+        "name": "Bristentunnel",
+        "lange_bahntunnel": 710.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 48.847,
+        "kanton": "Uri",
+        "uuid": "9b0984a5-dce9-43f8-9f7f-be6dddce7c99"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.643706546921306,
+          46.75463087880866
+        ]
+      },
+      "properties": {
+        "name": "Zgraggentaltunnel",
+        "lange_bahntunnel": 70.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 50.943,
+        "kanton": "Uri",
+        "uuid": "dcf9b4bb-cdec-4faf-b570-3db01bb4e981"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.624885652663249,
+          46.73215121258396
+        ]
+      },
+      "properties": {
+        "name": "Märchlisbachgalerie Mitte",
+        "lange_bahntunnel": 25.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 54.061,
+        "kanton": "Uri",
+        "uuid": "cb9e820f-2561-46b1-9af3-8dfc987355c1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.615075194100728,
+          46.72251332005135
+        ]
+      },
+      "properties": {
+        "name": "Muhrentunnel",
+        "lange_bahntunnel": 53.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 57.487,
+        "kanton": "Uri",
+        "uuid": "8b2bf5ef-53f5-428e-9dcb-681967cd308d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.611517969779978,
+          46.722466123918
+        ]
+      },
+      "properties": {
+        "name": "Pfaffensprungtunnel",
+        "lange_bahntunnel": 1475.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 57.665,
+        "kanton": "Uri",
+        "uuid": "f85984dc-e357-49e0-8ec1-581fc19517cf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.60353988606933,
+          46.71202811719543
+        ]
+      },
+      "properties": {
+        "name": "Strahllochtunnel",
+        "lange_bahntunnel": 39.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 64.123,
+        "kanton": "Uri",
+        "uuid": "cd02a096-9639-4cf2-b12c-81fcbbcce370"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59443141078465,
+          46.70315137557734
+        ]
+      },
+      "properties": {
+        "name": "Obere Entschigtalgalerie",
+        "lange_bahntunnel": 103.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 66.117,
+        "kanton": "Uri",
+        "uuid": "f6c0726d-3faa-4a27-8b8b-4d0bedbd6698"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.751300152726259,
+          46.49127324308282
+        ]
+      },
+      "properties": {
+        "name": "Galleria Dazio",
+        "lange_bahntunnel": 354.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 98.829,
+        "kanton": "Ticino",
+        "uuid": "4c6b056f-381e-410f-a4b1-7af61925c26d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.756182895180325,
+          46.492436177208724
+        ]
+      },
+      "properties": {
+        "name": "Galleria Artoito",
+        "lange_bahntunnel": 74.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 99.226,
+        "kanton": "Ticino",
+        "uuid": "7f3d4655-c6e7-4c36-aa78-a110f175c48d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.773576662665622,
+          46.48848955656249
+        ]
+      },
+      "properties": {
+        "name": "Galleria Boscerina",
+        "lange_bahntunnel": 43.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 104.53,
+        "kanton": "Ticino",
+        "uuid": "21bd0d80-e0d2-4de9-9054-ab0541c04de0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.779849676830237,
+          46.487934490942884
+        ]
+      },
+      "properties": {
+        "name": "Galleria Polmengo",
+        "lange_bahntunnel": 304.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 105.012,
+        "kanton": "Ticino",
+        "uuid": "762ed22d-d918-4378-9ce1-4a3309b85dff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.022037701388145,
+          46.18812197757031
+        ]
+      },
+      "properties": {
+        "name": "Galleria Dragonato",
+        "lange_bahntunnel": 33.0,
+        "1_inbetr_jahr_bahntunnel": "2018",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 151.886,
+        "kanton": "Ticino",
+        "uuid": "d20da3f3-aa73-4dbc-b072-5a46fb623c43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.967375570302835,
+          45.94153366009268
+        ]
+      },
+      "properties": {
+        "name": "Galleria Maroggia",
+        "lange_bahntunnel": 570.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 189.829,
+        "kanton": "Ticino",
+        "uuid": "62c2f77e-a162-460f-b394-5f667ae929a3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.611688349992713,
+          46.99134655270064
+        ]
+      },
+      "properties": {
+        "name": "Morschachtunnel",
+        "lange_bahntunnel": 1371.0,
+        "1_inbetr_jahr_bahntunnel": "1947",
+        "tunnelsystem": "Y / 2-Spur + 2x 1-Spur",
+        "bemerkung": "Inkl: Morschachtunnel2 Gl.100 (DfA 604) und Morschachtunnel3 Gl.200 (DfA 604)",
+        "linie": "604",
+        "km_go": 21.511,
+        "kanton": "Schwyz",
+        "uuid": "ea461d4d-2cd6-4af6-a6cf-2ee067af227f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.006982800408899,
+          45.8467761896245
+        ]
+      },
+      "properties": {
+        "name": "Galleria Balerna",
+        "lange_bahntunnel": 616.0,
+        "1_inbetr_jahr_bahntunnel": "1964",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "638",
+        "km_go": 203.686,
+        "kanton": "Ticino",
+        "uuid": "eb765e17-8350-4f0a-9dc5-366c96431fae"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.310714187177279,
+          47.43429360523984
+        ]
+      },
+      "properties": {
+        "name": "Heitersbergtunnel",
+        "lange_bahntunnel": 4930.0,
+        "1_inbetr_jahr_bahntunnel": "1972",
+        "tunnelsystem": "Y / 2-Spur + 2x 1-Spur",
+        "bemerkung": "Inkl: Heitersberg2 (DfA 698) und Heitersberg3 (DfA 650)",
+        "linie": "650",
+        "km_go": 19.554,
+        "kanton": "Aargau",
+        "uuid": "250d90f3-ec90-4534-b6e5-7d4c7f47c841"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52516051319468,
+          47.0893884474983
+        ]
+      },
+      "properties": {
+        "name": "Rufibachtunnel",
+        "lange_bahntunnel": 39.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "665",
+        "km_go": 10.661,
+        "kanton": "Schwyz",
+        "uuid": "30ff12f9-e93e-494b-a08c-a90683a12e65"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.23681768917312,
+          47.60557980912796
+        ]
+      },
+      "properties": {
+        "name": "Koblenztunnel",
+        "lange_bahntunnel": 181.0,
+        "1_inbetr_jahr_bahntunnel": "1854",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "702",
+        "km_go": 42.191,
+        "kanton": "Aargau",
+        "uuid": "81c04102-a3d6-473b-ac2b-c7734498743f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.86191076658124,
+          47.25150251586572
+        ]
+      },
+      "properties": {
+        "name": "Täusitunnel",
+        "lange_bahntunnel": 157.0,
+        "1_inbetr_jahr_bahntunnel": "1859",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "740",
+        "km_go": 64.743,
+        "kanton": "Zürich",
+        "uuid": "96e3b0b8-90a7-4071-a9ca-81150f8a5fe5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.611109386074556,
+          47.40759999144517
+        ]
+      },
+      "properties": {
+        "name": "Föhrlibucktunnel",
+        "lange_bahntunnel": 193.0,
+        "1_inbetr_jahr_bahntunnel": "1990",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "745",
+        "km_go": 108.601,
+        "kanton": "Zürich",
+        "uuid": "a3d38986-8c57-4e00-88bf-c245682e4c75"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.538253793603234,
+          47.40950718030823
+        ]
+      },
+      "properties": {
+        "name": "Oerlikontunnel",
+        "lange_bahntunnel": 124.0,
+        "1_inbetr_jahr_bahntunnel": "2014",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "748",
+        "km_go": 206.237,
+        "kanton": "Zürich",
+        "uuid": "51883837-68c1-44f1-b68a-d0a85a5880e6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.562616002386273,
+          47.430416539245606
+        ]
+      },
+      "properties": {
+        "name": "Opfikontunnel II",
+        "lange_bahntunnel": 302.0,
+        "1_inbetr_jahr_bahntunnel": "1980",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "750",
+        "km_go": 7.247,
+        "kanton": "Zürich",
+        "uuid": "b3c8dabd-5fff-4c69-93bf-e8c4b3e7ff47"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.595490232497227,
+          47.44492810423256
+        ]
+      },
+      "properties": {
+        "name": "Hagenholztunnel",
+        "lange_bahntunnel": 3241.0,
+        "1_inbetr_jahr_bahntunnel": "1980",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "750",
+        "km_go": 12.279,
+        "kanton": "Zürich",
+        "uuid": "20822f17-6969-41f1-bc57-0bdba387a669"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.918639235484148,
+          47.36107052589528
+        ]
+      },
+      "properties": {
+        "name": "Lipperschwenditunnel",
+        "lange_bahntunnel": 54.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "754",
+        "km_go": 28.428,
+        "kanton": "Zürich",
+        "uuid": "dc8a4694-8494-437c-9269-0bd2bc774976"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.916987970042245,
+          47.27373272954929
+        ]
+      },
+      "properties": {
+        "name": "Platteneinschnitttunnel",
+        "lange_bahntunnel": 15.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "754",
+        "km_go": 39.37,
+        "kanton": "Zürich",
+        "uuid": "4203a43c-6e5d-4e98-9a7b-5005cdca6776"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.619154202674576,
+          47.679292413533524
+        ]
+      },
+      "properties": {
+        "name": "Neuhausertunnel",
+        "lange_bahntunnel": 143.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "770",
+        "km_go": 39.222,
+        "kanton": "Schaffhausen",
+        "uuid": "96ea6782-81cb-474a-baad-d40fc7a7b447"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.129465617665105,
+          46.20629429159627
+        ]
+      },
+      "properties": {
+        "name": "Couverture St-Jean",
+        "lange_bahntunnel": 821.0,
+        "1_inbetr_jahr_bahntunnel": "1995",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "150",
+        "km_go": 61.236,
+        "kanton": "Genève",
+        "uuid": "a8bfef68-bf4b-4378-8ba0-fb7c25391c48"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.10200879224407,
+          46.22528959560033
+        ]
+      },
+      "properties": {
+        "name": "Galerie ICC",
+        "lange_bahntunnel": 327.0,
+        "1_inbetr_jahr_bahntunnel": "1985",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "150",
+        "km_go": 64.832,
+        "kanton": "Genève",
+        "uuid": "a14951de-6732-64aa-e053-2258680afd92"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.119758891868656,
+          46.20730337105322
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Saut-de-Mouton (093)",
+        "lange_bahntunnel": 425.0,
+        "1_inbetr_jahr_bahntunnel": "1993",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "151",
+        "km_go": 62.234,
+        "kanton": "Genève",
+        "uuid": "fedbe747-864e-4d12-b8a2-71a3658ccef9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.124344315846668,
+          46.205420472148425
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de St. Jean (087)",
+        "lange_bahntunnel": 221.0,
+        "1_inbetr_jahr_bahntunnel": "1941",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 61.859,
+        "kanton": "Genève",
+        "uuid": "82111c66-a24e-475f-84c6-26105fffc9c8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.152305923354998,
+          46.18295491878989
+        ]
+      },
+      "properties": {
+        "name": "TC Rive gauche",
+        "lange_bahntunnel": 411.0,
+        "1_inbetr_jahr_bahntunnel": "2019",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 67.965,
+        "kanton": "Genève",
+        "uuid": "4c410d2b-4482-4710-908b-34e842ffe91e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.163631210620412,
+          46.19889880313575
+        ]
+      },
+      "properties": {
+        "name": "TC Théodore Weber",
+        "lange_bahntunnel": 119.0,
+        "1_inbetr_jahr_bahntunnel": "2019",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 70.081,
+        "kanton": "Genève",
+        "uuid": "c4548050-bd57-d14a-e053-2258680a552d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.193992489986388,
+          46.19636761329312
+        ]
+      },
+      "properties": {
+        "name": "TC Seymaz - Halte de CHEB",
+        "lange_bahntunnel": 271.0,
+        "1_inbetr_jahr_bahntunnel": "2019",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 72.719,
+        "kanton": "Genève",
+        "uuid": "8b076576-a0b0-b20d-e053-1f58680a4889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.197178921519303,
+          46.196008948876376
+        ]
+      },
+      "properties": {
+        "name": "Halte Chêne-Bourg",
+        "lange_bahntunnel": 250.0,
+        "1_inbetr_jahr_bahntunnel": "2019",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "152",
+        "km_go": 73.103,
+        "kanton": "Genève",
+        "uuid": "8b076576-a129-b20d-e053-1f58680a4889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.720139895567518,
+          46.849679931814066
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Concise",
+        "lange_bahntunnel": 366.0,
+        "1_inbetr_jahr_bahntunnel": "2000",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "210",
+        "km_go": 50.487,
+        "kanton": "Vaud",
+        "uuid": "76aac1c7-6a5b-4339-8d66-bb7546dd521e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.915955549736008,
+          46.98939778337297
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Vauseyon (005)",
+        "lange_bahntunnel": 58.0,
+        "1_inbetr_jahr_bahntunnel": "1859",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "210",
+        "km_go": 73.534,
+        "kanton": "Neuchâtel",
+        "uuid": "b9981c88-a956-4d22-a1bb-7ab1002b5cf8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.781875836212284,
+          46.96383859571423
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Champ Rouge (016)",
+        "lange_bahntunnel": 85.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "219",
+        "km_go": 12.95,
+        "kanton": "Neuchâtel",
+        "uuid": "7dfd627d-a21a-4746-9be3-07a407e64b19"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.763263362217503,
+          46.956018679146155
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Bois-de-Ban (018)",
+        "lange_bahntunnel": 161.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "219",
+        "km_go": 14.688,
+        "kanton": "Neuchâtel",
+        "uuid": "b068d769-72cc-4f1a-be78-8a7fdca1902e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.545098217953711,
+          46.912325474097756
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Haut de la Tour (24)",
+        "lange_bahntunnel": 334.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "219",
+        "km_go": 34.21,
+        "kanton": "Neuchâtel",
+        "uuid": "ab1fe232-ee2b-4d42-9c04-bd9cc124aed1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.903735912255661,
+          46.98810641844872
+        ]
+      },
+      "properties": {
+        "name": "Tunnel du Gibet(010)",
+        "lange_bahntunnel": 678.0,
+        "1_inbetr_jahr_bahntunnel": "1859",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "223",
+        "km_go": 2.654,
+        "kanton": "Neuchâtel",
+        "uuid": "492a6082-3b3d-4a1b-805b-513fd8c446fb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.821260236603998,
+          46.97395386524701
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de la Luche (008)",
+        "lange_bahntunnel": 116.0,
+        "1_inbetr_jahr_bahntunnel": "1859",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "223",
+        "km_go": 9.353,
+        "kanton": "Neuchâtel",
+        "uuid": "2e46107f-6998-4976-b3a2-a631237d89a5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8156745100902,
+          46.971447173094504
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de la Sauge (009)",
+        "lange_bahntunnel": 118.0,
+        "1_inbetr_jahr_bahntunnel": "1859",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "223",
+        "km_go": 9.85,
+        "kanton": "Neuchâtel",
+        "uuid": "bb516084-2b85-47c2-ad29-5e89f2fdabf6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2611096551646,
+          47.163256383197435
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Taubenloch 2 ( 040 )",
+        "lange_bahntunnel": 320.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "225",
+        "km_go": 38.338,
+        "kanton": "Bern",
+        "uuid": "641e4bf7-a93b-465e-806a-dadd893f4644"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.247113489732301,
+          47.17693753127893
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Taubenloch 5 ( 043 )",
+        "lange_bahntunnel": 164.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "225",
+        "km_go": 40.349,
+        "kanton": "Bern",
+        "uuid": "d6687c47-173d-4cb8-814d-bb436fd52123"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.348601201253968,
+          47.245436527928746
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Court 1 (066)",
+        "lange_bahntunnel": 12.0,
+        "1_inbetr_jahr_bahntunnel": "1877",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 67.838,
+        "kanton": "Bern",
+        "uuid": "417f624f-fa13-4013-a582-d31cc0aadda5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.38000724886151,
+          47.29161519905299
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Moutier 6 (053)",
+        "lange_bahntunnel": 23.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 74.721,
+        "kanton": "Bern",
+        "uuid": "d5c4f819-60bf-4c08-866c-adb49120602e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.378081165454729,
+          47.29379218171541
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Moutier 8 (055)",
+        "lange_bahntunnel": 19.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 74.98,
+        "kanton": "Bern",
+        "uuid": "d4d95ad0-2a5f-4d9b-8931-1d04975b4dc0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.379622203863861,
+          47.29542518481355
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Moutier 9 (056)",
+        "lange_bahntunnel": 13.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 75.133,
+        "kanton": "Bern",
+        "uuid": "e1141a81-a182-4bfe-becc-8f5865c0ed09"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.378230233024084,
+          47.32913825511283
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de Choindez 2 (060)",
+        "lange_bahntunnel": 165.0,
+        "1_inbetr_jahr_bahntunnel": "1876",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "226",
+        "km_go": 79.826,
+        "kanton": "Jura",
+        "uuid": "de459cc5-2f71-4c7d-9383-adcfb2ff044b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.143971748691323,
+          47.37400419995725
+        ]
+      },
+      "properties": {
+        "name": "Tunnel de la Croix (062)",
+        "lange_bahntunnel": 2966.0,
+        "1_inbetr_jahr_bahntunnel": "1877",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "240",
+        "km_go": 103.722,
+        "kanton": "Jura",
+        "uuid": "d63ada58-5b05-4435-b8b1-117ff8338061"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3120550339086705,
+          46.88823276770681
+        ]
+      },
+      "properties": {
+        "name": "Flamattertunnel (011)",
+        "lange_bahntunnel": 189.0,
+        "1_inbetr_jahr_bahntunnel": "1860",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "250",
+        "km_go": 83.507,
+        "kanton": "Fribourg",
+        "uuid": "39325e36-d343-4b1a-ac0c-2fd5061febc5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5206187277425665,
+          47.02391431071204
+        ]
+      },
+      "properties": {
+        "name": "Grauholztunnel",
+        "lange_bahntunnel": 6286.0,
+        "1_inbetr_jahr_bahntunnel": "1993",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "400",
+        "km_go": 11.731,
+        "kanton": "Bern",
+        "uuid": "7b02cd0e-2e59-4bdc-986e-ff2db754ceaf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.556730893958256,
+          47.06348658092876
+        ]
+      },
+      "properties": {
+        "name": "Birchiwaldtunnel",
+        "lange_bahntunnel": 39.0,
+        "1_inbetr_jahr_bahntunnel": "2003",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "400",
+        "km_go": 17.147,
+        "kanton": "Bern",
+        "uuid": "fcd226d5-ea49-483b-84d9-2e5df05a9276"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.669009705162638,
+          47.19094212405051
+        ]
+      },
+      "properties": {
+        "name": "Oenzbergtunnel",
+        "lange_bahntunnel": 3155.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "400",
+        "km_go": 34.549,
+        "kanton": "Solothurn",
+        "uuid": "0b10a0cd-b27c-4087-83b9-97da27b31e96"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.068573702296193,
+          47.019106883158805
+        ]
+      },
+      "properties": {
+        "name": "Oberer Schächlitunnel",
+        "lange_bahntunnel": 45.0,
+        "1_inbetr_jahr_bahntunnel": "1875",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "460",
+        "km_go": 69.429,
+        "kanton": "Luzern",
+        "uuid": "bb8db6a4-6349-44d1-bca4-332e3050787d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.890813452262202,
+          47.441331490935745
+        ]
+      },
+      "properties": {
+        "name": "Hauenstein Basistunnel HBT",
+        "lange_bahntunnel": 8135.0,
+        "1_inbetr_jahr_bahntunnel": "1916",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "500",
+        "km_go": 28.705,
+        "kanton": "Basel-Landschaft",
+        "uuid": "99ad25b8-e58b-41c2-8419-84bba1a3b9bf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.905003942521672,
+          47.323750843146314
+        ]
+      },
+      "properties": {
+        "name": "Aarburgertunnel",
+        "lange_bahntunnel": 87.0,
+        "1_inbetr_jahr_bahntunnel": "1856",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "500",
+        "km_go": 42.553,
+        "kanton": "Aargau",
+        "uuid": "abf46e22-f2ab-4f36-8573-18285ee10005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.569401537496268,
+          47.561422959248596
+        ]
+      },
+      "properties": {
+        "name": "Kannenfeldtunnel",
+        "lange_bahntunnel": 800.0,
+        "1_inbetr_jahr_bahntunnel": "1901",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "510",
+        "km_go": 138.88,
+        "kanton": "Basel-Stadt",
+        "uuid": "6651e271-9ab5-4a6a-9efd-195e85ec48d5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.450554258326486,
+          47.094772165010376
+        ]
+      },
+      "properties": {
+        "name": "Schwarzenbachtunnel",
+        "lange_bahntunnel": 124.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "570",
+        "km_go": 18.041,
+        "kanton": "Schwyz",
+        "uuid": "45eaa91e-e5ec-4ab2-8f47-8f9b89e5bced"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.523335118178197,
+          47.05248412501309
+        ]
+      },
+      "properties": {
+        "name": "Rindelfluhtunnel re. Berg G200",
+        "lange_bahntunnel": 201.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 6.796,
+        "kanton": "Schwyz",
+        "uuid": "cb761aec-8efb-4ed6-a838-6b9b992cd57b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.524081373065268,
+          47.052899463704456
+        ]
+      },
+      "properties": {
+        "name": "Rindelfluhtunnel li. See G100",
+        "lange_bahntunnel": 200.0,
+        "1_inbetr_jahr_bahntunnel": "1904",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 6.842,
+        "kanton": "Schwyz",
+        "uuid": "f43b0131-da88-4925-a7c0-5bfa3a04baf8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.61110461659936,
+          46.97851547061838
+        ]
+      },
+      "properties": {
+        "name": "Franziskustunnel",
+        "lange_bahntunnel": 193.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 22.943,
+        "kanton": "Schwyz",
+        "uuid": "d0cfa5df-4dd5-4b07-ae1c-9dd65f0948a9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.615357353027234,
+          46.926294293243245
+        ]
+      },
+      "properties": {
+        "name": "Axenbergtunnel",
+        "lange_bahntunnel": 1128.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 29.255,
+        "kanton": "Uri",
+        "uuid": "f9c555b1-9b0f-4b97-ac90-0b30c8e823a5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.623292181748935,
+          46.91542674137265
+        ]
+      },
+      "properties": {
+        "name": "Neue Gruonbachgalerie re. G200",
+        "lange_bahntunnel": 98.0,
+        "1_inbetr_jahr_bahntunnel": "1943",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 30.679,
+        "kanton": "Uri",
+        "uuid": "86154026-ec7d-4006-b86e-5aeb6533b285"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.614714974062846,
+          46.71984859766474
+        ]
+      },
+      "properties": {
+        "name": "Häggrigerbachgalerie",
+        "lange_bahntunnel": 32.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 55.64,
+        "kanton": "Uri",
+        "uuid": "af01fa3a-ca4a-4eb9-8475-de5ca1019e2f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.601910052117507,
+          46.707505951397046
+        ]
+      },
+      "properties": {
+        "name": "Kirchbergtunnel",
+        "lange_bahntunnel": 304.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 59.489,
+        "kanton": "Uri",
+        "uuid": "c456f830-e78e-47a8-9f3d-a03404b7f7d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59450938681746,
+          46.60342987142437
+        ]
+      },
+      "properties": {
+        "name": "Gotthardtunnel",
+        "lange_bahntunnel": 15000.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 77.397,
+        "kanton": "Uri",
+        "uuid": "bffccfb8-3d57-4d9b-9266-1145050ec1e0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.85953369453462,
+          46.42559251613832
+        ]
+      },
+      "properties": {
+        "name": "Galleria Pianotondo",
+        "lange_bahntunnel": 1509.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 115.815,
+        "kanton": "Ticino",
+        "uuid": "b1d19d96-c648-49c1-8b81-1314c492f013"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.856600834906962,
+          46.42267478779497
+        ]
+      },
+      "properties": {
+        "name": "Galleria Tourniquet",
+        "lange_bahntunnel": 72.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 117.011,
+        "kanton": "Ticino",
+        "uuid": "28e108c5-2288-4591-8b9c-443dd1dda8b6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.98257654755205,
+          46.32746562040657
+        ]
+      },
+      "properties": {
+        "name": "Galleria Giustizia",
+        "lange_bahntunnel": 64.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 134.59,
+        "kanton": "Ticino",
+        "uuid": "dc20e98d-d6ef-4e93-8c94-3c2189be2af7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.921870198603868,
+          46.136809288910094
+        ]
+      },
+      "properties": {
+        "name": "Galleria Monte Ceneri I sinistra",
+        "lange_bahntunnel": 1675.0,
+        "1_inbetr_jahr_bahntunnel": "1882",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 163.76,
+        "kanton": "Ticino",
+        "uuid": "e18198c7-4e2b-4b73-8181-f97974267ffd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.956534401728401,
+          45.98541682053556
+        ]
+      },
+      "properties": {
+        "name": "Galeria Paradiso",
+        "lange_bahntunnel": 758.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 183.771,
+        "kanton": "Ticino",
+        "uuid": "8a96abf8-5fbd-45fe-b038-321071e6ca2f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.975989608647192,
+          45.85778254115189
+        ]
+      },
+      "properties": {
+        "name": "Galleria Coldrerio",
+        "lange_bahntunnel": 92.0,
+        "1_inbetr_jahr_bahntunnel": "1874",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "600",
+        "km_go": 200.313,
+        "kanton": "Ticino",
+        "uuid": "0e88acbe-933f-4160-b700-13595a74602b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.616498850267215,
+          46.96642297378745
+        ]
+      },
+      "properties": {
+        "name": "Fronalptunnel",
+        "lange_bahntunnel": 2793.0,
+        "1_inbetr_jahr_bahntunnel": "1946",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "604",
+        "km_go": 24.36,
+        "kanton": "Schwyz",
+        "uuid": "048ab7c9-dac0-40e3-b407-9fb63405b429"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.954447273530832,
+          46.14302479995061
+        ]
+      },
+      "properties": {
+        "name": "Galleria Precassino-Meggiagra",
+        "lange_bahntunnel": 713.0,
+        "1_inbetr_jahr_bahntunnel": "1934",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "606",
+        "km_go": 160.509,
+        "kanton": "Ticino",
+        "uuid": "6064cba1-3d6d-4b82-8138-27292fd8875f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.937675790743016,
+          46.01258929634672
+        ]
+      },
+      "properties": {
+        "name": "Galleria Massagno II destra",
+        "lange_bahntunnel": 943.0,
+        "1_inbetr_jahr_bahntunnel": "1933",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "608",
+        "km_go": 179.322,
+        "kanton": "Ticino",
+        "uuid": "3c5dd997-94a9-4c1e-a055-e868e2262aef"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.045275702006634,
+          47.389119985081116
+        ]
+      },
+      "properties": {
+        "name": "Aarauer Stadttunnel II Süd",
+        "lange_bahntunnel": 615.0,
+        "1_inbetr_jahr_bahntunnel": "1993",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "650",
+        "km_go": 42.018,
+        "kanton": "Aargau",
+        "uuid": "b671fe7e-9a98-40e8-b3db-2c7763bda540"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.008762910976353,
+          47.36942343474074
+        ]
+      },
+      "properties": {
+        "name": "Tunnel Eppenberg",
+        "lange_bahntunnel": 3113.0,
+        "1_inbetr_jahr_bahntunnel": "2020",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "650",
+        "km_go": 45.767,
+        "kanton": "Solothurn",
+        "uuid": "3a8b450e-6d27-4ced-affd-f29584e22824"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.558307494610355,
+          47.22484944494009
+        ]
+      },
+      "properties": {
+        "name": "Albistunnel",
+        "lange_bahntunnel": 3360.0,
+        "1_inbetr_jahr_bahntunnel": "1897",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "660",
+        "km_go": 22.003,
+        "kanton": "Zürich",
+        "uuid": "f8e7539b-5ce8-43ff-a971-34c72d97e3a8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.288710989813548,
+          47.06116357252699
+        ]
+      },
+      "properties": {
+        "name": "Friedentaltunnel",
+        "lange_bahntunnel": 120.0,
+        "1_inbetr_jahr_bahntunnel": "1864",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "660",
+        "km_go": 63.454,
+        "kanton": "Luzern",
+        "uuid": "6d784ea2-7c76-46e4-9824-0f5ea3fd9108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.500654246595895,
+          47.1161599842589
+        ]
+      },
+      "properties": {
+        "name": "Lothenbachtunnel",
+        "lange_bahntunnel": 36.0,
+        "1_inbetr_jahr_bahntunnel": "1898",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "665",
+        "km_go": 7.045,
+        "kanton": "Zug",
+        "uuid": "b613522d-80b9-4922-adf0-a070389c3ec2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.115673176075035,
+          47.46460670382649
+        ]
+      },
+      "properties": {
+        "name": "Doppelspurtunnel Bözberg",
+        "lange_bahntunnel": 2692.0,
+        "1_inbetr_jahr_bahntunnel": "2020",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "700",
+        "km_go": 40.703,
+        "kanton": "Aargau",
+        "uuid": "28e1efab-25f2-4852-b219-e72711335750"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.346593068461983,
+          47.44401530074919
+        ]
+      },
+      "properties": {
+        "name": "Tägerhardtunnel",
+        "lange_bahntunnel": 400.0,
+        "1_inbetr_jahr_bahntunnel": "1981",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "704",
+        "km_go": 39.932,
+        "kanton": "Aargau",
+        "uuid": "908f4538-83bc-4451-b909-9c4766d38e59"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.305474523657995,
+          47.46984122061402
+        ]
+      },
+      "properties": {
+        "name": "Kreuzlibergtunnel",
+        "lange_bahntunnel": 905.0,
+        "1_inbetr_jahr_bahntunnel": "1961",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "710",
+        "km_go": 21.839,
+        "kanton": "Aargau",
+        "uuid": "1f9ff437-8376-4859-b02b-eae0ffab7b0c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.466063834593015,
+          47.348056793297424
+        ]
+      },
+      "properties": {
+        "name": "Landikontunnel",
+        "lange_bahntunnel": 484.0,
+        "1_inbetr_jahr_bahntunnel": "1864",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "711",
+        "km_go": 15.558,
+        "kanton": "Zürich",
+        "uuid": "db5ae09d-5779-4575-b73a-478f839c2833"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52160167875407,
+          47.38180762431114
+        ]
+      },
+      "properties": {
+        "name": "Kohlendreiecktunnel",
+        "lange_bahntunnel": 185.0,
+        "1_inbetr_jahr_bahntunnel": "2004",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "714",
+        "km_go": 1.466,
+        "kanton": "Zürich",
+        "uuid": "4298387d-8746-440e-8ebe-7dadd0d281f4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.531063833485872,
+          47.358894515676184
+        ]
+      },
+      "properties": {
+        "name": "Engetunnel",
+        "lange_bahntunnel": 903.0,
+        "1_inbetr_jahr_bahntunnel": "1927",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "720",
+        "km_go": 4.511,
+        "kanton": "Zürich",
+        "uuid": "77d995e9-ac71-4514-9b41-fbb4fcdcacf7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.018578744948426,
+          46.939739036797434
+        ]
+      },
+      "properties": {
+        "name": "Erlenrunstunnel",
+        "lange_bahntunnel": 45.0,
+        "1_inbetr_jahr_bahntunnel": "1879",
+        "tunnelsystem": "1-Röhre / 1-Spur",
+        "bemerkung": null,
+        "linie": "736",
+        "km_go": 82.094,
+        "kanton": "Glarus",
+        "uuid": "b4d948c9-5a4c-48ec-9586-3d0b75be72ae"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.539287501333686,
+          47.37937392620222
+        ]
+      },
+      "properties": {
+        "name": "Tunnel Bahnhof Museumstrasse",
+        "lange_bahntunnel": 772.0,
+        "1_inbetr_jahr_bahntunnel": "1990",
+        "tunnelsystem": "Andere",
+        "bemerkung": null,
+        "linie": "745",
+        "km_go": 99.86,
+        "kanton": "Zürich",
+        "uuid": "3468a695-f87c-4d12-b3e0-b17c4ae39b20"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.378662910533935,
+          47.43200403389315
+        ]
+      },
+      "properties": {
+        "name": "Rosenbergtunnel",
+        "lange_bahntunnel": 1466.0,
+        "1_inbetr_jahr_bahntunnel": "1912",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "880",
+        "km_go": 79.3,
+        "kanton": "St.AuslandGallen",
+        "uuid": "c5eb3878-e2f8-4503-bd16-729f5bdb0449"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.06703565997572,
+          47.13146445495747
+        ]
+      },
+      "properties": {
+        "name": "Biberlikopftunnel",
+        "lange_bahntunnel": 289.0,
+        "1_inbetr_jahr_bahntunnel": "1966",
+        "tunnelsystem": "1-Röhre / 2-Spuren",
+        "bemerkung": null,
+        "linie": "890",
+        "km_go": 32.858,
+        "kanton": "St.AuslandGallen",
+        "uuid": "331d0fba-7296-425f-8219-4bcbc551b57d"
+      }
+    }
+  ]
+}

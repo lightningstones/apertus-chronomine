@@ -1,9 +1,19 @@
 {
   "type": "FeatureCollection",
-  "name": "ChronoMine - Mine Alpha-7 (fictive)",
+  "name": "Gotthard-Basistunnel (GBT) — Sektor Sedrun Multifunktionsstelle (SBB Linie 594)",
   "crs": {
     "type": "name",
     "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "metadata": {
+    "project": "AlpTransit Gotthard / SBB CFF FFS",
+    "tunnel": "Gotthard-Basistunnel (GBT)",
+    "section": "Multifunktionsstelle Sedrun (SMF)",
+    "official_line_number": 594,
+    "total_tunnel_length_m": 57104,
+    "overburden_depth_m": 800,
+    "rock_massif": "Tavetscher Zwischenmassiv & Aarmassiv",
+    "source": "SBB Open Data (data.sbb.ch) & AlpTransit Gotthard AG"
   },
   "features": [
     {
@@ -11,23 +21,29 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.4980, 46.8010],
-          [7.5010, 46.8010],
-          [7.5040, 46.8010],
-          [7.5070, 46.8010],
-          [7.5100, 46.8010]
+          [8.7660, 46.6750],
+          [8.7675, 46.6710],
+          [8.7690, 46.6660],
+          [8.7705, 46.6610],
+          [8.7720, 46.6560]
         ]
       },
       "properties": {
-        "id": "T-01",
-        "name": "Galerie Principale Nord",
+        "id": "GBT-OST",
+        "name": "Gotthard-Basistunnel · Oströhre (SBB Linie 594)",
         "type": "main_gallery",
-        "depth_m": 120,
-        "depth_start_m": 120,
-        "depth_end_m": 135,
+        "depth_m": 800,
+        "depth_start_m": 790,
+        "depth_end_m": 815,
         "status": "operational",
-        "length_m": 850,
-        "width_m": 6,
+        "pk_start": "PK 219.000",
+        "pk_end": "PK 224.000",
+        "length_m": 5000,
+        "width_m": 8.8,
+        "track_gauge_mm": 1435,
+        "max_speed_kmh": 250,
+        "rock_type": "Tavetscher Granit & Gneis",
+        "geothermal_temp_c": 38.5,
         "ventilation": true
       }
     },
@@ -36,23 +52,29 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.4980, 46.7990],
-          [7.5010, 46.7990],
-          [7.5040, 46.7990],
-          [7.5070, 46.7990],
-          [7.5100, 46.7990]
+          [8.7654, 46.6749],
+          [8.7669, 46.6709],
+          [8.7684, 46.6659],
+          [8.7699, 46.6609],
+          [8.7714, 46.6559]
         ]
       },
       "properties": {
-        "id": "T-02",
-        "name": "Galerie Principale Sud",
+        "id": "GBT-WEST",
+        "name": "Gotthard-Basistunnel · Weströhre (SBB Linie 594)",
         "type": "main_gallery",
-        "depth_m": 145,
-        "depth_start_m": 145,
-        "depth_end_m": 160,
+        "depth_m": 800,
+        "depth_start_m": 790,
+        "depth_end_m": 815,
         "status": "operational",
-        "length_m": 820,
-        "width_m": 6,
+        "pk_start": "PK 219.000",
+        "pk_end": "PK 224.000",
+        "length_m": 5000,
+        "width_m": 8.8,
+        "track_gauge_mm": 1435,
+        "max_speed_kmh": 250,
+        "rock_type": "Tavetscher Granit & Gneis",
+        "geothermal_temp_c": 38.5,
         "ventilation": true
       }
     },
@@ -61,23 +83,20 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.5010, 46.8010],
-          [7.5010, 46.8005],
-          [7.5010, 46.7998],
-          [7.5010, 46.7990]
+          [8.7669, 46.6709],
+          [8.7675, 46.6710]
         ]
       },
       "properties": {
-        "id": "T-03",
-        "name": "Galerie Transversale A",
+        "id": "QS-40",
+        "name": "Querschlag QS-40 (PK 220.325)",
         "type": "cross_gallery",
-        "depth_m": 130,
-        "depth_start_m": 120,
-        "depth_end_m": 145,
-        "status": "operational",
-        "length_m": 220,
-        "width_m": 4,
-        "ventilation": false
+        "depth_m": 800,
+        "length_m": 42,
+        "spacing_m": 325,
+        "fire_barrier_doors": 2,
+        "overpressure_air": true,
+        "status": "operational"
       }
     },
     {
@@ -85,23 +104,20 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.5040, 46.8010],
-          [7.5040, 46.8004],
-          [7.5040, 46.7996],
-          [7.5040, 46.7990]
+          [8.7677, 46.6684],
+          [8.7683, 46.6685]
         ]
       },
       "properties": {
-        "id": "T-04",
-        "name": "Galerie Transversale B",
+        "id": "QS-41",
+        "name": "Querschlag QS-41 (PK 220.650)",
         "type": "cross_gallery",
-        "depth_m": 135,
-        "depth_start_m": 127,
-        "depth_end_m": 152,
-        "status": "operational",
-        "length_m": 220,
-        "width_m": 4,
-        "ventilation": false
+        "depth_m": 800,
+        "length_m": 42,
+        "spacing_m": 325,
+        "fire_barrier_doors": 2,
+        "overpressure_air": true,
+        "status": "operational"
       }
     },
     {
@@ -109,23 +125,20 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.5070, 46.8010],
-          [7.5070, 46.8004],
-          [7.5070, 46.7996],
-          [7.5070, 46.7990]
+          [8.7684, 46.6659],
+          [8.7690, 46.6660]
         ]
       },
       "properties": {
-        "id": "T-05",
-        "name": "Galerie Transversale C",
+        "id": "QS-42",
+        "name": "Querschlag QS-42 (PK 220.975)",
         "type": "cross_gallery",
-        "depth_m": 140,
-        "depth_start_m": 135,
-        "depth_end_m": 160,
-        "status": "restricted",
-        "length_m": 220,
-        "width_m": 4,
-        "ventilation": false
+        "depth_m": 800,
+        "length_m": 42,
+        "spacing_m": 325,
+        "fire_barrier_doors": 2,
+        "overpressure_air": true,
+        "status": "operational"
       }
     },
     {
@@ -133,179 +146,132 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.5040, 46.8028],
-          [7.5042, 46.8022],
-          [7.5040, 46.8016],
-          [7.5040, 46.8010]
+          [8.7692, 46.6634],
+          [8.7698, 46.6635]
         ]
       },
       "properties": {
-        "id": "T-06",
-        "name": "Galerie d'Accès Nord (Pente 12%)",
+        "id": "QS-43",
+        "name": "Querschlag QS-43 (PK 221.300)",
+        "type": "cross_gallery",
+        "depth_m": 800,
+        "length_m": 42,
+        "spacing_m": 325,
+        "fire_barrier_doors": 2,
+        "overpressure_air": true,
+        "status": "operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.7699, 46.6609],
+          [8.7705, 46.6610]
+        ]
+      },
+      "properties": {
+        "id": "QS-44",
+        "name": "Querschlag QS-44 (PK 221.625)",
+        "type": "cross_gallery",
+        "depth_m": 800,
+        "length_m": 42,
+        "spacing_m": 325,
+        "fire_barrier_doors": 2,
+        "overpressure_air": true,
+        "status": "operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.7707, 46.6584],
+          [8.7713, 46.6585]
+        ]
+      },
+      "properties": {
+        "id": "QS-45",
+        "name": "Querschlag QS-45 (PK 221.950)",
+        "type": "cross_gallery",
+        "depth_m": 800,
+        "length_m": 42,
+        "spacing_m": 325,
+        "fire_barrier_doors": 2,
+        "overpressure_air": true,
+        "status": "operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [8.7687, 46.6660],
+          [8.7750, 46.6690],
+          [8.7820, 46.6720]
+        ]
+      },
+      "properties": {
+        "id": "TUN-ACC-SEDRUN",
+        "name": "Zugangsstollen Sedrun (Galerie d'accès 1.0 km)",
         "type": "access_tunnel",
-        "depth_m": 60,
-        "depth_start_m": 0,
-        "depth_end_m": 120,
-        "status": "operational",
-        "length_m": 320,
-        "width_m": 5,
-        "ventilation": true
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [7.5100, 46.7990],
-          [7.5108, 46.7983],
-          [7.5115, 46.7975],
-          [7.5120, 46.7968]
-        ]
-      },
-      "properties": {
-        "id": "T-07",
-        "name": "Galerie d'Évacuation Est (Remontée)",
-        "type": "evacuation_tunnel",
-        "depth_m": 80,
-        "depth_start_m": 160,
+        "depth_m": 800,
+        "depth_start_m": 800,
         "depth_end_m": 0,
+        "slope_percent": 12,
         "status": "operational",
-        "length_m": 280,
-        "width_m": 5,
-        "ventilation": true
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [7.4980, 46.8010],
-          [7.4970, 46.8010],
-          [7.4960, 46.8008],
-          [7.4955, 46.8005],
-          [7.4950, 46.8000]
-        ]
-      },
-      "properties": {
-        "id": "T-08",
-        "name": "Galerie Ouest — Secteur Effondré",
-        "type": "main_gallery",
-        "depth_m": 115,
-        "depth_start_m": 120,
-        "depth_end_m": 110,
-        "status": "closed",
-        "length_m": 380,
-        "width_m": 5,
-        "ventilation": false
+        "vehicular_access": true,
+        "length_m": 1050
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [7.5035, 46.8012],
-            [7.5045, 46.8012],
-            [7.5045, 46.8020],
-            [7.5035, 46.8020],
-            [7.5035, 46.8012]
-          ]
-        ]
+        "coordinates": [[
+          [8.7680, 46.6675],
+          [8.7700, 46.6675],
+          [8.7700, 46.6645],
+          [8.7680, 46.6645],
+          [8.7680, 46.6675]
+        ]]
       },
       "properties": {
-        "id": "R-01",
-        "name": "Salle de Contrôle Centrale",
-        "type": "control_room",
-        "depth_m": 105,
-        "status": "operational",
-        "area_m2": 85,
-        "capacity": 12,
-        "power_backup": true
+        "id": "SMF-CAV-01",
+        "name": "Multifunktionsstelle Sedrun · Nothaltestelle & Spurwechselkaverne",
+        "type": "chamber",
+        "depth_m": 800,
+        "area_m2": 4500,
+        "capacity_people": 1200,
+        "oxygen_refuge": true,
+        "polycom_repeater": true,
+        "crossover_switches": 4,
+        "status": "operational"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [7.5000, 46.7988],
-            [7.5020, 46.7988],
-            [7.5020, 46.7980],
-            [7.5000, 46.7980],
-            [7.5000, 46.7988]
-          ]
-        ]
+        "coordinates": [[
+          [8.7705, 46.6665],
+          [8.7725, 46.6665],
+          [8.7725, 46.6650],
+          [8.7705, 46.6650],
+          [8.7705, 46.6665]
+        ]]
       },
       "properties": {
-        "id": "R-02",
-        "name": "Dépôt Matériel & Explosifs",
-        "type": "depot",
-        "depth_m": 150,
-        "status": "restricted",
-        "area_m2": 120,
-        "capacity": 0,
-        "power_backup": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [7.5090, 46.7992],
-            [7.5108, 46.7992],
-            [7.5108, 46.7982],
-            [7.5090, 46.7982],
-            [7.5090, 46.7992]
-          ]
-        ]
-      },
-      "properties": {
-        "id": "R-03",
-        "name": "Refuge de Sécurité Est",
-        "type": "refuge",
-        "depth_m": 155,
-        "status": "operational",
-        "area_m2": 60,
-        "capacity": 20,
-        "power_backup": true
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.5040, 46.8028]
-      },
-      "properties": {
-        "id": "S-01",
-        "name": "Entrée Principale — Puits P1",
-        "type": "main_shaft",
-        "depth_m": 0,
-        "status": "operational",
-        "diameter_m": 6,
-        "elevator": true
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.5120, 46.7968]
-      },
-      "properties": {
-        "id": "S-02",
-        "name": "Sortie de Secours — Puits P2",
-        "type": "emergency_shaft",
-        "depth_m": 0,
-        "status": "operational",
-        "diameter_m": 3,
-        "elevator": false
+        "id": "SMF-VENT-02",
+        "name": "Lüftungszentrale & Rauchabsaugkaverne Sedrun",
+        "type": "ventilation_plant",
+        "depth_m": 800,
+        "airflow_m3_s": 250,
+        "vertical_shaft_depth_m": 800,
+        "status": "operational"
       }
     }
   ]

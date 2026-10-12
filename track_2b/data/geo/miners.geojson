@@ -1,110 +1,166 @@
 {
   "type": "FeatureCollection",
-  "name": "ChronoMine - Mineurs actifs",
+  "name": "Gotthard Base Tunnel — Équipes & Balises Sous-Terraines Actives (UWB / LoRaWAN)",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.5025, 46.8010]
+        "coordinates": [8.7687, 46.6660]
       },
       "properties": {
-        "id": "a1b2c3d4-0001-4e5f-8a9b-000000000001",
-        "name": "Karimi, Reza",
+        "id": "gbt-0001-4e5f-8a9b-000000000001",
+        "name": "Silva, Manuel",
         "badge": "M-041",
-        "tunnel": "T-01 — Galerie Principale Nord",
-        "sector": "Section A",
-        "depth_m": 120,
-        "status": "active",
-        "battery_pct": 87,
-        "heart_rate": 72,
-        "o2_pct": 20.8,
-        "last_update": "2026-07-24T19:18:05Z",
-        "tag_id": "UWB-041"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.5060, 46.7995]
-      },
-      "properties": {
-        "id": "a1b2c3d4-0002-4e5f-8a9b-000000000002",
-        "name": "Müller, Franziska",
-        "badge": "M-017",
-        "tunnel": "T-04 — Galerie Transversale B",
-        "sector": "Section centrale",
-        "depth_m": 135,
-        "status": "active",
-        "battery_pct": 62,
-        "heart_rate": 81,
-        "o2_pct": 20.5,
-        "last_update": "2026-07-24T19:18:12Z",
-        "tag_id": "UWB-017"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.5095, 46.7987]
-      },
-      "properties": {
-        "id": "a1b2c3d4-0003-4e5f-8a9b-000000000003",
-        "name": "Okonkwo, Emeka",
-        "badge": "M-033",
-        "tunnel": "T-07 — Galerie d'Évacuation Est",
-        "sector": "Section D",
-        "depth_m": 158,
+        "role": "Mineiro / Conducteur d'engins (PT)",
+        "tunnel": "Querschlag QS-42 (PK 220.975)",
+        "sector": "Sektor Sedrun SMF",
+        "depth_m": 800,
         "status": "alert",
-        "battery_pct": 21,
-        "heart_rate": 112,
-        "o2_pct": 18.9,
-        "last_update": "2026-07-24T19:17:44Z",
-        "tag_id": "UWB-033"
+        "battery_pct": 82,
+        "heart_rate": 96,
+        "o2_pct": 19.8,
+        "co_ppm": 12.0,
+        "last_update": "2026-10-12T16:45:00Z",
+        "tag_id": "UWB-GBT-041"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.5010, 46.8000]
+        "coordinates": [8.7677, 46.6684]
       },
       "properties": {
-        "id": "a1b2c3d4-0004-4e5f-8a9b-000000000004",
-        "name": "Lefevre, Antoine",
-        "badge": "M-058",
-        "tunnel": "T-03 — Galerie Transversale A",
-        "sector": "Section B",
-        "depth_m": 130,
-        "status": "offline",
-        "battery_pct": 0,
-        "heart_rate": null,
-        "o2_pct": null,
-        "last_update": "2026-07-24T18:52:31Z",
-        "tag_id": "UWB-058"
+        "id": "gbt-0002-4e5f-8a9b-000000000002",
+        "name": "Bianchi, Giovanni",
+        "badge": "M-017",
+        "role": "Geologo / Stabilità Ammasso Roccioso (IT)",
+        "tunnel": "Querschlag QS-41 (PK 220.650)",
+        "sector": "Oströhre / Tavetscher Gneis",
+        "depth_m": 800,
+        "status": "active",
+        "battery_pct": 74,
+        "heart_rate": 78,
+        "o2_pct": 20.8,
+        "co_ppm": 2.0,
+        "last_update": "2026-10-12T16:45:12Z",
+        "tag_id": "UWB-GBT-017"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.5070, 46.7990]
+        "coordinates": [8.7695, 46.6634]
       },
       "properties": {
-        "id": "a1b2c3d4-0005-4e5f-8a9b-000000000005",
-        "name": "Schneider, Lena",
-        "badge": "M-029",
-        "tunnel": "T-02 — Galerie Principale Sud",
-        "sector": "Section C-Est",
-        "depth_m": 145,
+        "id": "gbt-0003-4e5f-8a9b-000000000003",
+        "name": "Favre, Laurent",
+        "badge": "M-005",
+        "role": "Coordinateur Sécurité SUVA / BauAV (FR)",
+        "tunnel": "Querschlag QS-43 (PK 221.300)",
+        "sector": "Weströhre / Puits P1",
+        "depth_m": 800,
+        "status": "active",
+        "battery_pct": 91,
+        "heart_rate": 74,
+        "o2_pct": 20.9,
+        "co_ppm": 0.0,
+        "last_update": "2026-10-12T16:44:58Z",
+        "tag_id": "UWB-GBT-005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7688, 46.6662]
+      },
+      "properties": {
+        "id": "gbt-0004-4e5f-8a9b-000000000004",
+        "name": "Meier, Hans",
+        "badge": "M-022",
+        "role": "Chef de Chantier SBB Fahrleitung (DE)",
+        "tunnel": "Spurwechselkaverne Sedrun",
+        "sector": "Multifunktionsstelle Sedrun SMF",
+        "depth_m": 800,
+        "status": "active",
+        "battery_pct": 65,
+        "heart_rate": 84,
+        "o2_pct": 20.9,
+        "co_ppm": 1.0,
+        "last_update": "2026-10-12T16:45:20Z",
+        "tag_id": "UWB-GBT-022"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7712, 46.6660]
+      },
+      "properties": {
+        "id": "gbt-0005-4e5f-8a9b-000000000005",
+        "name": "Fernandez, Carlos",
+        "badge": "M-033",
+        "role": "Técnico de Ventilação e Drenagem (ES)",
+        "tunnel": "Lüftungszentrale Sedrun",
+        "sector": "Abluftstollen & Puits Vertical",
+        "depth_m": 800,
+        "status": "active",
+        "battery_pct": 88,
+        "heart_rate": 79,
+        "o2_pct": 20.7,
+        "co_ppm": 4.0,
+        "last_update": "2026-10-12T16:45:05Z",
+        "tag_id": "UWB-GBT-033"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7750, 46.6690]
+      },
+      "properties": {
+        "id": "gbt-0006-4e5f-8a9b-000000000006",
+        "name": "Rossi, Elena",
+        "badge": "M-009",
+        "role": "Ingénieure Télécom RUAG / Polycom & GSM-R (IT/FR)",
+        "tunnel": "Zugangsstollen Sedrun (PK 0.500)",
+        "sector": "Galerie d'accès véhiculaire",
+        "depth_m": 450,
         "status": "active",
         "battery_pct": 95,
         "heart_rate": 68,
         "o2_pct": 20.9,
-        "last_update": "2026-07-24T19:18:15Z",
-        "tag_id": "UWB-029"
+        "co_ppm": 0.0,
+        "last_update": "2026-10-12T16:45:30Z",
+        "tag_id": "UWB-GBT-009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7702, 46.6610]
+      },
+      "properties": {
+        "id": "gbt-0007-4e5f-8a9b-000000000007",
+        "name": "Costa, Antonio",
+        "badge": "M-058",
+        "role": "Maçon Coffreur / Béton Projeté (PT)",
+        "tunnel": "Querschlag QS-44 (PK 221.625)",
+        "sector": "Weströhre / Blindage",
+        "depth_m": 800,
+        "status": "offline",
+        "battery_pct": 14,
+        "heart_rate": 0,
+        "o2_pct": 20.9,
+        "co_ppm": 0.0,
+        "last_update": "2026-10-12T15:20:00Z",
+        "tag_id": "UWB-GBT-058"
       }
     }
   ]

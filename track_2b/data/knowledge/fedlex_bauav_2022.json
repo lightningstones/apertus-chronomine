@@ -1,0 +1,68 @@
+{
+  "source": "Fedlex - La plateforme de publication du droit fédéral suisse",
+  "statute": "Ordonnance sur la sécurité et la protection de la santé des travailleurs dans les travaux de construction (Bauarbeitenverordnung, BauAV 2022)",
+  "systematic_compilation_id": "SR 832.311.141",
+  "entry_into_force": "2022-01-01",
+  "articles": [
+    {
+      "article": "Art. 15",
+      "title_fr": "Mesures contre les chutes d'une hauteur supérieure à 2,00 m",
+      "title_de": "Massnahmen gegen Absturz ab mehr als 2.00 m Absturzhöhe",
+      "norm": "BauAV Art. 15",
+      "text_fr": "À partir d'une hauteur de chute de plus de 2,00 m, des mesures de protection contre les chutes doivent être prises. Un dispositif de protection latérale en trois parties (garde-corps supérieur à 1,00 m, barre intermédiaire et plinthe de 15 cm) doit être installé sans interruption le long de tout bord à vide.",
+      "text_de": "Ab einer Absturzhöhe von mehr als 2.00 m müssen Massnahmen gegen Absturz getroffen werden. Ein dreiteiliger Seitenschutz (Geländerholm auf 1.00 m Höhe, Zwischenholm und 15 cm Bordbrett) ist lückenlos an allen Absturzkanten anzubringen.",
+      "severity": "critical",
+      "mandatory_stop_work": true
+    },
+    {
+      "article": "Art. 22",
+      "title_fr": "Protection contre les éboulements et les chutes de pierres",
+      "title_de": "Schutz vor Einsturz und Steinschlag",
+      "norm": "BauAV Art. 22",
+      "text_fr": "Les parois de fouilles, de talus et d'excavations doivent être sécurisées de manière à ce que les personnes ne soient pas mises en danger par des éboulements, des glissements de terrain ou des chutes de pierres. La purge du rocher et la pose du soutènement doivent être effectuées sans délai.",
+      "text_de": "Gruben-, Böschungs- und Aushubwände sind so zu sichern, dass Personen nicht durch Einsturz, Rutschungen oder Steinschlag gefährdet werden. Felsräumung und Sicherung müssen unverzüglich erfolgen.",
+      "severity": "critical",
+      "mandatory_stop_work": true
+    },
+    {
+      "article": "Art. 51",
+      "title_fr": "Travaux souterrains, sauvetage et communications",
+      "title_de": "Untertagbau, Rettung und Kommunikation",
+      "norm": "BauAV Art. 51",
+      "text_fr": "Dans les travaux souterrains, un plan d'urgence et de sauvetage doit être établi. Chaque travailleur doit être muni d'un appareil auto-sauveteur en état de marche. Un système de communication fiable (Polycom, GSM-R ou téléphone de secours) doit relier en permanence le front d'attaque à l'extérieur.",
+      "text_de": "Bei Untertagarbeiten ist ein Rettungs- und Notfallkonzept zu erstellen. Jeder Arbeitnehmer muss mit einem funktionstüchtigen Selbstretter ausgerüstet sein. Ein zuverlässiges Kommunikationssystem muss die Ortsbrust ständig mit aussen verbinden.",
+      "severity": "critical",
+      "mandatory_stop_work": true
+    },
+    {
+      "article": "Art. 54",
+      "title_fr": "Excavations, puits, fouilles et tranchées",
+      "title_de": "Gräben, Schächte und Baugruben",
+      "norm": "BauAV Art. 54",
+      "text_fr": "Toute fouille ou tranchée de plus de 1,50 m de profondeur doit impérativement être blindée ou talutée selon les règles géotechniques. Il est strictement interdit de descendre dans une fouille non blindée de plus de 1,50 m. La montée et la descente doivent être assurées par des escaliers ou échelles sécurisées.",
+      "text_de": "Gräben und Baugruben von mehr als 1.50 m Tiefe müssen zwingend verbaut oder vorschriftsgemäss abgeböscht werden. Das Betreten ungesicherter Gräben ab 1.50 m Tiefe ist strengstens verboten. Ein sicherer Zu- und Abgang ist zu gewährleisten.",
+      "severity": "critical",
+      "mandatory_stop_work": true
+    },
+    {
+      "article": "Art. 80",
+      "title_fr": "Qualité de l'air et moteurs thermiques en souterrain",
+      "title_de": "Luftqualität und Verbrennungsmotoren im Untertagbau",
+      "norm": "BauAV Art. 80 / SIA 196",
+      "text_fr": "Les engins équipés de moteurs thermiques utilisés en souterrain doivent être équipés de filtres à particules fermés certifiés VERT. L'atmosphère de travail doit contenir au minimum 19% d'oxygène en volume. La concentration en monoxyde de carbone (CO) ne doit en aucun cas dépasser 30 ppm.",
+      "text_de": "Im Untertagbau dürfen Verbrennungsmotoren nur mit zertifizierten VERT-Partikelfiltern betrieben werden. Der Sauerstoffgehalt muss mindestens 19 Vol.-% betragen. Die Kohlenmonoxid-Konzentration (CO) darf 30 ppm nicht überschreiten.",
+      "severity": "critical",
+      "mandatory_stop_work": true
+    },
+    {
+      "article": "Art. 81",
+      "title_fr": "Ventilation forcée obligatoire",
+      "title_de": "Zwangslüftung",
+      "norm": "BauAV Art. 81 / SIA 196",
+      "text_fr": "Une ventilation forcée continue doit être maintenue jusqu'au front de taille pour renouveler l'air, évacuer les gaz de tir et les émanations d'engins, avec un débit minimum garanti de 2,0 m³/min par travailleur et 4,0 m³/min par kW de puissance diesel installée.",
+      "text_de": "Eine kontinuierliche Zwangslüftung bis zur Ortsbrust muss sichergestellt sein, mit einer Mindestluftmenge von 2.0 m³/min pro Arbeitskraft und 4.0 m³/min pro kW installierter Dieselmotorleistung.",
+      "severity": "high",
+      "mandatory_stop_work": false
+    }
+  ]
+}

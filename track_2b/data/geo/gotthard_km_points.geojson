@@ -1,0 +1,1506 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gotthard Base Tunnel - Official Hectometre Points",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.842585791274775,
+          46.462209192130366
+        ]
+      },
+      "properties": {
+        "km": 245.0,
+        "linie": 594,
+        "name": "PK 245.000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.843271226171412,
+          46.4614444283766
+        ]
+      },
+      "properties": {
+        "km": 245.1,
+        "linie": 594,
+        "name": "PK 245.100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.914452796012537,
+          46.381887624150416
+        ]
+      },
+      "properties": {
+        "km": 255.5,
+        "linie": 594,
+        "name": "PK 255.500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.917364175003037,
+          46.37890751906593
+        ]
+      },
+      "properties": {
+        "km": 255.9,
+        "linie": 594,
+        "name": "PK 255.900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.918945754989055,
+          46.37747985757023
+        ]
+      },
+      "properties": {
+        "km": 256.1,
+        "linie": 594,
+        "name": "PK 256.100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75614802316098,
+          46.695644985059765
+        ]
+      },
+      "properties": {
+        "km": 217.5,
+        "linie": 594,
+        "name": "PK 217.500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.75733659897643,
+          46.69404249783503
+        ]
+      },
+      "properties": {
+        "km": 217.7,
+        "linie": 594,
+        "name": "PK 217.700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.848068729406346,
+          46.45609099263061
+        ]
+      },
+      "properties": {
+        "km": 245.8,
+        "linie": 594,
+        "name": "PK 245.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.76333000270685,
+          46.6850556946629
+        ]
+      },
+      "properties": {
+        "km": 218.8,
+        "linie": 594,
+        "name": "PK 218.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.765396845143568,
+          46.68078979891279
+        ]
+      },
+      "properties": {
+        "km": 219.3,
+        "linie": 594,
+        "name": "PK 219.300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.856290802740013,
+          46.44691320818623
+        ]
+      },
+      "properties": {
+        "km": 247.0,
+        "linie": 594,
+        "name": "PK 247.000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.861770633692108,
+          46.440794352941104
+        ]
+      },
+      "properties": {
+        "km": 247.8,
+        "linie": 594,
+        "name": "PK 247.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.767015757440845,
+          46.67643323838187
+        ]
+      },
+      "properties": {
+        "km": 219.8,
+        "linie": 594,
+        "name": "PK 219.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.768378041855387,
+          46.6711192264929
+        ]
+      },
+      "properties": {
+        "km": 220.4,
+        "linie": 594,
+        "name": "PK 220.400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.76857396189573,
+          46.670229846383904
+        ]
+      },
+      "properties": {
+        "km": 220.5,
+        "linie": 594,
+        "name": "PK 220.500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.768769862190728,
+          46.66934045702287
+        ]
+      },
+      "properties": {
+        "km": 220.6,
+        "linie": 594,
+        "name": "PK 220.600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.87683381376184,
+          46.423966131251916
+        ]
+      },
+      "properties": {
+        "km": 250.0,
+        "linie": 594,
+        "name": "PK 250.000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.771675879980865,
+          46.65418659254687
+        ]
+      },
+      "properties": {
+        "km": 222.3,
+        "linie": 594,
+        "name": "PK 222.300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.77158923421667,
+          46.646093636607105
+        ]
+      },
+      "properties": {
+        "km": 223.2,
+        "linie": 594,
+        "name": "PK 223.200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.880940334360375,
+          46.419376258919044
+        ]
+      },
+      "properties": {
+        "km": 250.6,
+        "linie": 594,
+        "name": "PK 250.600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.771390771033804,
+          46.64159794710578
+        ]
+      },
+      "properties": {
+        "km": 223.7,
+        "linie": 594,
+        "name": "PK 223.700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.771232016403586,
+          46.6380013941313
+        ]
+      },
+      "properties": {
+        "km": 224.1,
+        "linie": 594,
+        "name": "PK 224.100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.771073282881423,
+          46.634404839869816
+        ]
+      },
+      "properties": {
+        "km": 224.5,
+        "linie": 594,
+        "name": "PK 224.500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.889151277688006,
+          46.410196085048
+        ]
+      },
+      "properties": {
+        "km": 251.8,
+        "linie": 594,
+        "name": "PK 251.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.892571689223963,
+          46.40637084108491
+        ]
+      },
+      "properties": {
+        "km": 252.3,
+        "linie": 594,
+        "name": "PK 252.300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.895307657985551,
+          46.403310568004265
+        ]
+      },
+      "properties": {
+        "km": 252.7,
+        "linie": 594,
+        "name": "PK 252.700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.895991605065786,
+          46.40254548485356
+        ]
+      },
+      "properties": {
+        "km": 252.8,
+        "linie": 594,
+        "name": "PK 252.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.770954249853363,
+          46.63170742329946
+        ]
+      },
+      "properties": {
+        "km": 224.8,
+        "linie": 594,
+        "name": "PK 224.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.770636890815238,
+          46.624514308939624
+        ]
+      },
+      "properties": {
+        "km": 225.6,
+        "linie": 594,
+        "name": "PK 225.600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.902146261584134,
+          46.39565958638458
+        ]
+      },
+      "properties": {
+        "km": 253.7,
+        "linie": 594,
+        "name": "PK 253.700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.902830015992917,
+          46.39489447088042
+        ]
+      },
+      "properties": {
+        "km": 253.8,
+        "linie": 594,
+        "name": "PK 253.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.90488115001358,
+          46.39259908175074
+        ]
+      },
+      "properties": {
+        "km": 254.1,
+        "linie": 594,
+        "name": "PK 254.100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.770200658243684,
+          46.614623768678754
+        ]
+      },
+      "properties": {
+        "km": 226.7,
+        "linie": 594,
+        "name": "PK 226.700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7701213508667,
+          46.61282548776288
+        ]
+      },
+      "properties": {
+        "km": 226.9,
+        "linie": 594,
+        "name": "PK 226.900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.906248485013286,
+          46.3910688045557
+        ]
+      },
+      "properties": {
+        "km": 254.3,
+        "linie": 594,
+        "name": "PK 254.300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.913767448987564,
+          46.382651989139426
+        ]
+      },
+      "properties": {
+        "km": 255.4,
+        "linie": 594,
+        "name": "PK 255.400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.702589156503004,
+          46.767743538185705
+        ]
+      },
+      "properties": {
+        "km": 208.5,
+        "linie": 594,
+        "name": "PK 208.500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.70556841512862,
+          46.76373873945992
+        ]
+      },
+      "properties": {
+        "km": 209.0,
+        "linie": 594,
+        "name": "PK 209.000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.707951495272766,
+          46.76053484136452
+        ]
+      },
+      "properties": {
+        "km": 209.4,
+        "linie": 594,
+        "name": "PK 209.400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.769566411986562,
+          46.60023751237361
+        ]
+      },
+      "properties": {
+        "km": 228.3,
+        "linie": 594,
+        "name": "PK 228.300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.786794106744571,
+          46.52903831783457
+        ]
+      },
+      "properties": {
+        "km": 236.4,
+        "linie": 594,
+        "name": "PK 236.400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.712121206884419,
+          46.754927894693694
+        ]
+      },
+      "properties": {
+        "km": 210.1,
+        "linie": 594,
+        "name": "PK 210.100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.714503520925573,
+          46.751723856233795
+        ]
+      },
+      "properties": {
+        "km": 210.5,
+        "linie": 594,
+        "name": "PK 210.500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.71509904868565,
+          46.750922840978205
+        ]
+      },
+      "properties": {
+        "km": 210.6,
+        "linie": 594,
+        "name": "PK 210.600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.769526778708839,
+          46.599338370788196
+        ]
+      },
+      "properties": {
+        "km": 228.4,
+        "linie": 594,
+        "name": "PK 228.400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.769368284856075,
+          46.59574180343432
+        ]
+      },
+      "properties": {
+        "km": 228.8,
+        "linie": 594,
+        "name": "PK 228.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.76917017757506,
+          46.59124609289696
+        ]
+      },
+      "properties": {
+        "km": 229.3,
+        "linie": 594,
+        "name": "PK 229.300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.79208795857306,
+          46.51890042035115
+        ]
+      },
+      "properties": {
+        "km": 237.6,
+        "linie": 594,
+        "name": "PK 237.600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.795245494208947,
+          46.5149681344266
+        ]
+      },
+      "properties": {
+        "km": 238.1,
+        "linie": 594,
+        "name": "PK 238.100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.717480995578942,
+          46.74771873897512
+        ]
+      },
+      "properties": {
+        "km": 211.0,
+        "linie": 594,
+        "name": "PK 211.000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.719862659488395,
+          46.74451459503579
+        ]
+      },
+      "properties": {
+        "km": 211.4,
+        "linie": 594,
+        "name": "PK 211.400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.721648724657179,
+          46.74211144463824
+        ]
+      },
+      "properties": {
+        "km": 211.7,
+        "linie": 594,
+        "name": "PK 211.700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7689325026877,
+          46.58585123785818
+        ]
+      },
+      "properties": {
+        "km": 229.9,
+        "linie": 594,
+        "name": "PK 229.900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.768853292373972,
+          46.58405294325705
+        ]
+      },
+      "properties": {
+        "km": 230.1,
+        "linie": 594,
+        "name": "PK 230.100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.768813682777653,
+          46.58315380042904
+        ]
+      },
+      "properties": {
+        "km": 230.2,
+        "linie": 594,
+        "name": "PK 230.200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.768790162451783,
+          46.577758022475074
+        ]
+      },
+      "properties": {
+        "km": 230.8,
+        "linie": 594,
+        "name": "PK 230.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.796617582619323,
+          46.51343857458946
+        ]
+      },
+      "properties": {
+        "km": 238.3,
+        "linie": 594,
+        "name": "PK 238.300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.798677723430316,
+          46.51114511795253
+        ]
+      },
+      "properties": {
+        "km": 238.6,
+        "linie": 594,
+        "name": "PK 238.600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.802110903846497,
+          46.50732261863106
+        ]
+      },
+      "properties": {
+        "km": 239.1,
+        "linie": 594,
+        "name": "PK 239.100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.80417056617862,
+          46.50502906186139
+        ]
+      },
+      "properties": {
+        "km": 239.4,
+        "linie": 594,
+        "name": "PK 239.400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.724625150554566,
+          46.73810613630376
+        ]
+      },
+      "properties": {
+        "km": 212.2,
+        "linie": 594,
+        "name": "PK 212.200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.725220377467341,
+          46.73730506695442
+        ]
+      },
+      "properties": {
+        "km": 212.3,
+        "linie": 594,
+        "name": "PK 212.300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.727005964933241,
+          46.73490183068955
+        ]
+      },
+      "properties": {
+        "km": 212.6,
+        "linie": 594,
+        "name": "PK 212.600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.73057666251299,
+          46.73009528134135
+        ]
+      },
+      "properties": {
+        "km": 213.2,
+        "linie": 594,
+        "name": "PK 213.200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.76894520715082,
+          46.57596217928011
+        ]
+      },
+      "properties": {
+        "km": 231.0,
+        "linie": 594,
+        "name": "PK 231.000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.769513384023691,
+          46.57238600578878
+        ]
+      },
+      "properties": {
+        "km": 231.4,
+        "linie": 594,
+        "name": "PK 231.400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.808289393613514,
+          46.500441844231915
+        ]
+      },
+      "properties": {
+        "km": 240.0,
+        "linie": 594,
+        "name": "PK 240.000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.734146723466447,
+          46.725288617628394
+        ]
+      },
+      "properties": {
+        "km": 213.8,
+        "linie": 594,
+        "name": "PK 213.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.735336593475145,
+          46.723686365090096
+        ]
+      },
+      "properties": {
+        "km": 214.0,
+        "linie": 594,
+        "name": "PK 214.000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.737716147732064,
+          46.720481830618944
+        ]
+      },
+      "properties": {
+        "km": 214.4,
+        "linie": 594,
+        "name": "PK 214.400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.773109056070762,
+          46.56189161572577
+        ]
+      },
+      "properties": {
+        "km": 232.6,
+        "linie": 594,
+        "name": "PK 232.600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.77455037056959,
+          46.55843344726593
+        ]
+      },
+      "properties": {
+        "km": 233.0,
+        "linie": 594,
+        "name": "PK 233.000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.81515255522975,
+          46.49279614753262
+        ]
+      },
+      "properties": {
+        "km": 241.0,
+        "linie": 594,
+        "name": "PK 241.000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.818583396391828,
+          46.488973147363765
+        ]
+      },
+      "properties": {
+        "km": 241.5,
+        "linie": 594,
+        "name": "PK 241.500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.819955602390571,
+          46.48744391623776
+        ]
+      },
+      "properties": {
+        "km": 241.7,
+        "linie": 594,
+        "name": "PK 241.700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.688878888962751,
+          46.786164578737505
+        ]
+      },
+      "properties": {
+        "km": 206.2,
+        "linie": 594,
+        "name": "PK 206.200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.691860185885908,
+          46.782160147209176
+        ]
+      },
+      "properties": {
+        "km": 206.7,
+        "linie": 594,
+        "name": "PK 206.700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6924563868798,
+          46.7813592531718
+        ]
+      },
+      "properties": {
+        "km": 206.8,
+        "linie": 594,
+        "name": "PK 206.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.700801404300982,
+          46.77014637356829
+        ]
+      },
+      "properties": {
+        "km": 208.2,
+        "linie": 594,
+        "name": "PK 208.200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.645308999004548,
+          46.838091946641555
+        ]
+      },
+      "properties": {
+        "km": 199.5,
+        "linie": 594,
+        "name": "PK 199.500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.647908643991258,
+          46.83299875747064
+        ]
+      },
+      "properties": {
+        "km": 200.1,
+        "linie": 594,
+        "name": "PK 200.100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.648918822206312,
+          46.831338764521156
+        ]
+      },
+      "properties": {
+        "km": 200.3,
+        "linie": 594,
+        "name": "PK 200.300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.652517123467309,
+          46.82654336833903
+        ]
+      },
+      "properties": {
+        "km": 200.9,
+        "linie": 594,
+        "name": "PK 200.900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.653899400171646,
+          46.82501496022325
+        ]
+      },
+      "properties": {
+        "km": 201.1,
+        "linie": 594,
+        "name": "PK 201.100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.65613681078318,
+          46.822796461789224
+        ]
+      },
+      "properties": {
+        "km": 201.4,
+        "linie": 594,
+        "name": "PK 201.400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.663699010562622,
+          46.81658711572438
+        ]
+      },
+      "properties": {
+        "km": 202.3,
+        "linie": 594,
+        "name": "PK 202.300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.665378720391073,
+          46.81520627851654
+        ]
+      },
+      "properties": {
+        "km": 202.5,
+        "linie": 594,
+        "name": "PK 202.500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.66699056479362,
+          46.81378788289616
+        ]
+      },
+      "properties": {
+        "km": 202.7,
+        "linie": 594,
+        "name": "PK 202.700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.66777026829035,
+          46.81306496409202
+        ]
+      },
+      "properties": {
+        "km": 202.8,
+        "linie": 594,
+        "name": "PK 202.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.668532202266409,
+          46.81233317145864
+        ]
+      },
+      "properties": {
+        "km": 202.9,
+        "linie": 594,
+        "name": "PK 202.900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.672067949366253,
+          46.80854843487904
+        ]
+      },
+      "properties": {
+        "km": 203.4,
+        "linie": 594,
+        "name": "PK 203.400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.67335077007005,
+          46.80697980820393
+        ]
+      },
+      "properties": {
+        "km": 203.6,
+        "linie": 594,
+        "name": "PK 203.600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.675159240137523,
+          46.80458393703162
+        ]
+      },
+      "properties": {
+        "km": 203.9,
+        "linie": 594,
+        "name": "PK 203.900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.682914978248077,
+          46.794173210828056
+        ]
+      },
+      "properties": {
+        "km": 205.2,
+        "linie": 594,
+        "name": "PK 205.200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.684704339005407,
+          46.791770653873705
+        ]
+      },
+      "properties": {
+        "km": 205.5,
+        "linie": 594,
+        "name": "PK 205.500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.685300765910918,
+          46.79096979805977
+        ]
+      },
+      "properties": {
+        "km": 205.6,
+        "linie": 594,
+        "name": "PK 205.600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.78103400627007,
+          46.5428714949422
+        ]
+      },
+      "properties": {
+        "km": 234.8,
+        "linie": 594,
+        "name": "PK 234.800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.78283436070025,
+          46.53854866229262
+        ]
+      },
+      "properties": {
+        "km": 235.3,
+        "linie": 594,
+        "name": "PK 235.300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.784274431656938,
+          46.53509036598138
+        ]
+      },
+      "properties": {
+        "km": 235.7,
+        "linie": 594,
+        "name": "PK 235.700"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.832301956582354,
+          46.47368007696223
+        ]
+      },
+      "properties": {
+        "km": 243.5,
+        "linie": 594,
+        "name": "PK 243.500"
+      }
+    }
+  ]
+}

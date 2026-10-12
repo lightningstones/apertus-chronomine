@@ -124,3 +124,38 @@ def test_demo_images_static():
         assert res.status_code == 200
         assert "<svg" in res.text
 
+
+def test_swiss_railway_tunnels_ogd():
+    res = client.get("/api/geo/swiss-tunnels")
+    assert res.status_code == 200
+    data = res.json()
+    assert data["type"] == "FeatureCollection"
+    assert len(data["features"]) >= 280
+    # Check Gotthard-Basistunnel is in the list
+    names = [f["properties"]["name"] for f in data["features"]]
+    assert any("Gotthard-Basistunnel" in n for n in names)
+
+
+def test_gotthard_base_tunnel_geometry():
+    res = client.get("/api/geo/gotthard-line")
+    assert res.status_code == 200
+    data = res.json()
+    assert data["type"] == "FeatureCollection"
+    assert len(data["features"]) == 5
+    assert any("Sedrun" in f["properties"]["bp_anf_bez"] for f in data["features"])
+
+
+def test_fedlex_and_suva_knowledge():
+    res_fedlex = client.get("/api/knowledge/fedlex-bauav")
+    assert res_fedlex.status_code == 200
+    assert "SR 832.311.141" in res_fedlex.json()["systematic_compilation_id"]
+
+    res_suva = client.get("/api/knowledge/suva-vital-rules")
+    assert res_suva.status_code == 200
+    assert len(res_suva.json()["rules"]) == 10
+
+    res_sia = client.get("/api/knowledge/sia-118")
+    assert res_sia.status_code == 200
+    assert any("Art. 44" in a["article"] for a in res_sia.json()["articles"])
+
+

@@ -1,0 +1,43 @@
+{
+  "source": "Société suisse des ingénieurs et des architectes (SIA)",
+  "standard": "Norme SIA 118 - Conditions générales pour l'exécution des travaux de construction (Ausgabe 2013)",
+  "articles": [
+    {
+      "article": "Art. 44",
+      "title_fr": "Travaux en régie (Regiearbeiten) - Justification et commande",
+      "title_de": "Regiearbeiten - Berechtigung und Anordnung",
+      "norm": "SIA 118 Art. 44",
+      "legal_content_fr": "Les travaux en régie ne sont exécutés que s'ils sont prévus au contrat ou ordonnés expressément par la direction des travaux. L'entrepreneur a droit à une rémunération en régie s'il a averti la direction des travaux sans retard dès qu'apparaît la nécessité de travaux imprévus ou d'interventions urgentes causées par des incidents fortuits, des venues d'eau imprévues ou des arrêts de chantier non imputables à l'entrepreneur.",
+      "legal_content_de": "Regiearbeiten dürfen nur ausgeführt werden, wenn sie im Vertrag vorgesehen oder von der Bauleitung ausdrücklich angeordnet worden sind. Der Unternehmer hat Anspruch auf Vergütung in Regie, wenn er die Bauleitung unverzüglich benachrichtigt hat, sobald sich unvorhergesehene Arbeiten oder dringliche Massnahmen infolge von Wassereinbrüchen oder unverschuldeten Stillständen aufdrängen.",
+      "rules": [
+        "Avis immédiat à la direction des travaux dès survenance de l'aléa",
+        "Établissement quotidien des rapports de régie (Regierapporte)",
+        "Détail obligatoire : heures de personnel par qualification, engins immobilisés, matériaux consommés"
+      ]
+    },
+    {
+      "article": "Art. 45",
+      "title_fr": "Bons et rapports de régie - Procédure d'approbation",
+      "title_de": "Regierapporte - Genehmigungsverfahren",
+      "norm": "SIA 118 Art. 45",
+      "legal_content_fr": "L'entrepreneur remet chaque semaine à la direction des travaux les rapports de régie journaliers pour vérification. La direction des travaux doit les viser ou formuler ses objections motivées par écrit dans un délai de 10 jours ouvrables. À défaut d'objection dans ce délai, les rapports sont réputés acceptés.",
+      "legal_content_de": "Der Unternehmer stellt der Bauleitung wöchentlich die täglichen Regierapporte zur Prüfung zu. Die Bauleitung hat sie innert 10 Arbeitstagen zu visieren oder begründete Einwände schriftlich mitzuteilen. Ohne Einwand gelten sie als genehmigt.",
+      "rules": [
+        "Délai d'objection de 10 jours ouvrables",
+        "Signature tripartite requise (chef de chantier, conducteur de travaux, représentant MO)"
+      ]
+    },
+    {
+      "article": "Art. 46",
+      "title_fr": "Journal des travaux (Bautagebuch)",
+      "title_de": "Bautagebuch - Führung und Beweiskraft",
+      "norm": "SIA 118 Art. 46",
+      "legal_content_fr": "Le journal des travaux est tenu quotidiennement par l'entrepreneur ou conjointement avec la direction des travaux. Il consigne avec exactitude les conditions météorologiques, les effectifs présents sur le chantier par catégorie, l'avancement métrique des travaux, les arrêts fortuits et leurs causes, les incidents géologiques, ainsi que tous les ordres verbaux donnés sur place.",
+      "legal_content_de": "Das Bautagebuch wird täglich vom Unternehmer geführt. Es hält die Witterungsverhältnisse, den Personalbestand nach Kategorien, den Baufortschritt, Stillstände und deren Ursachen, geologische Zwischenfälle sowie alle mündlich erteilten Weisungen fest.",
+      "rules": [
+        "Tenue quotidienne obligatoire",
+        "Valeur probante contractuelle en cas de litige ou réclamation financière"
+      ]
+    }
+  ]
+}

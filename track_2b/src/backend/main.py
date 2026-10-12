@@ -81,6 +81,51 @@ async def get_demo_field_notes():
         return json.load(f)
 
 
+@app.get("/api/geo/swiss-tunnels")
+async def get_swiss_railway_tunnels():
+    f = GEO_DIR / "swiss_railway_tunnels.geojson"
+    if not f.exists():
+        raise HTTPException(status_code=404, detail="swiss_railway_tunnels.geojson not found")
+    with open(f, "r", encoding="utf-8") as fp:
+        return json.load(fp)
+
+
+@app.get("/api/geo/gotthard-line")
+async def get_gotthard_base_tunnel_geometry():
+    f = GEO_DIR / "gotthard_base_tunnel_sbb.geojson"
+    if not f.exists():
+        raise HTTPException(status_code=404, detail="gotthard_base_tunnel_sbb.geojson not found")
+    with open(f, "r", encoding="utf-8") as fp:
+        return json.load(fp)
+
+
+@app.get("/api/knowledge/fedlex-bauav")
+async def get_fedlex_bauav():
+    f = KNOWLEDGE_DIR / "fedlex_bauav_2022.json"
+    if not f.exists():
+        raise HTTPException(status_code=404, detail="fedlex_bauav_2022.json not found")
+    with open(f, "r", encoding="utf-8") as fp:
+        return json.load(fp)
+
+
+@app.get("/api/knowledge/suva-vital-rules")
+async def get_suva_vital_rules():
+    f = KNOWLEDGE_DIR / "suva_vital_rules_underground.json"
+    if not f.exists():
+        raise HTTPException(status_code=404, detail="suva_vital_rules_underground.json not found")
+    with open(f, "r", encoding="utf-8") as fp:
+        return json.load(fp)
+
+
+@app.get("/api/knowledge/sia-118")
+async def get_sia_118():
+    f = KNOWLEDGE_DIR / "sia_118_articles.json"
+    if not f.exists():
+        raise HTTPException(status_code=404, detail="sia_118_articles.json not found")
+    with open(f, "r", encoding="utf-8") as fp:
+        return json.load(fp)
+
+
 @app.get("/api/demo/rules")
 @app.get("/api/demo/suva-rules")
 async def get_demo_suva_rules():

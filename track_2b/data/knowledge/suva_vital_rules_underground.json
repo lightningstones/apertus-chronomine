@@ -1,0 +1,87 @@
+{
+  "source": "SUVA - Caisse nationale suisse d'assurance en cas d'accidents (Lucerne)",
+  "publication": "Dix règles vitales pour les travaux souterrains (Réf. 84043.f) / Zehn lebenswichtige Regeln für den Untertagbau (Ref. 84043.d)",
+  "safety_charter": "Charte de la sécurité SUVA - Principe fondamental : Dire STOPP en cas de danger vital",
+  "rules": [
+    {
+      "rule_number": 1,
+      "title_fr": "Sécuriser le front de taille et la zone de travail",
+      "title_de": "Ortsbrust und Arbeitsbereich sichern",
+      "suva_code": "SUVA-84043-R1",
+      "norm_ref": "SIA 198 / BauAV Art. 22",
+      "mandate": "Purger systématiquement le rocher détaché avant toute autre opération. Poser le soutènement primaire sans attendre."
+    },
+    {
+      "rule_number": 2,
+      "title_fr": "Respecter le rayon d'action des engins de chantier",
+      "title_de": "Gefahrenbereich von Baumaschinen meiden",
+      "suva_code": "SUVA-84043-R2",
+      "norm_ref": "BauAV Art. 30",
+      "mandate": "Ne jamais stationner dans l'angle mort des chargeuses sur pneus, camions de marinage ou tunneliers."
+    },
+    {
+      "rule_number": 3,
+      "title_fr": "Porter en permanence l'appareil auto-sauveteur",
+      "title_de": "Selbstretter stets auf sich tragen",
+      "suva_code": "SUVA-84043-R3",
+      "norm_ref": "BauAV Art. 51",
+      "mandate": "Chaque personne en souterrain porte son auto-sauveteur oxygène (minimum 50 min d'autonomie) et son badge de localisation."
+    },
+    {
+      "rule_number": 4,
+      "title_fr": "Ne jamais pénétrer dans une zone non ventilée",
+      "title_de": "Nie in unbewetterte Bereiche vordringen",
+      "suva_code": "SUVA-84043-R4",
+      "norm_ref": "SIA 196 / BauAV Art. 81",
+      "mandate": "Toute galerie sans aérage forcé actif est interdite d'accès sous peine d'asphyxie immédiate."
+    },
+    {
+      "rule_number": 5,
+      "title_fr": "Sécuriser les fouilles et tranchées dès 1,50 m",
+      "title_de": "Gräben und Baugruben ab 1.50 m sichern",
+      "suva_code": "SUVA-84043-R5",
+      "norm_ref": "BauAV Art. 54",
+      "mandate": "Blindage obligatoire pour toute excavation supérieure à 1,50 m. Interdiction formelle de descendre sans caisson."
+    },
+    {
+      "rule_number": 6,
+      "title_fr": "Utiliser des échafaudages complets et sécurisés",
+      "title_de": "Nur sichere Gerüste betreten",
+      "suva_code": "SUVA-84043-R6",
+      "norm_ref": "BauAV Art. 15",
+      "mandate": "Garde-corps supérieur, sous-lisse et plinthe de bordure obligatoires sur tout échafaudage dès 2,00 m de hauteur."
+    },
+    {
+      "rule_number": 7,
+      "title_fr": "Mesurer et surveiller en continu les gaz toxiques",
+      "title_de": "Schadgase laufend überwachen",
+      "suva_code": "SUVA-84043-R7",
+      "norm_ref": "BauAV Art. 80",
+      "mandate": "Surveillance CO, NO2, CH4 et O2. Évacuation immédiate si CO > 30 ppm ou O2 < 19%."
+    },
+    {
+      "rule_number": 8,
+      "title_fr": "Respecter les consignes de tir à l'explosif",
+      "title_de": "Sprengvorschriften strikte einhalten",
+      "suva_code": "SUVA-84043-R8",
+      "norm_ref": "Sprengstoffgesetz / BauAV Art. 52",
+      "mandate": "Évacuation de la zone de danger, sirène d'alerte, contrôle des ratés de tir avant toute reprise des travaux."
+    },
+    {
+      "rule_number": 9,
+      "title_fr": "Maintenir les chemins de fuite et rameaux transversaux libres",
+      "title_de": "Fluchtwege und Querschläge freihalten",
+      "suva_code": "SUVA-84043-R9",
+      "norm_ref": "BauAV Art. 51 / SIA 197",
+      "mandate": "Aucun entreposage de matériel dans les querschläge ou devant les portes coupe-feu de secours."
+    },
+    {
+      "rule_number": 10,
+      "title_fr": "Interrompre le travail en cas de danger vital (STOPP)",
+      "title_de": "Bei Lebensgefahr die Arbeit einstellen (STOPP)",
+      "suva_code": "SUVA-84043-R10",
+      "norm_ref": "SUVA Sicherheitscharta",
+      "mandate": "Chaque travailleur a le devoir et le droit légal de dire STOPP et de suspendre le travail sans sanction."
+    }
+  ]
+}

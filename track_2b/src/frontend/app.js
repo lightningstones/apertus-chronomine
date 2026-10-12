@@ -6,7 +6,7 @@
 'use strict';
 
 const CONFIG = {
-  CENTER: [7.5040, 46.8000],
+  CENTER: [8.7690, 46.6660],
   ZOOM_DEFAULT: 16,
   ZOOM_MIN: 14,
   ZOOM_MAX: 20,
@@ -347,7 +347,7 @@ class ChronoMineApp {
 
     // Pin on map button
     document.getElementById('btn-pin-on-map')?.addEventListener('click', () => {
-      const coords = [7.5020, 46.8010]; // PK 3.200 location
+      const coords = [8.7687, 46.6660]; // Gotthard Base Tunnel PK 220.975 (Querschlag QS-42)
       this.map.flyTo({ center: coords, zoom: 18, pitch: 50 });
 
       if (this.incidentMarker) this.incidentMarker.remove();
@@ -357,7 +357,7 @@ class ChronoMineApp {
       
       this.incidentMarker = new maplibregl.Marker({ element: el })
         .setLngLat(coords)
-        .setPopup(new maplibregl.Popup({ offset: 25 }).setHTML('<strong>⚠️ ALERTE PK 3.200</strong><br>Rupture conduite drainage & Regierapport Art. 44'))
+        .setPopup(new maplibregl.Popup({ offset: 25 }).setHTML('<strong>⚠️ ALERTE PK 220.975 (QS-42)</strong><br>Rupture conduite drainage & Regierapport SIA 118 Art. 44'))
         .addTo(this.map);
     });
 
