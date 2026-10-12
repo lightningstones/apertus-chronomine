@@ -1,0 +1,111 @@
+{
+  "type": "FeatureCollection",
+  "name": "ChronoMine - Mineurs actifs",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.5025, 46.8010]
+      },
+      "properties": {
+        "id": "a1b2c3d4-0001-4e5f-8a9b-000000000001",
+        "name": "Karimi, Reza",
+        "badge": "M-041",
+        "tunnel": "T-01 — Galerie Principale Nord",
+        "sector": "Section A",
+        "depth_m": 120,
+        "status": "active",
+        "battery_pct": 87,
+        "heart_rate": 72,
+        "o2_pct": 20.8,
+        "last_update": "2026-07-24T19:18:05Z",
+        "tag_id": "UWB-041"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.5060, 46.7995]
+      },
+      "properties": {
+        "id": "a1b2c3d4-0002-4e5f-8a9b-000000000002",
+        "name": "Müller, Franziska",
+        "badge": "M-017",
+        "tunnel": "T-04 — Galerie Transversale B",
+        "sector": "Section centrale",
+        "depth_m": 135,
+        "status": "active",
+        "battery_pct": 62,
+        "heart_rate": 81,
+        "o2_pct": 20.5,
+        "last_update": "2026-07-24T19:18:12Z",
+        "tag_id": "UWB-017"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.5095, 46.7987]
+      },
+      "properties": {
+        "id": "a1b2c3d4-0003-4e5f-8a9b-000000000003",
+        "name": "Okonkwo, Emeka",
+        "badge": "M-033",
+        "tunnel": "T-07 — Galerie d'Évacuation Est",
+        "sector": "Section D",
+        "depth_m": 158,
+        "status": "alert",
+        "battery_pct": 21,
+        "heart_rate": 112,
+        "o2_pct": 18.9,
+        "last_update": "2026-07-24T19:17:44Z",
+        "tag_id": "UWB-033"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.5010, 46.8000]
+      },
+      "properties": {
+        "id": "a1b2c3d4-0004-4e5f-8a9b-000000000004",
+        "name": "Lefevre, Antoine",
+        "badge": "M-058",
+        "tunnel": "T-03 — Galerie Transversale A",
+        "sector": "Section B",
+        "depth_m": 130,
+        "status": "offline",
+        "battery_pct": 0,
+        "heart_rate": null,
+        "o2_pct": null,
+        "last_update": "2026-07-24T18:52:31Z",
+        "tag_id": "UWB-058"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.5070, 46.7990]
+      },
+      "properties": {
+        "id": "a1b2c3d4-0005-4e5f-8a9b-000000000005",
+        "name": "Schneider, Lena",
+        "badge": "M-029",
+        "tunnel": "T-02 — Galerie Principale Sud",
+        "sector": "Section C-Est",
+        "depth_m": 145,
+        "status": "active",
+        "battery_pct": 95,
+        "heart_rate": 68,
+        "o2_pct": 20.9,
+        "last_update": "2026-07-24T19:18:15Z",
+        "tag_id": "UWB-029"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "NOTE-001",
+    "language": "pt",
+    "author_role": "Mineiro / Operador de Escavadora",
+    "author_name": "Manuel Silva",
+    "location_pk": "PK 3.200 (Galerie Nord)",
+    "raw_text": "A escavadora partiu uma tubagem de drenagem principal no PK 3.200 às 14h15. Tivemos infiltração forte de água e lama na via. Paragem total durante 2h30. Tive que mobilizar 3 homens com bomba submersível e pá para desobstruir. Gastámos 4 sacos de cimento rápido para selar provisoriamente.",
+    "incident_type": "Infiltration / Avarie équipement",
+    "expected_sia_action": "Bautagebuch journalier + Regierapport (Art. 44) pour 3 ouvriers x 2.5h + matériel non prévu (4 sacs ciment)"
+  },
+  {
+    "id": "NOTE-002",
+    "language": "it",
+    "author_role": "Caposquadra Scavo",
+    "author_name": "Giovanni Rossi",
+    "location_pk": "PK 4.150 (Fronte di scavo Sud)",
+    "raw_text": "Durante l'avanzamento al PK 4.150 abbiamo trovato roccia friabile con fessurazioni importanti e convergenza rapida della volta. Mancano 4 bulloni radiali Swellex rispetto allo schema di armamento previsto per la classe di scavo III. Rischio di distacco immediato se non si proietta spritzbeton.",
+    "incident_type": "Instabilité géotechnique / Non-conformité soutènement",
+    "expected_sia_action": "Alerte sécurité immédiate SIA 198 / BauAV. Arrêt du front, pose des 4 boulons manquants et projection de 15cm de béton fibré."
+  },
+  {
+    "id": "NOTE-003",
+    "language": "fr",
+    "author_role": "Chef d'équipe terrassement",
+    "author_name": "Laurent Mercier",
+    "location_pk": "Portail Nord — Fouille de raccordement",
+    "raw_text": "Fouille ouverte de 2m60 de profondeur pour la pose du collecteur d'eaux de chantier. Le talus est vertical à 80 degrés dans du remblai sablonneux sans aucun blindage. Les ouvriers descendent dedans pour régler la pente au laser.",
+    "incident_type": "Infraction critique sécurité SUVA / BauAV",
+    "expected_sia_action": "Infraction BauAV Art. 54. Évacuation immédiate de la fouille. Pose obligatoire d'un caisson de blindage ou recoupage du talus à 45°."
+  },
+  {
+    "id": "NOTE-004",
+    "language": "de",
+    "author_role": "Bauleiter Untertag",
+    "author_name": "Hans-Peter Gerber",
+    "location_pk": "Schacht P1 (Vertikaler Zugang)",
+    "raw_text": "Arbeitsgerüst auf Zwischenpodest Schacht P1 (Tiefe 45m). Das Geländer hat kein Bordbrett und der Zwischenholm fehlt auf der Westseite. Absturzhöhe über 4 Meter auf die Sohle. Windzug von der Lüftung ist stark.",
+    "incident_type": "Chute de hauteur / Non-conformité échafaudage",
+    "expected_sia_action": "Infraction BauAV Art. 15. Sperrung des Gerüsts bis Montage des vorschriftsgemässen dreiteiligen Seitenschutzes."
+  },
+  {
+    "id": "NOTE-005",
+    "language": "es",
+    "author_role": "Operador de ventilación",
+    "author_name": "Carlos Gomez",
+    "location_pk": "PK 1.800 (Galerie transversale C)",
+    "raw_text": "El ventilador secundario V-03 se ha parado por sobrecalentamiento. El detector portátil marca monóxido de carbono (CO) subiendo a 45 ppm después de la detonación de las 11h. Hay 4 mineros trabajando en el avance.",
+    "incident_type": "Ventilation défaillante / Risque d'intoxication SIA 196",
+    "expected_sia_action": "Alerte évacuation immédiate SIA 196 / BauAV Art. 80. Relance de la ventilation de secours avant tout retour au front."
+  }
+]

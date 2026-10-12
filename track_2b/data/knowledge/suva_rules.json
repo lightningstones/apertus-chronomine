@@ -1,0 +1,66 @@
+{
+  "source": "SUVA (Caisse nationale suisse d'assurance en cas d'accidents) & Fedlex (BauAV RS 832.311.141)",
+  "version": "2022-Revision",
+  "rules": [
+    {
+      "id": "BAUAV-ART-54",
+      "category": "Fouilles et tranchées",
+      "norm": "BauAV Art. 54",
+      "title": "Blindage obligatoire des tranchées et fouilles",
+      "requirement_fr": "Les parois de fouilles et de tranchées d'une profondeur supérieure à 1.50 m doivent être blindées ou talutées conformément aux règles géotechniques. Tout travailleur doit être protégé contre l'ensevelissement.",
+      "requirement_de": "Gräben und Baugruben mit einer Tiefe von mehr als 1.50 m müssen gesichert werden (Verbauung oder Böschung).",
+      "critical_risk": "Ensevelissement mortel par effondrement de terrain",
+      "corrective_action": "Interrompre immédiatement les travaux. Installer des caissons de blindage homologués avant toute descente."
+    },
+    {
+      "id": "BAUAV-ART-51",
+      "category": "Talus d'excavation",
+      "norm": "BauAV Art. 51",
+      "title": "Angles maximaux des talus non étayés",
+      "requirement_fr": "L'angle de talus ne doit pas dépasser 45° dans les terrains non cohérents (graviers, sables), et 60° dans les terrains cohérents fermes. Dans les terrains rocheux altérés, une étude géotechnique est requise.",
+      "requirement_de": "Böschungswinkel maximal 45° bei rolligem Material, 60° bei bindigem Material.",
+      "critical_risk": "Glissement de terrain spontané",
+      "corrective_action": "Recouper le talus à la pente réglementaire ou installer un soutènement cloué avec béton projeté."
+    },
+    {
+      "id": "BAUAV-ART-15",
+      "category": "Chutes de hauteur",
+      "norm": "BauAV Art. 15",
+      "title": "Protection contre les chutes à partir de 2.00 m",
+      "requirement_fr": "Dès une hauteur de chute de 2.00 m (ou 3.00 m en gros œuvre général), un garde-corps en trois éléments (lisse haute à 100 cm, sous-lisse, plinthe de 15 cm) ou un filet de sécurité doit être mis en place sans délai.",
+      "requirement_de": "Absturzsicherung ab 2.00 m Absturzhöhe zwingend erforderlich (Seitenschutz dreiteilig).",
+      "critical_risk": "Chute mortelle de hauteur",
+      "corrective_action": "Poser un garde-corps complet normalisé ou attacher les opérateurs à une ligne de vie temporaire."
+    },
+    {
+      "id": "BAUAV-ART-80",
+      "category": "Travaux souterrains",
+      "norm": "BauAV Art. 80-87 & SIA 196",
+      "title": "Ventilation et aération des galeries souterraines",
+      "requirement_fr": "L'aération forcée continue est obligatoire pour tous les chantiers souterrains. Débit minimal : 4 m³/min par travailleur et 2 à 4 m³/kW·min pour les moteurs diesel. Surveillance continue du CO, NO2, O2 et méthane.",
+      "requirement_de": "Zwangslüftung im Untertagbau obligatorisch. Kontinuierliche Gasmessung.",
+      "critical_risk": "Asphyxie, intoxication aux gaz de tir ou d'échappement",
+      "corrective_action": "Évacuation immédiate de la zone si O2 < 19% ou CO > seuil MAK. Mise en marche forcée des canards de ventilation."
+    },
+    {
+      "id": "SIA-198-ROCK",
+      "category": "Soutènement tunnel",
+      "norm": "SIA 198 / SIA 118/198",
+      "title": "Soutènement immédiat du front de taille",
+      "requirement_fr": "Aucune progression en galerie souterraine ne doit laisser le front ou la voûte sans soutènement primaire prévu (boulons d'ancrage, cintres métalliques ou béton projeté fibré) au-delà de la longueur de passe admissible.",
+      "requirement_de": "Sofortige Sicherung der Ortsbrust und des Gewölbes gemäss Vortriebsklasse.",
+      "critical_risk": "Éboulement en voûte / Rupture de front de taille",
+      "corrective_action": "Appliquer immédiatement la passe de béton projeté d'étanchéité et forer les ancrages radiaux."
+    },
+    {
+      "id": "SIA-118-REGIE",
+      "category": "Gestion contractuelle",
+      "norm": "SIA 118 Art. 44-53",
+      "title": "Formalisation des travaux en régie (Regierapport)",
+      "requirement_fr": "Les travaux non prévus au contrat exécutés en régie doivent faire l'objet d'un rapport quotidien détaillé (heures de main-d'œuvre, engins, matériaux) remis au représentant du maître de l'ouvrage pour visa sous peine de forclusion.",
+      "requirement_de": "Tägliche Regierapporte zwingend erforderlich mit rechtzeitigem Visum der Bauleitung.",
+      "critical_risk": "Refus de paiement des suppléments par le maître d'ouvrage",
+      "corrective_action": "Générer immédiatement le bordereau avec ventilation horaire et demander le contreseing du maître d'œuvre."
+    }
+  ]
+}

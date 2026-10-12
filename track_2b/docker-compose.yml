@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  chronomine-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chronomine-ai
+    ports:
+      - "8000:8000"
+    environment:
+      - APERTUS_PROVIDER=${APERTUS_PROVIDER:-mock_offline}
+      - APERTUS_BASE_URL=${APERTUS_BASE_URL:-https://api.inference.cscs.ch/v1}
+      - APERTUS_API_KEY=${APERTUS_API_KEY:-}
+      - APERTUS_MODEL=${APERTUS_MODEL:-swiss-ai/Apertus-v1.5-8B}
+      - HOST=0.0.0.0
+      - PORT=8000
+    restart: unless-stopped

@@ -1,0 +1,9 @@
+{
+  "dataset_name": "ChronoMine-AI-Swiss-Tunnel-Safety-Benchmark",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "domain": "Civil Engineering & Subterranean Safety (SIA / SUVA / BauAV)",
+  "geographical_context": "Switzerland (Alps / Gotthard / Defense Caverns)",
+  "languages": ["pt", "it", "fr", "de", "es"],
+  "responsible_sourcing": "Compliant with Hack Apertus data guidelines. Grounded on public Swiss laws (Fedlex RS 832.311.141) and freely accessible SUVA checklists."
+}

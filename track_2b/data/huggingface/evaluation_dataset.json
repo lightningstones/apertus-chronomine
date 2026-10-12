@@ -1,0 +1,58 @@
+[
+  {
+    "id": "CASE-001",
+    "domain": "SIA 118 Bautagebuch & Regie",
+    "language": "pt",
+    "input": "A escavadora partiu uma tubagem de drenagem principal no PK 3.200 às 14h15. Tivemos infiltração forte de água e lama na via. Paragem total durante 2h30. Tive que mobilizar 3 homens com bomba submersível e pá para desobstruir. Gastámos 4 sacos de cimento rápido para selar provisoriamente.",
+    "ground_truth_regie_required": true,
+    "ground_truth_hours": 7.5,
+    "ground_truth_sia_norm": "SIA 118 Art. 44",
+    "evaluation_metric": "Extraction accuracy of delay, workforce hours, and SIA 118 justification"
+  },
+  {
+    "id": "CASE-002",
+    "domain": "SIA 198 Geotechnical Face Inspection",
+    "language": "it",
+    "input": "Durante l'avanzamento al PK 4.150 abbiamo trovato roccia friabile con fessurazioni importanti e convergenza rapida della volta. Mancano 4 bulloni radiali Swellex rispetto allo schema di armamento previsto per la classe di scavo III. Rischio di distacco immediato se non si proietta spritzbeton.",
+    "ground_truth_safety_hazard": true,
+    "ground_truth_infraction": "SIA 198 / BauAV Art. 80",
+    "evaluation_metric": "Rockburst hazard identification and radial bolting enforcement"
+  },
+  {
+    "id": "CASE-003",
+    "domain": "SUVA & BauAV Trench Safety",
+    "language": "fr",
+    "input": "Fouille ouverte de 2m60 de profondeur pour la pose du collecteur d'eaux de chantier. Le talus est vertical à 80 degrés dans du remblai sablonneux sans aucun blindage. Les ouvriers descendent dedans pour régler la pente au laser.",
+    "ground_truth_safety_hazard": true,
+    "ground_truth_infraction": "BauAV Art. 54",
+    "evaluation_metric": "Detection of missing trench box shoring > 1.50m and stop-work order"
+  },
+  {
+    "id": "CASE-004",
+    "domain": "BauAV Fall Protection",
+    "language": "de",
+    "input": "Arbeitsgerüst auf Zwischenpodest Schacht P1 (Tiefe 45m). Das Geländer hat kein Bordbrett und der Zwischenholm fehlt auf der Westseite. Absturzhöhe über 4 Meter auf die Sohle. Windzug von der Lüftung ist stark.",
+    "ground_truth_safety_hazard": true,
+    "ground_truth_infraction": "BauAV Art. 15",
+    "evaluation_metric": "Three-part scaffolding edge protection verification"
+  },
+  {
+    "id": "CASE-005",
+    "domain": "SIA 196 Tunnel Ventilation",
+    "language": "es",
+    "input": "El ventilador secundario V-03 se ha parado por sobrecalentamiento. El detector portátil marca monóxido de carbono (CO) subiendo a 45 ppm después de la detonación de las 11h. Hay 4 mineros trabajando en el avance.",
+    "ground_truth_safety_hazard": true,
+    "ground_truth_infraction": "SIA 196 / BauAV Art. 80",
+    "evaluation_metric": "Atmospheric toxic gas limit verification and evacuation trigger"
+  },
+  {
+    "id": "CASE-006",
+    "domain": "SIA 118 Weather Delay Claim",
+    "language": "de",
+    "input": "Starker Frosteinbruch (-12°C) und Schneeverwehung am Nordportal Göschenen. Betonage der Portalgalerie musste wegen Unterschreitung der SIA 262 Mindesttemperatur abgebrochen werden. 6 Betonbauer für 4 Stunden freigestellt.",
+    "ground_truth_regie_required": true,
+    "ground_truth_hours": 24.0,
+    "ground_truth_sia_norm": "SIA 118 Art. 34 & SIA 262",
+    "evaluation_metric": "Weather delay compensation claim drafting"
+  }
+]
