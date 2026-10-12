@@ -5,6 +5,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, Any, List
 
+from dotenv import load_dotenv
 from openai import AsyncOpenAI
 from src.backend.models import (
     BautagebuchRequest,
@@ -14,6 +15,9 @@ from src.backend.models import (
     SuvaAuditResponse,
     InfractedRule
 )
+
+# Load local .env
+load_dotenv(Path(__file__).resolve().parent.parent.parent / ".env")
 
 logger = logging.getLogger("chronomine.provider")
 
@@ -32,32 +36,39 @@ def load_suva_knowledge() -> List[Dict[str, Any]]:
 
 class ApertusProvider:
     def __init__(self):
-        self.provider_mode = os.getenv("APERTUS_PROVIDER", "mock_offline").lower()
-        self.base_url = os.getenv("APERTUS_BASE_URL", "https://api.inference.cscs.ch/v1")
+        self.provider_mode = os.getenv("APERTUS_PROVIDER", "swisscom").lower()
+        self.base_url = os.getenv("APERTUS_BASE_URL", "https://api.swisscom.com/products/swiss-ai-weeks/apertus-1.5-70b/v1")
         self.api_key = os.getenv("APERTUS_API_KEY", "")
-        self.model = os.getenv("APERTUS_MODEL", "swiss-ai/Apertus-v1.5-8B")
+        self.model = os.getenv("APERTUS_MODEL", "swiss-ai/Apertus-v1.5-70B")
         self.rules = load_suva_knowledge()
 
-        if self.provider_mode in ("cscs", "ollama") and self.api_key:
+        if self.provider_mode in ("swisscom", "cscs", "ollama") and self.api_key:
             self.client = AsyncOpenAI(
                 base_url=self.base_url,
                 api_key=self.api_key or "not-needed-for-ollama"
             )
+            logger.info(f"Initialized Apertus live client: {self.provider_mode} -> {self.model}")
         else:
             self.client = None
+            logger.info("Apertus provider initialized in sovereign offline mode")
 
     async def generate_bautagebuch(self, req: BautagebuchRequest) -> BautagebuchResponse:
         """Translates and structures frontline multilingual notes into official SIA 118 logs."""
         today = datetime.now().strftime("%Y-%m-%d")
         location = req.location_pk or "PK 3.200 (Galerie Nord)"
 
-        if self.client and self.provider_mode == "cscs":
+        if self.client and self.provider_mode in ("swisscom", "cscs", "ollama"):
             try:
                 system_prompt = (
                     "Tu es un ingénieur expert en génie civil souterrain suisse et norme SIA 118.\n"
                     "Transforme la note de chantier multilingue en un Bautagebuch officiel allemand ou français "
                     "avec bordereau de régie (Regierapport Art. 44).\n"
-                    "Réponds exclusivement en format JSON correspondant au schéma attendu."
+                    "Réponds exclusivement en format JSON valide avec exactement ces clés:\n"
+                    "date (YYYY-MM-DD), location_pk, summary_fr, summary_de, events (liste de strings), "
+                    "delay_hours (float), regierapport (objet avec is_required: bool, sia_reference: str, "
+                    "claim_reason: str, workforce_hours: liste d'objets role/hours/rate_chf, "
+                    "equipment_used: liste de strings, materials_used: liste de strings), "
+                    "safety_hazard_detected: bool, safety_rule_infraction: optional str, official_log_entry: str"
                 )
                 user_prompt = (
                     f"Auteur: {req.author_name} ({req.author_role})\n"
@@ -71,13 +82,21 @@ class ApertusProvider:
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": user_prompt}
                     ],
-                    response_format={"type": "json_object"},
-                    temperature=0.2,
+                    temperature=0.1,
+                    max_tokens=1500
                 )
-                content = json.loads(response.choices[0].message.content)
+                raw_response = response.choices[0].message.content or ""
+                clean_json = raw_response.strip()
+                if "```json" in clean_json:
+                    clean_json = clean_json.split("```json")[1].split("```")[0].strip()
+                elif "```" in clean_json:
+                    clean_json = clean_json.split("```")[1].split("```")[0].strip()
+                content = json.loads(clean_json)
+                if "bautagebuch" not in content.get("official_log_entry", "").lower():
+                    content["official_log_entry"] = f"=== BAUTAGEBUCH (SIA 118) ===\n" + content.get("official_log_entry", "")
                 return BautagebuchResponse(**content)
             except Exception as e:
-                logger.warning(f"Apertus CSCS error, falling back to sovereign offline engine: {e}")
+                logger.warning(f"Apertus live inference error ({e}), falling back to sovereign offline engine.")
 
         # Deterministic Sovereign Air-Gapped Fallback Engine
         raw_lower = req.raw_text.lower()

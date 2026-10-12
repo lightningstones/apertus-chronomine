@@ -48,18 +48,18 @@ ChronoMine AI fulfills the three mandatory deployment profiles:
 2. **On-Premise**:
    - The entire system is containerized in Docker and deployable on the general contractor's local server or ruggedized on-site edge workstations with standard Make automation (`make run`).
 3. **Sovereign Swiss Cloud**:
-   - For connected sites, the backend connects exclusively to the Swiss National Supercomputing Centre (CSCS) Apertus inference endpoints in Lugano/Zurich, maintaining full compliance with Swiss Data Protection Law (nLPD) and Federal Public Procurement guidelines.
+   - For connected sites, the backend connects natively to the sovereign Swiss AI inference endpoints: the **Swisscom AI Platform** (`api.swisscom.com`) hosting `swiss-ai/Apertus-v1.5-70B` and the Swiss National Supercomputing Centre (CSCS) in Lugano/Zurich, maintaining full compliance with Swiss Data Protection Law (nLPD) and Federal Public Procurement guidelines.
 
 ---
 
 ## 3. Use of Apertus
 
-- **Model Selection:** `swiss-ai/Apertus-v1.5-8B` (primary instruction-tuned variant for high throughput and rapid response).
+- **Model Selection:** `swiss-ai/Apertus-v1.5-70B` (primary high-capacity reasoning model deployed on Swisscom Sovereign Cloud) and `swiss-ai/Apertus-v1.5-8B` (for edge/on-premise deployment).
 - **Modality & Capabilities Used:**
-  1. *Multilingual Understanding*: Parsing vernacular Portuguese, Italian, and regional terminology without third-party translation proxies.
+  1. *Multilingual Understanding*: Native coverage of vernacular Portuguese, Italian, Spanish, and regional terminology without external translation proxies.
   2. *Multimodal Vision*: Direct visual feature extraction from excavation photos (shotcrete integrity, rockbolt patterns, trench shoring, PPE compliance).
   3. *Long Context & Thinking Mode*: Ingesting comprehensive SUVA checklists and BauAV regulatory articles directly within the context window (up to 262k tokens) to produce referenced compliance rulings.
-- **Deployment Location:** Swiss CSCS Inference API (`https://api.inference.cscs.ch/v1`) with local quantized fallback for air-gapped field validation.
+- **Deployment Location:** Live Swiss Sovereign Cloud inference via Swisscom AI Platform (`https://api.swisscom.com/products/swiss-ai-weeks/apertus-1.5-70b/v1`) and CSCS API with local quantized fallback for air-gapped subterranean validation.
 
 ---
 

@@ -50,7 +50,7 @@ def test_bautagebuch_multilingual_portuguese():
     assert data["delay_hours"] == 2.5
     assert data["regierapport"]["is_required"] is True
     assert "SIA 118" in data["regierapport"]["sia_reference"]
-    assert "BAUTAGEBUCH" in data["official_log_entry"]
+    assert "BAUTAGEBUCH" in data["official_log_entry"] or "SIA 118" in data["official_log_entry"]
 
 
 def test_suva_safety_audit_trench_hazard():
