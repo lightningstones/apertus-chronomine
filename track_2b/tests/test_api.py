@@ -86,3 +86,41 @@ def test_get_demo_suva_rules():
     data = res.json()
     assert "rules" in data
     assert len(data["rules"]) >= 4
+
+
+def test_system_status():
+    res = client.get("/api/system/status")
+    assert res.status_code == 200
+    data = res.json()
+    assert data["data_residency_swiss"] is True
+    assert data["nlpd_compliant"] is True
+    assert data["connected"] is True
+
+
+def test_bautagebuch_pdf_export():
+    # Generate Bautagebuch data first
+    req = {
+        "raw_text": "A escavadora partiu uma tubagem de drenagem no PK 3.200, paragem 2h30.",
+        "author_name": "Manuel Silva",
+        "author_role": "Mineiro",
+        "location_pk": "PK 3.200",
+        "target_language": "de"
+    }
+    bautagebuch_res = client.post("/api/copilot/bautagebuch", json=req)
+    assert bautagebuch_res.status_code == 200
+    bautagebuch_data = bautagebuch_res.json()
+
+    # Request PDF generation
+    pdf_res = client.post("/api/copilot/bautagebuch/export-pdf", json=bautagebuch_data)
+    assert pdf_res.status_code == 200
+    assert pdf_res.headers["content-type"] == "application/pdf"
+    assert pdf_res.content.startswith(b"%PDF-")
+    assert len(pdf_res.content) > 1000
+
+
+def test_demo_images_static():
+    for img_name in ["trench_hazard.svg", "scaffold_hazard.svg", "rockface_hazard.svg"]:
+        res = client.get(f"/demo/images/{img_name}")
+        assert res.status_code == 200
+        assert "<svg" in res.text
+

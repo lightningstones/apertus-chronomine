@@ -1,7 +1,7 @@
 import json
 import logging
 from pathlib import Path
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
@@ -12,6 +12,7 @@ from src.backend.models import (
     SuvaAuditResponse
 )
 from src.backend.provider import apertus_engine
+from src.backend.pdf_exporter import generate_bautagebuch_pdf
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -107,6 +108,42 @@ async def audit_suva_safety(req: SuvaAuditRequest):
         logger.error(f"Error running SUVA audit: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+
+@app.post("/api/copilot/bautagebuch/export-pdf")
+async def export_bautagebuch_pdf(data: BautagebuchResponse):
+    try:
+        pdf_bytes = generate_bautagebuch_pdf(data)
+        return Response(
+            content=pdf_bytes,
+            media_type="application/pdf",
+            headers={
+                "Content-Disposition": f"attachment; filename=Bautagebuch_SIA118_{data.date}.pdf"
+            }
+        )
+    except Exception as e:
+        logger.error(f"Error generating Bautagebuch PDF: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/system/status")
+async def get_system_status():
+    mode = apertus_engine.provider_mode
+    is_cloud = mode in ("swisscom", "cscs")
+    return {
+        "provider": mode,
+        "model": apertus_engine.model,
+        "deployment_profile": "Sovereign Swiss Cloud" if is_cloud else "Air-Gapped Subterranean Node",
+        "jurisdiction": "Switzerland (Swisscom Cloud / CSCS Lugano)" if is_cloud else "On-Premise / Subsurface Workstation",
+        "data_residency_swiss": True,
+        "nlpd_compliant": True,
+        "connected": True
+    }
+
+
+# Mount demo images if directory exists
+DEMO_IMAGES_DIR = DEMO_DIR / "images"
+if DEMO_IMAGES_DIR.exists():
+    app.mount("/demo/images", StaticFiles(directory=str(DEMO_IMAGES_DIR)), name="demo-images")
 
 # Mount static frontend files if directory exists
 if FRONTEND_DIR.exists():

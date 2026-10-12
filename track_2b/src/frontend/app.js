@@ -25,15 +25,39 @@ class ChronoMineApp {
     this.demoNotes = [];
     this.incidentMarker = null;
     this.is3D = false;
+    this.lastBautagebuchResponse = null;
   }
 
   async init() {
     this.setupClock();
     this.setupTabs();
     this.setupCopilotEvents();
+    await this.loadSystemStatus();
     await this.initMap();
     await this.loadData();
     this.setupMapControls();
+  }
+
+  async loadSystemStatus() {
+    try {
+      const res = await fetch('/api/system/status');
+      if (!res.ok) return;
+      const data = await res.json();
+      const pillMode = document.getElementById('pill-mode');
+      const badgePill = document.getElementById('badge-sovereign-status');
+      if (pillMode) {
+        if (data.provider === 'swisscom' || data.provider === 'cscs') {
+          const modelName = (data.model || 'Apertus-70B').replace('swiss-ai/', '');
+          pillMode.textContent = `SWISSCOM CLOUD (${modelName})`;
+          if (badgePill) badgePill.title = `Souverain Suisse · Swisscom Cloud / CSCS Lugano · nLPD Conforme`;
+        } else {
+          pillMode.textContent = 'AIR-GAP LOCAL NODE';
+          if (badgePill) badgePill.title = `Mode Hors-Ligne Souverain · Aucun appel cloud sortant`;
+        }
+      }
+    } catch (e) {
+      console.warn("Could not fetch system status:", e);
+    }
   }
 
   setupClock() {
@@ -262,6 +286,7 @@ class ChronoMineApp {
           })
         });
         const data = await res.json();
+        this.lastBautagebuchResponse = data;
 
         // Render card
         const card = document.getElementById('card-sia-result');
@@ -285,6 +310,41 @@ class ChronoMineApp {
       }
     });
 
+    // Export PDF button (SIA 118 Bautagebuch & Regierapport)
+    const btnExportPdf = document.getElementById('btn-export-pdf');
+    btnExportPdf?.addEventListener('click', async () => {
+      if (!this.lastBautagebuchResponse) {
+        alert("Veuillez d'abord générer un rapport Bautagebuch.");
+        return;
+      }
+      btnExportPdf.textContent = "⏳ Génération PDF...";
+      btnExportPdf.disabled = true;
+
+      try {
+        const res = await fetch('/api/copilot/bautagebuch/export-pdf', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(this.lastBautagebuchResponse)
+        });
+        if (!res.ok) throw new Error("Erreur export PDF");
+        const blob = await res.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `Bautagebuch_SIA118_${this.lastBautagebuchResponse.date || 'Rapport'}.pdf`;
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+        a.remove();
+      } catch (err) {
+        console.error("PDF export error:", err);
+        alert("Erreur lors de la génération du PDF.");
+      } finally {
+        btnExportPdf.textContent = "📄 Exporter Bautagebuch & Regie PDF (SIA 118)";
+        btnExportPdf.disabled = false;
+      }
+    });
+
     // Pin on map button
     document.getElementById('btn-pin-on-map')?.addEventListener('click', () => {
       const coords = [7.5020, 46.8010]; // PK 3.200 location
@@ -299,6 +359,55 @@ class ChronoMineApp {
         .setLngLat(coords)
         .setPopup(new maplibregl.Popup({ offset: 25 }).setHTML('<strong>⚠️ ALERTE PK 3.200</strong><br>Rupture conduite drainage & Regierapport Art. 44'))
         .addTo(this.map);
+    });
+
+    // Multimodal Visual Inspection scenarios
+    const scenarioData = {
+      fouille: {
+        img: '/demo/images/trench_hazard.svg',
+        desc: "Tranchée d'excavation de 2m60 de profondeur creusée dans le remblai sans blindage ni caisson. Ouvriers au fond sans échappatoire."
+      },
+      echafaudage: {
+        img: '/demo/images/scaffold_hazard.svg',
+        desc: "Échafaudage métallique de façade de 3m20 sans garde-corps supérieur ni plinthe. Ouvriers en hauteur sans ligne de vie (BauAV Art. 15)."
+      },
+      roche: {
+        img: '/demo/images/rockface_hazard.svg',
+        desc: "Front de taille et voûte d'excavation souterraine présentant une fissuration active avec venues d'eau sans ancrage ni boulons d'ancrage (SIA 198)."
+      },
+      ventilation: {
+        img: '/demo/images/rockface_hazard.svg',
+        desc: "Arrêt de la ventilation secondaire dans la galerie d'avancement. Taux de monoxyde de carbone (CO) mesuré à 45 ppm avec engins diesel en marche (SIA 196)."
+      }
+    };
+
+    const selScenario = document.getElementById('sel-suva-scenario');
+    const imgPreview = document.getElementById('img-suva-preview');
+    const txtSuvaDesc = document.getElementById('txt-suva-desc');
+    const scenarioBtns = document.querySelectorAll('#suva-image-container .ctrl-btn-sm');
+
+    const updateScenarioUI = (key) => {
+      const item = scenarioData[key];
+      if (!item) return;
+      if (imgPreview) imgPreview.src = item.img;
+      if (txtSuvaDesc) txtSuvaDesc.value = item.desc;
+      scenarioBtns.forEach(b => {
+        b.classList.toggle('active', b.getAttribute('data-scenario') === key);
+      });
+      if (selScenario && selScenario.value !== key) {
+        selScenario.value = key;
+      }
+    };
+
+    selScenario?.addEventListener('change', (e) => {
+      updateScenarioUI(e.target.value);
+    });
+
+    scenarioBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const key = btn.getAttribute('data-scenario');
+        updateScenarioUI(key);
+      });
     });
 
     // Run SUVA audit button

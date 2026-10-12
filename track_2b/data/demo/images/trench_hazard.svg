@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#78716c"/>
+      <stop offset="100%" stop-color="#44403c"/>
+    </linearGradient>
+    <pattern id="soil" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="1.5" fill="#a8a29e" opacity="0.4"/>
+      <circle cx="15" cy="12" r="2" fill="#57534e" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- Sky / Ambience -->
+  <rect width="600" height="150" fill="#1c1917"/>
+
+  <!-- Ground surface -->
+  <rect y="150" width="600" height="250" fill="url(#ground)"/>
+  <rect y="150" width="600" height="250" fill="url(#soil)"/>
+
+  <!-- Excavation Trench (2.60m deep, steep vertical walls) -->
+  <polygon points="180,150 420,150 400,340 200,340" fill="#292524" stroke="#dc2626" stroke-width="3"/>
+
+  <!-- Water & mud accumulation at bottom -->
+  <rect x="205" y="325" width="190" height="15" fill="#3b82f6" opacity="0.6"/>
+
+  <!-- Depth dimension arrow -->
+  <line x1="160" y1="150" x2="160" y2="340" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4"/>
+  <text x="110" y="250" fill="#f59e0b" font-family="sans-serif" font-size="14" font-weight="bold">H = 2.60 m</text>
+  <text x="70" y="270" fill="#ef4444" font-family="sans-serif" font-size="11">> 1.50m (BauAV)</text>
+
+  <!-- Missing shoring indicator -->
+  <rect x="200" y="170" width="12" height="150" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="6"/>
+  <text x="220" y="220" fill="#ef4444" font-family="sans-serif" font-size="12" font-weight="bold">⚠️ BLINDAGE ABSENT</text>
+
+  <!-- Unprotected worker in trench -->
+  <circle cx="280" cy="270" r="10" fill="#facc15"/>
+  <rect x="274" y="280" width="12" height="35" fill="#ea580c"/>
+  <line x1="280" y1="315" x2="272" y2="335" stroke="#1c1917" stroke-width="4"/>
+  <line x1="280" y1="315" x2="288" y2="335" stroke="#1c1917" stroke-width="4"/>
+
+  <!-- Red STOPP Banner -->
+  <rect x="20" y="20" width="560" height="48" rx="8" fill="#991b1b" stroke="#f87171" stroke-width="2"/>
+  <text x="40" y="50" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">⛔ SUVA ALERTE : VIOLATION CRITIQUE BAUAV ART. 54</text>
+  <text x="440" y="50" fill="#fef08a" font-family="sans-serif" font-size="13" font-weight="bold">STOP-WORK ORDER</text>
+</svg>

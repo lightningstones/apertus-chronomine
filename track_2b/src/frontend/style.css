@@ -382,3 +382,22 @@ html, body {
   overflow-y: auto;
   color: #c9d1d9;
 }
+
+.ctrl-btn-sm {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 4px 8px;
+  font-family: var(--font-title);
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.ctrl-btn-sm:hover, .ctrl-btn-sm.active {
+  background: var(--bg-tertiary);
+  border-color: var(--text-accent);
+  color: var(--text-accent);
+}
+

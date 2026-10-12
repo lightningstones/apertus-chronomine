@@ -17,3 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Evaluation Benchmark Dataset**: 6 test cases deposited on Hugging Face (`winterstones/chronomine-subterranean-benchmark`) evaluating Apertus 1.5-70B with 100% accuracy.
 - **Official Technical Report**: Pre-compiled 2-page PDF report (`track_2b/ChronoMine_Report.pdf`) strictly adhering to the 6-page maximum hackathon limit.
 - **Docker Containerization**: Self-contained multi-stage build runnable with root `make run` for judges evaluation.
+- **Official SIA 118 PDF Export**: Vector ReportLab engine generating formal A4 Swiss Bautagebuch & Regierapport PDF documents with cost breakdowns, downtime tracking, and signature blocks.
+- **SUVA Multimodal Visual Inspection**: Pre-built tactical inspection graphics and scenario switcher covering BauAV Art. 54 (trenches), BauAV Art. 15 (scaffolding), and SIA 198 (subterranean rockface crown stability).
+- **Live Sovereignty & Data Residency Badge**: Dynamic UI indicator reflecting active Swisscom Cloud (`swiss-ai/Apertus-v1.5-70B`) or local air-gapped subterranean node under Swiss nLPD law.
+

@@ -28,7 +28,7 @@
     </div>
 
     <div id="header-status">
-      <div class="status-pill">
+      <div id="badge-sovereign-status" class="status-pill" title="Statut du déploiement souverain">
         <span class="dot online" aria-hidden="true"></span>
         <span id="pill-mode">SOVERAIN / AIR-GAP</span>
       </div>
@@ -141,6 +141,7 @@
         <div class="result-title">Rapport Structuré SIA 118</div>
         <div id="badge-sia-regie" class="result-badge danger">Regierapport Art. 44 : OUI</div>
         <pre id="pre-sia-output" class="result-pre"></pre>
+        <button id="btn-export-pdf" class="action-btn" style="margin-top:8px; background:linear-gradient(135deg, #0284c7, #0369a1);">📄 Exporter Bautagebuch & Regie PDF (SIA 118)</button>
         <button id="btn-pin-on-map" class="action-btn" style="margin-top:8px; background:#43a047;">📍 Placer Incident sur le Tunnel</button>
       </div>
     </div>
@@ -152,13 +153,26 @@
         <select id="sel-suva-scenario" class="copilot-select">
           <option value="fouille">Fouille tranchée > 1.50m (BauAV Art. 54)</option>
           <option value="echafaudage">Échafaudage sans lisse haute (BauAV Art. 15)</option>
+          <option value="roche">Front de taille non stabilisé / Voûte (SIA 198)</option>
           <option value="ventilation">Ventilation coupée en souterrain (SIA 196)</option>
-          <option value="roche">Front de taille non boulonné (SIA 198)</option>
         </select>
       </div>
 
+      <!-- Multimodal Visual Inspection Preview -->
       <div class="copilot-section">
-        <label class="copilot-label" for="txt-suva-desc">Observations Visuelles</label>
+        <label class="copilot-label">Inspection Visuelle Multimodale</label>
+        <div id="suva-image-container" style="background:var(--bg-primary); border:1px solid var(--border); border-radius:6px; padding:10px; text-align:center;">
+          <img id="img-suva-preview" src="/demo/images/trench_hazard.svg" alt="Aperçu d'inspection du chantier" style="width:100%; height:160px; object-fit:contain; border-radius:4px; background:#000;" />
+          <div style="display:flex; gap:6px; margin-top:8px; justify-content:center; flex-wrap:wrap;">
+            <button type="button" class="ctrl-btn-sm active" data-img="/demo/images/trench_hazard.svg" data-scenario="fouille">Tranchée 2.6m</button>
+            <button type="button" class="ctrl-btn-sm" data-img="/demo/images/scaffold_hazard.svg" data-scenario="echafaudage">Échafaudage 3m</button>
+            <button type="button" class="ctrl-btn-sm" data-img="/demo/images/rockface_hazard.svg" data-scenario="roche">Voûte Roche (SIA 198)</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="copilot-section">
+        <label class="copilot-label" for="txt-suva-desc">Observations Visuelles & Terrain</label>
         <textarea id="txt-suva-desc" class="copilot-textarea">Tranchée d'excavation de 2m60 de profondeur creusée dans le remblai sans blindage ni caisson. Ouvriers au fond sans échappatoire.</textarea>
       </div>
 
