@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2026-10-12
+
+### Added (Epic: SwissBau Copilot — Maîtrise d'Ouvrage & Conduite de Projet)
+- **Strategic Pivot**: Transitioned from frontline site-log to an executive **Construction Project Developer & Owner (Bauherr) Copilot** powered by Swisscom Apertus v1.5-70B.
+- **Infrastructure Decision Comparator (Pont vs Tunnel vs Tracé)**:
+  - Multicriteria arbitration engine (`POST /api/project/infrastructure-arbitration`) balancing CapEx direct costs, litigation & neighbor opposition risk (LAT Art. 33 / OPB Art. 7 / Tribunal fédéral), environmental impact (ISOS / OFEV noise), and project duration.
+  - Interactive weights sliders, key legal hurdles detection, and bilingual strategic executive summaries (FR/DE).
+- **Tender Bid Comparison & Adjudication (SIA 118 / AIMP)**:
+  - Public procurement analysis (`POST /api/project/tender-comparison`) detecting abnormally low bids (price dumping >15%), hidden geological risk exclusion clauses, and unbudgeted force-account claim risks (Art. 44).
+- **Building Permit Opposition & Neighborhood Impact (LAT / OPB)**:
+  - Neighbor grievance qualification engine (`POST /api/project/permit-opposition`) evaluating noise (OPB RS 814.41), building height & sunlight loss (Civil Code CC Art. 679/684), and construction traffic.
+  - Generates formal rebuttal & conciliation response letters for municipal Building Commissions (*Baukommission*).
+- **Official Swiss Open Data Pipeline (SBB CFF FFS & Fedlex)**:
+  - Automated fetcher (`scripts/fetch_swiss_open_data.py`) synchronizing 289 Swiss railway tunnels (`swiss_railway_tunnels.geojson`), Gotthard Base Tunnel line 594 vectors (`gotthard_base_tunnel_sbb.geojson`), and 100 hectometre PK markers (`gotthard_km_points.geojson`).
+  - Ingested full Fedlex BauAV 2022 (RS 832.311.141, 101 articles), SUVA 84043 vital rules, and SIA 118 core articles.
+- **Executive Decision Report PDF Exporter**:
+  - Vector ReportLab engine (`POST /api/project/export-decision-pdf`) generating official A4 Swiss Infrastructure Strategic Decision Reports with comparison matrix, legal obstacles, and owner signature blocks.
+- **Comprehensive Test Suite**:
+  - 18/18 pytest tests green (100% pass rate) with live Apertus-70B inference verification.
+
 ## [1.0.0] - 2026-10-12
 
 ### Added

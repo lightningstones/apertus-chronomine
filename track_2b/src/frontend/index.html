@@ -22,19 +22,19 @@
     <div id="header-logo">
       <div class="logo-icon" aria-hidden="true">+</div>
       <div>
-        <h1>CHRONOMINE AI</h1>
-        <div class="subtitle">SwissTunnelCopilot · Powered by Apertus v1.5</div>
+        <h1>SWISSBAU COPILOT</h1>
+        <div class="subtitle">Maîtrise d'Ouvrage & Conduite de Projet · Powered by Apertus v1.5-70B</div>
       </div>
     </div>
 
     <div id="header-status">
       <div id="badge-sovereign-status" class="status-pill" title="Statut du déploiement souverain">
         <span class="dot online" aria-hidden="true"></span>
-        <span id="pill-mode">SOVERAIN / AIR-GAP</span>
+        <span id="pill-mode">SWISSCOM APERTUS 70B</span>
       </div>
       <div class="status-pill">
         <span class="dot warning" aria-hidden="true"></span>
-        <span id="alert-count">0 ALERTE</span>
+        <span id="alert-count">0 RECOURS</span>
       </div>
       <div id="clock">00:00:00</div>
     </div>
@@ -96,13 +96,215 @@
   <aside id="sidebar" role="complementary">
     <!-- Tabs Header -->
     <nav class="sidebar-tabs">
-      <button class="tab-btn active" data-tab="tab-copilot-sia">📝 Bautagebuch</button>
+      <button class="tab-btn active" data-tab="tab-arbitrage">📍 Emplacement & Tracé Optimal</button>
+      <button class="tab-btn" data-tab="tab-tender">📑 Offres SIA 118</button>
+      <button class="tab-btn" data-tab="tab-opposition">⚖️ Oppositions LAT</button>
+      <button class="tab-btn" data-tab="tab-copilot-sia">📝 Chantier SIA 118</button>
       <button class="tab-btn" data-tab="tab-copilot-suva">⚠️ Audit SUVA</button>
       <button class="tab-btn" data-tab="tab-team">👥 Équipe</button>
     </nav>
 
-    <!-- TAB 1: BAUTAGEBUCH & REGIE (SIA 118) -->
-    <div id="tab-copilot-sia" class="tab-content active">
+    <!-- ═══════════════════════════════════ TAB 1: EMPLACEMENT & TRACÉ OPTIMAL ═══ -->
+    <div id="tab-arbitrage" class="tab-content active">
+      <div class="copilot-section">
+        <label class="copilot-label" for="sel-infra-scenario">Scénario d'Implantation d'Infrastructure</label>
+        <select id="sel-infra-scenario" class="copilot-select">
+          <option value="scen-contournement">1. Contournement Routier : Tracé Nord (Crête) vs Tracé Médian (SDA) vs Tracé Fond de Vallée</option>
+          <option value="scen-plateforme">2. Gare & Plateforme : Emplacement A (Zone Ind.) vs Emplacement B (SDA Agricole) vs Emplacement C (Village)</option>
+          <option value="scen-alpin">3. Traversée Alpine : Tracé Souterrain Foré vs Tracé Viaduc Aérien</option>
+        </select>
+      </div>
+
+      <div style="display:flex; gap:8px;">
+        <div style="flex:1;">
+          <label class="copilot-label" for="txt-project-name">Nom du Projet</label>
+          <input type="text" id="txt-project-name" class="copilot-input" value="Contournement Cantonal & Desserte Régionale" />
+        </div>
+        <div style="flex:1;">
+          <label class="copilot-label" for="txt-project-loc">Canton / Région</label>
+          <input type="text" id="txt-project-loc" class="copilot-input" value="Valais / Vaud" />
+        </div>
+      </div>
+
+      <!-- Candidate Siting Variants in competition -->
+      <div class="copilot-section">
+        <label class="copilot-label">Sites & Tracés Candidats à l'Arbitrage</label>
+        <div id="infra-variants-container"></div>
+      </div>
+
+      <!-- Priority weights sliders -->
+      <div class="copilot-section">
+        <label class="copilot-label">Pondération des Critères Décisionnels</label>
+        <div class="slider-row">
+          <span>⚖️ Risque Oppositions & Recours (LAT / OPB)</span>
+          <input type="range" id="slider-w-opp" min="10" max="60" value="35" />
+          <span id="val-w-opp" class="slider-val">35%</span>
+        </div>
+        <div class="slider-row">
+          <span>💰 Coût d'Investissement Direct (CapEx & Terrains)</span>
+          <input type="range" id="slider-w-cost" min="10" max="60" value="25" />
+          <span id="val-w-cost" class="slider-val">25%</span>
+        </div>
+        <div class="slider-row">
+          <span>🌲 Impact Voisinage & Environnement (OPB / SDA)</span>
+          <input type="range" id="slider-w-env" min="10" max="60" value="25" />
+          <span id="val-w-env" class="slider-val">25%</span>
+        </div>
+        <div class="slider-row">
+          <span>⏱️ Délais de Procédure & Réalisation</span>
+          <input type="range" id="slider-w-dur" min="5" max="40" value="15" />
+          <span id="val-w-dur" class="slider-val">15%</span>
+        </div>
+      </div>
+
+      <button id="btn-run-arbitrage" class="action-btn">⚡ Trouver l'Emplacement Optimal (Apertus v1.5-70B)</button>
+
+      <!-- Arbitrage Results Card -->
+      <div id="card-arbitrage-result" class="result-card hidden">
+        <div class="winner-card">
+          <div class="winner-badge">🏆 EMPLACEMENT OPTIMAL RECOMMANDÉ</div>
+          <div id="txt-arbitrage-winner" style="font-family:var(--font-title); font-size:16px; font-weight:700; color:#fff;"></div>
+          <div id="txt-arbitrage-optimal-loc" style="font-size:12px; font-weight:600; color:#38bdf8; margin-top:2px;"></div>
+          <div id="txt-arbitrage-summary-fr" style="font-size:11px; margin-top:4px; color:#e2e8f0; line-height:1.4;"></div>
+          <div id="txt-arbitrage-tradeoff" style="font-size:10px; margin-top:6px; padding:6px; background:rgba(0,0,0,0.25); border-radius:4px; color:#a7f3d0; line-height:1.4;"></div>
+        </div>
+
+        <div class="result-title">📊 Matrice Comparative Multicritères des Emplacements</div>
+        <table class="eval-table" id="table-arbitrage-eval">
+          <thead>
+            <tr>
+              <th>Site / Tracé</th>
+              <th>Affectation / Dist.</th>
+              <th>Coût (CapEx)</th>
+              <th>Oppositions</th>
+              <th>Recours</th>
+              <th>Impact</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody id="tbody-arbitrage-eval"></tbody>
+        </table>
+
+        <div class="result-title" style="margin-top:8px;">⚖️ Bases Juridiques Suisses Applicables</div>
+        <div id="list-arbitrage-legal" style="font-family:var(--font-mono); font-size:10px; color:#94a3b8; line-height:1.4;"></div>
+
+        <button id="btn-export-arbitrage-pdf" class="action-btn" style="margin-top:10px; background:linear-gradient(135deg, #0284c7, #0369a1);">📄 Exporter Rapport d'Implantation A4 (PDF)</button>
+        <button id="btn-map-arbitrage" class="action-btn" style="margin-top:6px; background:#10b981;">📍 Visualiser la Position Optimale sur la Carte</button>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════ TAB 2: OFFRES SIA 118 / AIMP ═══ -->
+    <div id="tab-tender" class="tab-content">
+      <div class="copilot-section">
+        <label class="copilot-label" for="sel-tender-preset">Scénario d'Appel d'Offres</label>
+        <select id="sel-tender-preset" class="copilot-select">
+          <option value="preset-marche-public">Marché Public : Lot 101 - Génie Civil Souterrain (3 Soumissionnaires)</option>
+        </select>
+      </div>
+
+      <div style="display:flex; gap:8px;">
+        <div style="flex:1;">
+          <label class="copilot-label" for="txt-tender-lot">Intitulé du Lot</label>
+          <input type="text" id="txt-tender-lot" class="copilot-input" value="Lot 101 - Génie Civil & Excavation" />
+        </div>
+        <div style="flex:1;">
+          <label class="copilot-label" for="txt-tender-estimate">Devis Estimatif MO (CHF)</label>
+          <input type="number" id="txt-tender-estimate" class="copilot-input" value="1500000" />
+        </div>
+      </div>
+
+      <div class="copilot-section">
+        <label class="copilot-label">Offres des Soumissionnaires</label>
+        <div id="tender-bids-preview">
+          <div class="bid-card">
+            <div style="display:flex; justify-content:space-between; font-weight:600;">
+              <span>SwissTunnel Bau AG</span>
+              <span>1'485'000 CHF (-1.0%)</span>
+            </div>
+            <div style="font-size:10px; color:var(--text-secondary);">18 mois · Exp. 5/5 · Pas de sous-traitance · Zéro clause d'exclusion</div>
+          </div>
+          <div class="bid-card">
+            <div style="display:flex; justify-content:space-between; font-weight:600; color:#ff6b7e;">
+              <span>LowCost Excavations Sàrl</span>
+              <span>980'000 CHF (-34.7% DUMPING)</span>
+            </div>
+            <div style="font-size:10px; color:#ff6b7e;">14 mois · Exp. 2/5 · Sous-traitance · Exclusion garantie aléas rocheux</div>
+          </div>
+          <div class="bid-card">
+            <div style="display:flex; justify-content:space-between; font-weight:600;">
+              <span>Implenia Infra SA</span>
+              <span>1'580'000 CHF (+5.3%)</span>
+            </div>
+            <div style="font-size:10px; color:var(--text-secondary);">20 mois · Exp. 5/5 · Sous-traitants qualifiés déclarés</div>
+          </div>
+        </div>
+      </div>
+
+      <button id="btn-run-tender" class="action-btn">⚡ Analyser les Offres (SIA 118 / AIMP)</button>
+
+      <!-- Tender Results Card -->
+      <div id="card-tender-result" class="result-card hidden">
+        <div class="winner-card">
+          <div class="winner-badge">🏆 ADJUDICATAIRE RECOMMANDÉ</div>
+          <div id="txt-tender-winner" style="font-family:var(--font-title); font-size:16px; font-weight:700; color:#fff;"></div>
+          <div id="txt-tender-rationale-fr" style="font-size:11px; margin-top:4px; color:#e2e8f0; line-height:1.4;"></div>
+        </div>
+
+        <div class="result-title">⚠️ Détection des Risques & Dumping</div>
+        <div id="list-tender-flags"></div>
+
+        <div class="result-title" style="margin-top:10px;">📋 Recommandations Contractuelles SIA 118</div>
+        <div id="list-tender-clauses" style="font-size:11px; color:#cbd5e1; line-height:1.4;"></div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════ TAB 3: OPPOSITIONS LAT / OPB ═══ -->
+    <div id="tab-opposition" class="tab-content">
+      <div class="copilot-section">
+        <label class="copilot-label" for="sel-opp-preset">Mémoires d'Opposition Types</label>
+        <select id="sel-opp-preset" class="copilot-select">
+          <option value="opp-1">1. Riverains de la Vallée : Bruit nocturne OPB & Gabarit/Hauteur CC 679</option>
+          <option value="opp-2">2. Association Patrimoine : Atteinte au site ISOS & Gestion des déblais LPE</option>
+          <option value="opp-3">3. Transporteurs & Agriculteurs : Saturation réseau routier et trafic camions</option>
+        </select>
+      </div>
+
+      <div style="display:flex; gap:8px;">
+        <div style="flex:1;">
+          <label class="copilot-label" for="txt-opp-project">Projet Visé</label>
+          <input type="text" id="txt-opp-project" class="copilot-input" value="Portail Nord du Tunnel Alpin" />
+        </div>
+        <div style="flex:1;">
+          <label class="copilot-label" for="txt-opp-loc">Commune / Lieu</label>
+          <input type="text" id="txt-opp-loc" class="copilot-input" value="Sedrun (GR)" />
+        </div>
+      </div>
+
+      <div class="copilot-section">
+        <label class="copilot-label" for="txt-opp-text">Extrait du Mémoire d'Opposition Reçu</label>
+        <textarea id="txt-opp-text" class="copilot-textarea" style="min-height:90px;">Nous formons opposition formelle contre le projet. Le passage continu de camions et le bruit assourdissant du concassage de nuit violent l'Ordonnance sur la protection contre le bruit (OPB RS 814.41). De plus, la hauteur du silo de ventilation de 18 mètres dépasse le gabarit communal et prive nos chalets d'ensoleillement selon l'art. 679/684 CC.</textarea>
+      </div>
+
+      <button id="btn-run-opposition" class="action-btn">⚡ Qualifier les Griefs & Générer Réfutation</button>
+
+      <!-- Opposition Results Card -->
+      <div id="card-opposition-result" class="result-card hidden">
+        <div class="winner-card" style="border-color:#f59e0b;">
+          <div class="winner-badge" style="background:#f59e0b;">⚖️ STATUT DE RECEVABILITÉ</div>
+          <div id="txt-opp-validity" style="font-family:var(--font-title); font-size:15px; font-weight:700; color:#fff;"></div>
+          <div id="txt-opp-delay" style="font-size:11px; margin-top:2px; color:#fde68a;"></div>
+        </div>
+
+        <div class="result-title">🔍 Qualification Juridique des Griefs</div>
+        <div id="list-opp-grievances"></div>
+
+        <div class="result-title" style="margin-top:10px;">✉️ Projet de Lettre Officielle de Réfutation (Commission des constructions)</div>
+        <div class="letter-preview" id="txt-opp-letter-fr"></div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════ TAB 4: CHANTIER BAUTAGEBUCH SIA 118 ═══ -->
+    <div id="tab-copilot-sia" class="tab-content">
       <div class="copilot-section">
         <label class="copilot-label" for="sel-sample-note">Exemples Multilingues Terrain</label>
         <select id="sel-sample-note" class="copilot-select">

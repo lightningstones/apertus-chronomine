@@ -1,22 +1,27 @@
-# ChronoMine AI — SwissTunnelCopilot 🚇🇨🇭
+# SwissBau Copilot — Apertus AI (ChronoMine) 🏗️🇨🇭
 
-> **Sovereign Air-Gapped Subterranean Situation Awareness & Compliance Copilot**  
-> Powered by **Apertus v1.5** (Swiss AI Initiative)  
-> **Hack Apertus — Track 2B: Own Project**
+> **Version 2.0.0 (Epic: Maîtrise d'Ouvrage & Conduite de Projet)**  
+> **Sovereign Construction Project Developer & Owner (Bauherr) Copilot**  
+> Powered by **Apertus v1.5-70B** (Swiss AI Initiative / Swisscom Cloud / CSCS)  
+> **Hack Apertus — Track 2B: Own Project**  
+> 📖 *Documentation détaillée de l'Epic :* [`docs/EPIC_V2_SWISSBAU_COPILOT.md`](docs/EPIC_V2_SWISSBAU_COPILOT.md) · [`CHANGELOG.md`](../CHANGELOG.md)
 
 ---
 
-## 📌 Overview
+## 📌 Overview & Strategic Direction (v2.0.0)
 
-In Switzerland, deep Alpine tunnel projects (Gotthard Base Tunnel, 2nd Gotthard Road Tube) and defense underground facilities (RUAG, armasuisse *Felskavernen*) operate under two critical constraints:
-1. **Zero Foreign Cloud Access (Air-Gap & Sovereignty)**: Critical infrastructure data and defense plans are legally prohibited from leaving Swiss jurisdiction or being routed through US cloud APIs. Deep tunnels frequently operate with zero internet connection.
-2. **The Multilingual Field Communication Gap**: 40% to 70% of frontline miners speak Portuguese, Italian, Spanish, or Albanian, while Swiss engineering norms (**SIA 118**, **SIA 198**) and safety standards (**SUVA / BauAV 2022**) mandate rigorous reporting in Standard German (*Schriftdeutsch*) or French.
+In Switzerland, large infrastructure projects (Gotthard crossings, alpine tunnels, viaducts, urban developments) operate under extreme legal, environmental, and financial constraints:
+1. **High Legal & Opposition Exposure**: Neighbor complaints under the **Noise Abatement Ordinance (OPB RS 814.41)**, appeals to the **Federal Supreme Court (Tribunal fédéral)** under the **Spatial Planning Act (LAT RS 700 Art. 33)**, and heritage protection under **ISOS** routinely paralyze projects for 2 to 5 years.
+2. **Public Procurement Risks (SIA 118 / AIMP)**: Abnormally low tender bids (price dumping) frequently hide exclusions of geotechnical risks that erupt as costly unbudgeted force-account claims (*Regierapporte* under SIA 118 Art. 44).
+3. **Data Residency & Sovereignty**: Infrastructure plans, sensitive cost models, and legal strategies cannot leave Swiss borders under the revised **Federal Act on Data Protection (nLPD)**.
 
-**ChronoMine AI** combines an interactive 3D subsurface tactical situation awareness engine (MapLibre GL JS + Three.js) with **Apertus v1.5** to deliver:
-- 🗺️ **3D Subsurface Situational Awareness**: Real-time negative altitude ($-Z$) tactical tunnel mapping with translucent ground and localized milestone (PK) markers.
-- 📝 **Multilingual Bautagebuch & Regierapport (SIA 118)**: Frontline workers input field voice/notes in Portuguese or Italian; Apertus translates and structures official German/French daily site logs (*Bautagebuch*) and unbudgeted force-account claims (*Regierapporte* under SIA 118 Art. 44).
-- 📸 **Multimodal SUVA & BauAV Safety Audit**: Upload tunnel face or excavation photos; Apertus analyzes support conditions, identifies safety hazards, and cites exact BauAV articles and SUVA life-saving rules.
-- 🔒 **100% Air-Gapped Sovereign Deployment**: Runs entirely locally or on the Swiss National Supercomputing Centre (CSCS) infrastructure.
+**SwissBau Copilot v2.0.0** harnesses **Swisscom Apertus v1.5-70B** as an executive assistant for **Project Owners (Maîtres d'Ouvrage / Bauherren)** and **Project Managers**:
+- 🌉 **Pont vs Tunnel Strategic Decision Comparator**: Multicriteria arbitration weighing legal opposition risk (35%), direct CapEx (25%), environmental/noise impact (25%), and schedule delays (15%).
+- 📑 **Tender Bid Comparison & Adjudication (SIA 118 / AIMP)**: Detects price dumping (>15%), flags hidden contractual clauses, and drafts legal award rationales.
+- ⚖️ **Building Permit Opposition & Rebuttal (LAT / OPB)**: Categorizes neighbor grievances, calculates estimated procedural delays, and writes official rebuttal letters for municipal Building Commissions (*Baukommissionen*).
+- 📄 **Executive PDF Exporter**: Instant vector ReportLab generation of official A4 Decision Reports with cartouche and signature blocks.
+- 🗺️ **SBB CFF FFS Vector Digital Twin**: Live Open Data integration with 289 Swiss railway tunnels and the Gotthard Base Tunnel (-800m).
+- 📝 **Frontline Bautagebuch & SUVA Audit**: Preserved frontline multilingual daily logs and BauAV 2022 safety checks.
 
 ---
 
@@ -79,6 +84,7 @@ track_2b/
 - **GitHub Repository**: [https://github.com/lightningstones/apertus-chronomine](https://github.com/lightningstones/apertus-chronomine)
 - **GitLab Mirror**: [https://gitlab.com/winterstones/apertus-chronomine](https://gitlab.com/winterstones/apertus-chronomine)
 - **Hugging Face Benchmark Dataset**: [https://huggingface.co/datasets/winterstones/chronomine-subterranean-benchmark](https://huggingface.co/datasets/winterstones/chronomine-subterranean-benchmark)
+- **Epic v2.0.0 Roadmap & Specifications**: [`track_2b/docs/EPIC_V2_SWISSBAU_COPILOT.md`](docs/EPIC_V2_SWISSBAU_COPILOT.md)
 - **Technical Report**: [`track_2b/technical_report.md`](technical_report.md) & [`track_2b/ChronoMine_Report.pdf`](ChronoMine_Report.pdf)
 
 ---

@@ -65,7 +65,7 @@ html, body {
 #app {
   display: grid;
   grid-template-rows: 56px 1fr;
-  grid-template-columns: 1fr 420px;
+  grid-template-columns: 1fr 470px;
   height: 100vh;
   width: 100vw;
 }
@@ -260,19 +260,23 @@ html, body {
 /* Tabs */
 .sidebar-tabs {
   display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
   border-bottom: 1px solid var(--border);
   background: var(--bg-primary);
 }
+.sidebar-tabs::-webkit-scrollbar { display: none; }
 .tab-btn {
-  flex: 1;
-  padding: 12px 8px;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  padding: 11px 12px;
   background: none;
   border: none;
   border-bottom: 2px solid transparent;
   color: var(--text-secondary);
   font-family: var(--font-title);
   font-weight: 600;
-  font-size: 13px;
+  font-size: 12px;
   cursor: pointer;
   transition: all var(--transition);
 }
@@ -399,5 +403,112 @@ html, body {
   background: var(--bg-tertiary);
   border-color: var(--text-accent);
   color: var(--text-accent);
+}
+
+/* ── Strategic Decision & Arbitration Styling ─────────────── */
+.slider-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+.slider-row input[type="range"] {
+  flex: 1;
+  accent-color: var(--text-accent);
+}
+.slider-row .slider-val {
+  min-width: 36px;
+  text-align: right;
+  color: var(--text-accent);
+}
+
+.winner-card {
+  background: linear-gradient(135deg, rgba(0, 188, 212, 0.15), rgba(0, 230, 118, 0.12));
+  border: 1px solid var(--text-accent);
+  border-radius: var(--radius-sm);
+  padding: 10px;
+  margin-bottom: 12px;
+}
+.winner-badge {
+  display: inline-block;
+  background: var(--text-accent);
+  color: #000;
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.eval-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+  margin: 10px 0;
+}
+.eval-table th {
+  background: var(--bg-primary);
+  color: var(--text-accent);
+  text-align: left;
+  padding: 6px;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: 10px;
+}
+.eval-table td {
+  padding: 6px;
+  border-bottom: 1px solid rgba(48, 54, 61, 0.4);
+  vertical-align: middle;
+}
+
+.risk-flag {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  background: rgba(255, 145, 0, 0.12);
+  border: 1px solid rgba(255, 145, 0, 0.4);
+  color: #ffb74d;
+  padding: 6px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  margin-top: 6px;
+}
+.risk-flag.danger {
+  background: rgba(255, 51, 75, 0.12);
+  border-color: rgba(255, 51, 75, 0.5);
+  color: #ff6b7e;
+}
+
+.bid-card {
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  font-size: 11px;
+}
+.bid-card.awarded {
+  border-color: #00e676;
+  background: rgba(0, 230, 118, 0.05);
+}
+
+.letter-preview {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  line-height: 1.45;
+  color: #cbd5e1;
+  max-height: 220px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  margin-top: 8px;
 }
 

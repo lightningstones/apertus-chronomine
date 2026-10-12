@@ -9,10 +9,17 @@ from src.backend.models import (
     BautagebuchRequest,
     BautagebuchResponse,
     SuvaAuditRequest,
-    SuvaAuditResponse
+    SuvaAuditResponse,
+    InfrastructureDecisionRequest,
+    InfrastructureDecisionResponse,
+    TenderComparisonRequest,
+    TenderComparisonResponse,
+    PermitOppositionRequest,
+    PermitOppositionResponse,
 )
 from src.backend.provider import apertus_engine
-from src.backend.pdf_exporter import generate_bautagebuch_pdf
+from src.backend.legal_rag import swiss_decision_engine
+from src.backend.pdf_exporter import generate_bautagebuch_pdf, generate_decision_report_pdf
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -26,9 +33,9 @@ DEMO_DIR = BASE_DIR / "data" / "demo"
 KNOWLEDGE_DIR = BASE_DIR / "data" / "knowledge"
 
 app = FastAPI(
-    title="ChronoMine AI — SwissTunnelCopilot",
-    description="Sovereign Subterranean Situation Awareness & Compliance Copilot powered by Apertus v1.5",
-    version="1.0.0"
+    title="SwissBau Copilot — Apertus AI (ChronoMine)",
+    description="Sovereign Swiss Construction Project Developer & Owner (Bauherr) Copilot powered by Apertus v1.5-70B",
+    version="2.0.0"
 )
 
 # CORS Middleware
@@ -167,6 +174,70 @@ async def export_bautagebuch_pdf(data: BautagebuchResponse):
         )
     except Exception as e:
         logger.error(f"Error generating Bautagebuch PDF: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# ==============================================================================
+# Swiss Construction Project Developer & Owner (Bauherr) Copilot Endpoints
+# ==============================================================================
+
+@app.post("/api/project/infrastructure-arbitration", response_model=InfrastructureDecisionResponse)
+async def arbitrate_infrastructure(req: InfrastructureDecisionRequest):
+    """
+    Multicriteria comparative arbitration between bridge, tunnel, and surface route variants.
+    Evaluates costs (CapEx/OpEx), litigation/opposition risk (LAT/OPB/ISOS), delays, and environmental impact.
+    """
+    try:
+        return await swiss_decision_engine.arbitrate_infrastructure(req)
+    except Exception as e:
+        logger.error(f"Error arbitrating infrastructure: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/project/tender-comparison", response_model=TenderComparisonResponse)
+async def compare_tender_bids(req: TenderComparisonRequest):
+    """
+    Analyzes contractor tender bids according to SIA 118 & AIMP public procurement.
+    Detects abnormally low prices, hidden exclusion clauses, and ranks bidders.
+    """
+    try:
+        return await swiss_decision_engine.compare_tender_bids(req)
+    except Exception as e:
+        logger.error(f"Error comparing tender bids: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/project/permit-opposition", response_model=PermitOppositionResponse)
+async def evaluate_permit_opposition(req: PermitOppositionRequest):
+    """
+    Analyzes neighbor/association building permit oppositions under Swiss Planning & Environmental Laws (LAT / OPB).
+    Provides qualified rebuttal strategy and formal letters.
+    """
+    try:
+        return await swiss_decision_engine.evaluate_permit_opposition(req)
+    except Exception as e:
+        logger.error(f"Error evaluating permit opposition: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/project/export-decision-pdf")
+async def export_decision_pdf(data: InfrastructureDecisionResponse):
+    """Generates official Swiss Infrastructure Strategic Decision & Siting Optimization Report."""
+    try:
+        import unicodedata
+        import re
+        pdf_bytes = generate_decision_report_pdf(data)
+        clean_name = unicodedata.normalize('NFKD', data.project_name).encode('ASCII', 'ignore').decode('ASCII')
+        safe_name = re.sub(r"[^a-zA-Z0-9_\-]", "_", clean_name).strip("_") or "Projet"
+        return Response(
+            content=pdf_bytes,
+            media_type="application/pdf",
+            headers={
+                "Content-Disposition": f"attachment; filename=Decision_Arbitrage_{safe_name}.pdf"
+            }
+        )
+    except Exception as e:
+        logger.error(f"Error generating decision PDF: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 

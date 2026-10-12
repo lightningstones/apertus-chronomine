@@ -10,7 +10,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import (
     SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, HRFlowable
 )
-from src.backend.models import BautagebuchResponse
+from src.backend.models import BautagebuchResponse, InfrastructureDecisionResponse
 
 def generate_bautagebuch_pdf(data: BautagebuchResponse) -> bytes:
     buffer = io.BytesIO()
@@ -211,6 +211,163 @@ def generate_bautagebuch_pdf(data: BautagebuchResponse) -> bytes:
     elements.append(t_sig)
     
     # Build
+    doc.build(elements)
+    buffer.seek(0)
+    return buffer.getvalue()
+
+
+def generate_decision_report_pdf(data: InfrastructureDecisionResponse) -> bytes:
+    """Generates official Swiss Infrastructure Strategic Decision & Arbitration Report (Pont vs Tunnel)."""
+    buffer = io.BytesIO()
+    doc = SimpleDocTemplate(
+        buffer,
+        pagesize=A4,
+        leftMargin=36,
+        rightMargin=36,
+        topMargin=36,
+        bottomMargin=36
+    )
+    styles = getSampleStyleSheet()
+
+    title_style = ParagraphStyle(
+        'DocTitle',
+        parent=styles['Heading1'],
+        fontName='Helvetica-Bold',
+        fontSize=15,
+        leading=19,
+        textColor=colors.HexColor('#0f172a'),
+        spaceAfter=4
+    )
+    subtitle_style = ParagraphStyle(
+        'DocSubtitle',
+        parent=styles['Normal'],
+        fontName='Helvetica',
+        fontSize=9,
+        leading=12,
+        textColor=colors.HexColor('#475569'),
+        spaceAfter=10
+    )
+    h2_style = ParagraphStyle(
+        'Heading2Custom',
+        parent=styles['Heading2'],
+        fontName='Helvetica-Bold',
+        fontSize=11,
+        leading=14,
+        textColor=colors.HexColor('#dc2626'),
+        spaceBefore=10,
+        spaceAfter=4
+    )
+    body_style = ParagraphStyle(
+        'BodyCustom',
+        parent=styles['Normal'],
+        fontName='Helvetica',
+        fontSize=8.5,
+        leading=11.5,
+        textColor=colors.HexColor('#1e293b')
+    )
+
+    elements = []
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    # Header Cartouche
+    header_data = [
+        [
+            Paragraph("<b>SWISSBAU COPILOT — APERTUS v1.5</b><br/><font color='#64748b'>Aide à la Décision Stratégique & Maîtrise d'Ouvrage</font>", body_style),
+            Paragraph(f"<b>PROJET :</b> {data.project_name}<br/><b>DATE :</b> {today}", body_style),
+            Paragraph("<b>JURIDICTION :</b> SUISSE (LAT / OPB)<br/><b>OPTIMISATION :</b> EMPLACEMENT & TRACÉ", body_style)
+        ]
+    ]
+    t_header = Table(header_data, colWidths=[200, 160, 160])
+    t_header.setStyle(TableStyle([
+        ('BACKGROUND', (0, 0), (-1, -1), colors.HexColor('#f8fafc')),
+        ('BOX', (0, 0), (-1, -1), 1, colors.HexColor('#cbd5e1')),
+        ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 6),
+        ('TOPPADDING', (0, 0), (-1, -1), 6),
+    ]))
+    elements.append(t_header)
+    elements.append(Spacer(1, 10))
+
+    elements.append(Paragraph("RAPPORT D'OPTIMISATION D'EMPLACEMENT ET D'IMPLANTATION D'INFRASTRUCTURE", title_style))
+    loc_subtitle = f" · Emplacement : {data.optimal_location_name}" if data.optimal_location_name else ""
+    elements.append(Paragraph(
+        f"Comparatif multicritères (Oppositions riveraines LAT/OPB, Coûts fonciers & CapEx, Délais de recours, Impact environnemental). Solution retenue : <b>{data.recommended_variant}</b>{loc_subtitle}",
+        subtitle_style
+    ))
+
+    # 1. Synthèse
+    elements.append(Paragraph("1. SYNTHÈSE DÉCISIONNELLE DU MAÎTRE D'OUVRAGE (FR / DE)", h2_style))
+    elements.append(Paragraph(f"<b>Français :</b> {data.decision_summary_fr}", body_style))
+    elements.append(Spacer(1, 4))
+    elements.append(Paragraph(f"<b>Deutsch :</b> {data.decision_summary_de}", body_style))
+    if data.siting_tradeoff_analysis_fr:
+        elements.append(Spacer(1, 4))
+        elements.append(Paragraph(f"<b>Analyse du compromis d'implantation :</b> {data.siting_tradeoff_analysis_fr}", body_style))
+    elements.append(Spacer(1, 8))
+
+    # 2. Tableau comparatif des variantes
+    elements.append(Paragraph("2. MATRICE COMPARATIVE MULTICRITÈRES DES SITES CANDIDATS", h2_style))
+    table_rows = [
+        [
+            Paragraph("<b>Variante / Site</b>", body_style),
+            Paragraph("<b>Type</b>", body_style),
+            Paragraph("<b>Coût (Score)</b>", body_style),
+            Paragraph("<b>Risque Oppositions</b>", body_style),
+            Paragraph("<b>Recours (mois)</b>", body_style),
+            Paragraph("<b>Impact Env.</b>", body_style),
+            Paragraph("<b>Score Global</b>", body_style),
+        ]
+    ]
+    for ev in data.evaluations:
+        site_label = f"<b>{ev.variant_name}</b>"
+        if ev.location_name and ev.location_name != ev.variant_name:
+            site_label += f"<br/><font color='#64748b'>{ev.location_name}</font>"
+        table_rows.append([
+            Paragraph(site_label, body_style),
+            Paragraph(ev.type.upper(), body_style),
+            Paragraph(f"{ev.cost_score}/100", body_style),
+            Paragraph(f"<b>{ev.opposition_risk_level}</b>", body_style),
+            Paragraph(f"{ev.estimated_litigation_delay_months} m.", body_style),
+            Paragraph(f"{ev.environmental_score}/100", body_style),
+            Paragraph(f"<b>{ev.total_score} pts</b>", body_style),
+        ])
+
+    t_eval = Table(table_rows, colWidths=[120, 55, 60, 85, 70, 60, 70])
+    t_eval.setStyle(TableStyle([
+        ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#e2e8f0')),
+        ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#cbd5e1')),
+        ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+        ('TOPPADDING', (0, 0), (-1, -1), 4),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 4),
+    ]))
+    elements.append(t_eval)
+    elements.append(Spacer(1, 10))
+
+    # 3. Bases juridiques & Recommandation
+    elements.append(Paragraph("3. BASES JURIDIQUES SUISSES & STRATÉGIE DE MISE À L'ENQUÊTE", h2_style))
+    for legal in data.swiss_legal_basis:
+        elements.append(Paragraph(f"• {legal}", body_style))
+    elements.append(Spacer(1, 4))
+    elements.append(Paragraph(f"<b>Recommandation stratégique :</b> {data.strategic_recommendation}", body_style))
+    elements.append(Spacer(1, 12))
+
+    # Signatures
+    sig_data = [
+        [
+            Paragraph("<b>POUR LE MAÎTRE DE L'OUVRAGE (BAUHERR) :</b><br/><br/><br/>Date et signature : ...................................", body_style),
+            Paragraph("<b>DIRECTION DU PROJET & JURISTE :</b><br/><br/><br/>Visa et signature : ...................................", body_style)
+        ]
+    ]
+    t_sig = Table(sig_data, colWidths=[260, 260])
+    t_sig.setStyle(TableStyle([
+        ('BOX', (0, 0), (0, 0), 1, colors.HexColor('#94a3b8')),
+        ('BOX', (1, 0), (1, 0), 1, colors.HexColor('#94a3b8')),
+        ('BACKGROUND', (0, 0), (-1, -1), colors.HexColor('#f8fafc')),
+        ('TOPPADDING', (0, 0), (-1, -1), 8),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 12),
+    ]))
+    elements.append(t_sig)
+
     doc.build(elements)
     buffer.seek(0)
     return buffer.getvalue()
