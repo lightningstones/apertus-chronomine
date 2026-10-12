@@ -1,0 +1,37 @@
+image: python:3.11-slim
+
+stages:
+  - test
+  - verify
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  APERTUS_PROVIDER: "mock_offline"
+
+cache:
+  paths:
+    - .cache/pip/
+
+before_script:
+  - python --version
+  - pip install --upgrade pip
+  - pip install -r track_2b/requirements.txt pytest reportlab
+
+unit_tests:
+  stage: test
+  script:
+    - pytest track_2b/tests/ -v
+
+verify_report:
+  stage: verify
+  script:
+    - |
+      python -c "
+      import os, re
+      pdf_path = 'track_2b/ChronoMine_Report.pdf'
+      assert os.path.exists(pdf_path), 'Missing ChronoMine_Report.pdf!'
+      data = open(pdf_path, 'rb').read()
+      pages = len(re.findall(b'/Type\s*/Page[^s]', data))
+      print(f'Report verified: {pages} pages (max 6 allowed)')
+      assert pages <= 6, f'Report has {pages} pages, which exceeds the limit!'
+      "
