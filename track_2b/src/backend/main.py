@@ -22,6 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
 GEO_DIR = BASE_DIR / "data" / "geo"
 DEMO_DIR = BASE_DIR / "data" / "demo"
+KNOWLEDGE_DIR = BASE_DIR / "data" / "knowledge"
 
 app = FastAPI(
     title="ChronoMine AI — SwissTunnelCopilot",
@@ -70,11 +71,22 @@ async def get_miners_geojson():
 
 
 @app.get("/api/demo/notes")
+@app.get("/api/demo/field-notes")
 async def get_demo_field_notes():
     notes_file = DEMO_DIR / "field_notes.json"
     if not notes_file.exists():
         return []
     with open(notes_file, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+@app.get("/api/demo/rules")
+@app.get("/api/demo/suva-rules")
+async def get_demo_suva_rules():
+    rules_file = KNOWLEDGE_DIR / "suva_rules.json"
+    if not rules_file.exists():
+        return {"rules": []}
+    with open(rules_file, "r", encoding="utf-8") as f:
         return json.load(f)
 
 

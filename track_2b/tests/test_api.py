@@ -1,3 +1,10 @@
+import os
+import sys
+from pathlib import Path
+
+# Ensure track_2b is on sys.path for test discovery from root
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 import pytest
 from fastapi.testclient import TestClient
 from src.backend.main import app
@@ -56,3 +63,26 @@ def test_suva_safety_audit_trench_hazard():
     assert data["status"] == "critical_danger"
     assert data["stop_work_order"] is True
     assert any("BauAV Art. 54" in r["norm"] for r in data["infracted_rules"])
+
+
+def test_frontend_index_html():
+    res = client.get("/")
+    assert res.status_code == 200
+    assert "ChronoMine AI" in res.text
+    assert "Bautagebuch" in res.text
+
+
+def test_get_demo_field_notes():
+    res = client.get("/api/demo/field-notes")
+    assert res.status_code == 200
+    data = res.json()
+    assert isinstance(data, list)
+    assert len(data) >= 3
+
+
+def test_get_demo_suva_rules():
+    res = client.get("/api/demo/suva-rules")
+    assert res.status_code == 200
+    data = res.json()
+    assert "rules" in data
+    assert len(data["rules"]) >= 4

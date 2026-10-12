@@ -15,3 +15,7 @@ dev:
 # Run unit tests and benchmark evaluation
 test:
 	pytest tests/ -v
+
+# Generate PDF Technical Report (max 6 pages)
+pdf:
+	python scripts/generate_pdf.py
