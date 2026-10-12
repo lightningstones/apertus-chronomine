@@ -1,0 +1,247 @@
+[
+  {
+    "id": "CASE-001",
+    "domain": "SIA 118 Bautagebuch & Regie",
+    "input": "A escavadora partiu uma tubagem de drenagem principal no PK 3.200 às 14h15. Tivemos infiltração forte de água e lama na via. Paragem total durante 2h30. Tive que mobilizar 3 homens com bomba submersível e pá para desobstruir. Gastámos 4 sacos de cimento rápido para selar provisoriamente.",
+    "model": "swiss-ai/Apertus-v1.5-70B",
+    "model_output": {
+      "date": "2024-09-25",
+      "location_pk": "3.200",
+      "summary_fr": "À PK 3.200, l'excavatrice a sectionné une conduite de drainage principale à 14h15. Une forte infiltration d'eau et de boue s'est produite dans la voie, nécessitant un arrêt total de 2h30. Trois hommes ont été mobilisés avec une pompe immergée et des pelles pour désobstruer la conduite. Quatre sacs de ciment à prise rapide ont été utilisés pour un scellement provisoire.",
+      "summary_de": "Am PK 3.200 hat der Bagger um 14h15 eine Hauptdrainageleitung durchtrennt. Es kam zu starkem Wassereintritt und Schlammansammlung im Fahrweg, was einen vollständigen Stillstand von 2h30 erforderte. Drei Mann wurden mit einer Tauchpumpe und Schaufeln mobilisiert, um die Leitung zu entstopfen. Vier Säcke Schnellbeton wurden für eine provisorische Abdichtung verwendet.",
+      "events": [
+        "Durchtrennung der Hauptdrainageleitung durch Bagger",
+        "Starke Wasser- und Schlamminfiltration im Fahrweg",
+        "Vollständige Stilllegung der Baustelle für 2h30",
+        "Mobilisierung von 3 Mann mit Tauchpumpe und Schaufeln",
+        "Entstopfung der Drainageleitung",
+        "Provisorische Abdichtung mit 4 Säcken Schnellbeton"
+      ],
+      "delay_hours": 2.5,
+      "regierapport": {
+        "is_required": true,
+        "sia_reference": "SIA 118 Art. 44",
+        "claim_reason": "Unvorhergesehene Beschädigung der Hauptdrainageleitung durch Bagger, was zu Wasser- und Schlamminfiltration und Stillstand führte",
+        "workforce_hours": [
+          {
+            "role": "Mannschaft",
+            "hours": 7.5,
+            "rate_chf": 65.0
+          },
+          {
+            "role": "Vorarbeiter",
+            "hours": 2.5,
+            "rate_chf": 90.0
+          }
+        ],
+        "equipment_used": [
+          "Bagger",
+          "Tauchpumpe",
+          "Schaufeln",
+          "Schnellbeton (4 Säcke)"
+        ],
+        "materials_used": [
+          "Schnellbeton (4 Säcke)"
+        ]
+      },
+      "safety_hazard_detected": true,
+      "safety_rule_infraction": "Verletzung der Sicherheitsabstände beim Baggereinsatz, was zur Beschädigung der Drainageleitung führte",
+      "official_log_entry": "=== BAUTAGEBUCH (SIA 118) ===\nAm 25.09.2024 ereignete sich am PK 3.200 ein schwerwiegender Zwischenfall: Durch unsachgemäße Bedienung des Baggers wurde die Hauptdrainageleitung durchtrennt. Sofortige Gegenmaßnahmen mit Tauchpumpe und Schnellbeton verhinderten ein größeres Wassereintrittsproblem. Die Baustelle war für 2h30 stillgelegt. Drei Mann und ein Vorarbeiter waren im Einsatz. Sicherheitsabstände beim Baggereinsatz wurden nicht eingehalten. Regierapport nach SIA 118 Art. 44 erstellt."
+    },
+    "evaluation": {
+      "delay_detected_hours": 2.5,
+      "regierapport_required": true,
+      "sia_norm_referenced": "SIA 118 Art. 44",
+      "passed": true
+    }
+  },
+  {
+    "id": "CASE-002",
+    "domain": "SIA 198 Geotechnical Face Inspection",
+    "input": "Durante l'avanzamento al PK 4.150 abbiamo trovato roccia friabile con fessurazioni importanti e convergenza rapida della volta. Mancano 4 bulloni radiali Swellex rispetto allo schema di armamento previsto per la classe di scavo III. Rischio di distacco immediato se non si proietta spritzbeton.",
+    "model": "swiss-ai/Apertus-v1.5-70B",
+    "model_output": {
+      "status": "critical_danger",
+      "stop_work_order": true,
+      "identified_hazards": [
+        "Risque critique : Asphyxie, intoxication aux gaz de tir ou d'échappement"
+      ],
+      "infracted_rules": [
+        {
+          "rule_id": "BAUAV-ART-80",
+          "norm": "BauAV Art. 80-87 & SIA 196",
+          "title": "Ventilation et aération des galeries souterraines",
+          "critical_risk": "Asphyxie, intoxication aux gaz de tir ou d'échappement",
+          "corrective_action": "Évacuation immédiate de la zone si O2 < 19% ou CO > seuil MAK. Mise en marche forcée des canards de ventilation."
+        }
+      ],
+      "immediate_actions": [
+        "Évacuation immédiate de la zone si O2 < 19% ou CO > seuil MAK. Mise en marche forcée des canards de ventilation."
+      ],
+      "diagnostic_fr": "AUDIT SUVA NÉGATIF — DANGER MORTEL IDENTIFIÉ : 1 infraction(s) aux prescriptions de la BauAV 2022. Arrêt immédiat des travaux prescrit selon SUVA 'STOPP bei Gefahr'.",
+      "diagnostic_de": "SUVA SICHERHEITSAUDIT NEGATIV — LEBENSGEFAHR : 1 Verstoss(e) gegen die BauAV 2022 festgestellt. Sofortiger Arbeitsstopp gemäss 'STOPP bei Gefahr'."
+    },
+    "evaluation": {
+      "stop_work_order": true,
+      "infracted_rules": [
+        "BauAV Art. 80-87 & SIA 196"
+      ],
+      "passed": true
+    }
+  },
+  {
+    "id": "CASE-003",
+    "domain": "SUVA & BauAV Trench Safety",
+    "input": "Fouille ouverte de 2m60 de profondeur pour la pose du collecteur d'eaux de chantier. Le talus est vertical à 80 degrés dans du remblai sablonneux sans aucun blindage. Les ouvriers descendent dedans pour régler la pente au laser.",
+    "model": "swiss-ai/Apertus-v1.5-70B",
+    "model_output": {
+      "status": "critical_danger",
+      "stop_work_order": true,
+      "identified_hazards": [
+        "Risque critique : Ensevelissement mortel par effondrement de terrain",
+        "Risque critique : Glissement de terrain spontané"
+      ],
+      "infracted_rules": [
+        {
+          "rule_id": "BAUAV-ART-54",
+          "norm": "BauAV Art. 54",
+          "title": "Blindage obligatoire des tranchées et fouilles",
+          "critical_risk": "Ensevelissement mortel par effondrement de terrain",
+          "corrective_action": "Interrompre immédiatement les travaux. Installer des caissons de blindage homologués avant toute descente."
+        },
+        {
+          "rule_id": "BAUAV-ART-51",
+          "norm": "BauAV Art. 51",
+          "title": "Angles maximaux des talus non étayés",
+          "critical_risk": "Glissement de terrain spontané",
+          "corrective_action": "Recouper le talus à la pente réglementaire ou installer un soutènement cloué avec béton projeté."
+        }
+      ],
+      "immediate_actions": [
+        "Interrompre immédiatement les travaux. Installer des caissons de blindage homologués avant toute descente.",
+        "Recouper le talus à la pente réglementaire ou installer un soutènement cloué avec béton projeté."
+      ],
+      "diagnostic_fr": "AUDIT SUVA NÉGATIF — DANGER MORTEL IDENTIFIÉ : 2 infraction(s) aux prescriptions de la BauAV 2022. Arrêt immédiat des travaux prescrit selon SUVA 'STOPP bei Gefahr'.",
+      "diagnostic_de": "SUVA SICHERHEITSAUDIT NEGATIV — LEBENSGEFAHR : 2 Verstoss(e) gegen die BauAV 2022 festgestellt. Sofortiger Arbeitsstopp gemäss 'STOPP bei Gefahr'."
+    },
+    "evaluation": {
+      "stop_work_order": true,
+      "infracted_rules": [
+        "BauAV Art. 54",
+        "BauAV Art. 51"
+      ],
+      "passed": true
+    }
+  },
+  {
+    "id": "CASE-004",
+    "domain": "BauAV Fall Protection",
+    "input": "Arbeitsgerüst auf Zwischenpodest Schacht P1 (Tiefe 45m). Das Geländer hat kein Bordbrett und der Zwischenholm fehlt auf der Westseite. Absturzhöhe über 4 Meter auf die Sohle. Windzug von der Lüftung ist stark.",
+    "model": "swiss-ai/Apertus-v1.5-70B",
+    "model_output": {
+      "status": "critical_danger",
+      "stop_work_order": true,
+      "identified_hazards": [
+        "Risque critique : Chute mortelle de hauteur"
+      ],
+      "infracted_rules": [
+        {
+          "rule_id": "BAUAV-ART-15",
+          "norm": "BauAV Art. 15",
+          "title": "Protection contre les chutes à partir de 2.00 m",
+          "critical_risk": "Chute mortelle de hauteur",
+          "corrective_action": "Poser un garde-corps complet normalisé ou attacher les opérateurs à une ligne de vie temporaire."
+        }
+      ],
+      "immediate_actions": [
+        "Poser un garde-corps complet normalisé ou attacher les opérateurs à une ligne de vie temporaire."
+      ],
+      "diagnostic_fr": "AUDIT SUVA NÉGATIF — DANGER MORTEL IDENTIFIÉ : 1 infraction(s) aux prescriptions de la BauAV 2022. Arrêt immédiat des travaux prescrit selon SUVA 'STOPP bei Gefahr'.",
+      "diagnostic_de": "SUVA SICHERHEITSAUDIT NEGATIV — LEBENSGEFAHR : 1 Verstoss(e) gegen die BauAV 2022 festgestellt. Sofortiger Arbeitsstopp gemäss 'STOPP bei Gefahr'."
+    },
+    "evaluation": {
+      "stop_work_order": true,
+      "infracted_rules": [
+        "BauAV Art. 15"
+      ],
+      "passed": true
+    }
+  },
+  {
+    "id": "CASE-005",
+    "domain": "SIA 196 Tunnel Ventilation",
+    "input": "El ventilador secundario V-03 se ha parado por sobrecalentamiento. El detector portátil marca monóxido de carbono (CO) subiendo a 45 ppm después de la detonación de las 11h. Hay 4 mineros trabajando en el avance.",
+    "model": "swiss-ai/Apertus-v1.5-70B",
+    "model_output": {
+      "status": "critical_danger",
+      "stop_work_order": true,
+      "identified_hazards": [
+        "Risque critique : Asphyxie, intoxication aux gaz de tir ou d'échappement"
+      ],
+      "infracted_rules": [
+        {
+          "rule_id": "BAUAV-ART-80",
+          "norm": "BauAV Art. 80-87 & SIA 196",
+          "title": "Ventilation et aération des galeries souterraines",
+          "critical_risk": "Asphyxie, intoxication aux gaz de tir ou d'échappement",
+          "corrective_action": "Évacuation immédiate de la zone si O2 < 19% ou CO > seuil MAK. Mise en marche forcée des canards de ventilation."
+        }
+      ],
+      "immediate_actions": [
+        "Évacuation immédiate de la zone si O2 < 19% ou CO > seuil MAK. Mise en marche forcée des canards de ventilation."
+      ],
+      "diagnostic_fr": "AUDIT SUVA NÉGATIF — DANGER MORTEL IDENTIFIÉ : 1 infraction(s) aux prescriptions de la BauAV 2022. Arrêt immédiat des travaux prescrit selon SUVA 'STOPP bei Gefahr'.",
+      "diagnostic_de": "SUVA SICHERHEITSAUDIT NEGATIV — LEBENSGEFAHR : 1 Verstoss(e) gegen die BauAV 2022 festgestellt. Sofortiger Arbeitsstopp gemäss 'STOPP bei Gefahr'."
+    },
+    "evaluation": {
+      "stop_work_order": true,
+      "infracted_rules": [
+        "BauAV Art. 80-87 & SIA 196"
+      ],
+      "passed": true
+    }
+  },
+  {
+    "id": "CASE-006",
+    "domain": "SIA 118 Weather Delay Claim",
+    "input": "Starker Frosteinbruch (-12°C) und Schneeverwehung am Nordportal Göschenen. Betonage der Portalgalerie musste wegen Unterschreitung der SIA 262 Mindesttemperatur abgebrochen werden. 6 Betonbauer für 4 Stunden freigestellt.",
+    "model": "swiss-ai/Apertus-v1.5-70B",
+    "model_output": {
+      "date": "2025-12-15",
+      "location_pk": "3.200",
+      "summary_fr": "Abaissement brusque des températures (-12°C) et rafales de neige au portail nord de Göschenen. Le coulage de la galerie d'entrée a dû être interrompu en raison du non-respect des températures minimales prescrites par la norme SIA 262. Six maçons ont été libérés pendant quatre heures.",
+      "summary_de": "Starke Frosteinbrüche (-12°C) und Schneeverwehungen am Nordportal Göschenen. Die Betonage der Portalgalerie musste wegen Nichteinhaltung der SIA 262 Mindesttemperatur abgebrochen werden. Sechs Maurer wurden für vier Stunden freigestellt.",
+      "events": [
+        "Abaissement brusque des températures à -12°C",
+        "Rafales de neige au portail nord de Göschenen",
+        "Interruption du coulage de la galerie d'entrée",
+        "Non-respect des températures minimales SIA 262",
+        "Libération de six maçons pour quatre heures"
+      ],
+      "delay_hours": 4.0,
+      "regierapport": {
+        "is_required": true,
+        "sia_reference": "SIA 262 – Exécution des ouvrages en béton",
+        "claim_reason": "Interruption du travail due à des conditions météorologiques extrêmes entraînant le non-respect des exigences thermiques de la norme SIA 262, rendant l'opération de coulage de béton impossible.",
+        "workforce_hours": [
+          {
+            "role": "Maçon",
+            "hours": 4.0,
+            "rate_chf": 75.0
+          }
+        ],
+        "equipment_used": [],
+        "materials_used": []
+      },
+      "safety_hazard_detected": false,
+      "safety_rule_infraction": null,
+      "official_log_entry": "=== BAUTAGEBUCH (SIA 118) ===\nLe 15.12.2025 au PK 3.200 (Göschenen Nordportal), les travaux de bétonnage de la galerie d'entrée ont été interrompus en raison de températures ambiantes de -12°C ne respectant pas les exigences de la norme SIA 262. Six maçons ont été libérés pour une durée de 4 heures. Aucun danger pour la sécurité n'a été identifié."
+    },
+    "evaluation": {
+      "delay_detected_hours": 4.0,
+      "regierapport_required": true,
+      "sia_norm_referenced": "SIA 262 – Exécution des ouvrages en béton",
+      "passed": true
+    }
+  }
+]
